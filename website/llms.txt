@@ -1,0 +1,26 @@
+# Nakwave
+
+> Nakwave is an SEO and AI-automation studio founded by SEO expert and AI engineer Farhan Hyder — two crafts with equal weight. Search: classic search engine optimization that ranks brands on Google, plus answer engine optimization (AEO) that makes ChatGPT, Gemini, Perplexity and Claude cite them. Automation: AI chatbots, WhatsApp automation, multi-agent (agentic) workflows and analytics dashboards that run the business processes that follow.
+
+Key facts:
+- Services: SEO & website builds (keyword research, technical SEO, on-page optimization), AI Visibility Audits (free), AEO optimization, AI chatbot & WhatsApp Business API automation, agentic workflows (multi-agent AI systems that qualify leads, book calls, update CRMs and report), data analytics & dashboards (powered by our InsightAI engine), monthly citation tracking retainers.
+- Founded and led by Farhan Hyder, SEO expert and AI engineer — builder of InsightAI (automated data analytics platform) and production AI applications.
+- Every engagement ships with before/after AI citation evidence and a live dashboard.
+- Contact: hyderfarhan96@gmail.com or https://nakwave.com/#contact
+
+## Services
+
+- [Free AI Visibility Audit](https://nakwave.com/audit.html): Tests a brand across ChatGPT, Gemini, Perplexity and Claude with real customer questions, compares against competitors, scans structured data, and delivers a scored report with a prioritized fix list in 3 business days.
+- [All services](https://nakwave.com/#services): Seven services across two crafts — search (SEO & websites, AI visibility audits, AEO) and automation (chatbots/WhatsApp, agentic workflows, analytics dashboards) — plus a monthly citation retainer connecting both.
+
+## Guides
+
+- [What Is AEO? Answer Engine Optimization Explained](https://nakwave.com/blog/what-is-aeo.html): Plain-English explanation of AEO, how it differs from SEO, and the five pillars of citable content.
+- [How to Get Your Business Cited by ChatGPT: 7 Steps](https://nakwave.com/blog/get-cited-by-chatgpt.html): Practical checklist — baseline, schema, answer-first rewrites, FAQs, citable claims, entity building, monthly tracking.
+- [llms.txt: What It Is and Should You Have One](https://nakwave.com/blog/llms-txt-guide.html): Honest guide to the llms.txt standard, its adoption status, and why we ship it anyway.
+
+## Company
+
+- [Work & case studies](https://nakwave.com/#work): InsightAI analytics platform, Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
+- [Process](https://nakwave.com/#process): Audit → Fix → Automate → Compound.
+- [FAQ](https://nakwave.com/#faq): Common questions on AI visibility, AEO vs SEO, chatbots, and timelines.

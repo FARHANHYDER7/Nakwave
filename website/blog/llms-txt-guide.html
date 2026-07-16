@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>llms.txt: What It Is, and Should Your Website Have One? (2026) | Nakwave</title>
+  <meta name="description" content="llms.txt is a proposed standard that gives AI models a clean, curated summary of your website. What it does, what it doesn't do, honest adoption status in 2026, and why we still ship it on every build." />
+  <link rel="canonical" href="https://nakwave.com/blog/llms-txt-guide.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="llms.txt: What It Is, and Should Your Website Have One?" />
+  <meta property="og:description" content="The honest answer about the web's newest standard — what it does, what it doesn't, and why we still ship it." />
+  <meta property="og:url" content="https://nakwave.com/blog/llms-txt-guide.html" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230b0b0b'/><text x='50' y='68' font-size='52' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>N</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/style.css?v=8" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "llms.txt: What It Is, and Should Your Website Have One? (2026)",
+    "description": "What llms.txt does, what it doesn't do, honest adoption status in 2026, and why we still ship it on every build.",
+    "author": { "@type": "Person", "name": "Farhan Hyder", "url": "https://nakwave.com/#farhan", "jobTitle": "Founder & AI Engineer" },
+    "publisher": { "@type": "Organization", "name": "Nakwave", "url": "https://nakwave.com/" },
+    "datePublished": "2026-07-13",
+    "dateModified": "2026-07-13",
+    "mainEntityOfPage": "https://nakwave.com/blog/llms-txt-guide.html"
+  }
+  </script>
+</head>
+<body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+  <div class="scroll-progress"></div>
+
+  <nav class="nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="../index.html" class="logo"><span class="logo-mark">N</span>NAKWAVE<span style="color:var(--accent)">.</span></a>
+      <div class="nav-links">
+        <a href="../index.html#services">Services</a>
+        <a href="../index.html#work">Work</a>
+        <a href="index.html">Insights</a>
+      </div>
+      <a href="../audit.html" class="btn btn-lime" style="padding:11px 22px;font-size:0.9rem;">Free AI Audit</a>
+    </div>
+  </nav>
+
+  <article class="article">
+    <div class="article-inner">
+      <h1>llms.txt: What It Is, and Should Your Website Have One?</h1>
+      <div class="article-meta">
+        <span>By Farhan Hyder</span><span>·</span><span>July 13, 2026</span><span>·</span><span>5 min read</span>
+      </div>
+
+      <div class="tldr">
+        <strong>TL;DR:</strong> llms.txt is a plain-markdown file at your site's root that gives AI models a clean, curated map of your most important content — like robots.txt, but for guiding rather than blocking. No major AI engine has officially confirmed using it, so treat it as cheap future-proofing, not a ranking lever. It costs minutes to create, carries zero risk, and positions you for whichever engines adopt it. We ship it on every build — including this site.
+      </div>
+
+      <h2>What llms.txt actually is</h2>
+      <p>llms.txt is a proposed web standard: a markdown file served at <code>yourdomain.com/llms.txt</code> that describes what your site is, what it offers, and links to your most important pages with short descriptions. Where robots.txt tells crawlers what they <em>can't</em> touch, llms.txt tells AI systems what they <em>should</em> read first — a curated front door instead of forcing models to reconstruct your site from raw HTML, navigation menus and cookie banners.</p>
+
+      <h2>What it looks like</h2>
+      <p>A minimal llms.txt is just structured markdown:</p>
+      <ul>
+        <li>An H1 with your site or business name</li>
+        <li>A blockquote summary of what you do</li>
+        <li>Sections linking key pages, each with a one-line description</li>
+      </ul>
+      <p>You can see a live example on this very site: <a href="../llms.txt">nakwave.com/llms.txt</a>.</p>
+
+      <h2>The honest part: does anything actually use it?</h2>
+      <p>Here's what most agencies won't tell you: as of mid-2026, no major AI engine — not OpenAI, not Google, not Anthropic, not Perplexity — has officially confirmed that it consumes llms.txt for search or citation. Adoption is real on the publisher side (thousands of sites, including major developer-tool companies, ship one) but unconfirmed on the consumer side. Anyone selling llms.txt as a guaranteed visibility boost is overselling.</p>
+
+      <h2>So why do we still ship it on every build?</h2>
+      <ul>
+        <li><strong>It costs almost nothing.</strong> Fifteen minutes of curation for a file that might matter — that's the cheapest option contract on the internet.</li>
+        <li><strong>The downside is zero.</strong> It can't hurt rankings, can't slow your site, can't confuse crawlers that ignore it.</li>
+        <li><strong>The curation exercise itself has value.</strong> Writing an llms.txt forces you to state clearly what your business is and which pages matter most — clarity that usually exposes gaps in the site itself.</li>
+        <li><strong>Adoption moves fast.</strong> If a major engine flips it on next quarter, sites that already ship it are grandfathered into the advantage; everyone else scrambles.</li>
+      </ul>
+
+      <h2>What matters more than llms.txt</h2>
+      <p>If you're prioritizing, the levers with confirmed impact come first: complete JSON-LD structured data, answer-first content, real FAQ sections, fast Core Web Vitals and consistent entity information. llms.txt is the garnish, not the meal — we cover the full recipe in <a href="what-is-aeo.html">our AEO explainer</a> and the practical steps in <a href="get-cited-by-chatgpt.html">how to get cited by ChatGPT</a>.</p>
+
+      <div class="article-cta">
+        <h3>Want to know which levers your site is missing?</h3>
+        <p>The free audit scans your schema, structure and AI visibility across four engines — with a prioritized fix list.</p>
+        <a href="../audit.html" class="btn btn-primary">Run my free audit →</a>
+      </div>
+
+      <div class="author-box">
+        <div class="author-avatar">FH</div>
+        <div>
+          <div class="author-name">Farhan Hyder</div>
+          <div class="author-role">Founder &amp; AI Engineer, Nakwave. Builder of InsightAI and production AI applications; helps businesses become the answer AI engines give.</div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <div class="container footer-bottom" style="border-top:none;">
+      <span>© 2026 Nakwave.</span>
+      <a href="index.html" style="color:var(--accent)">← All insights</a>
+    </div>
+  </footer>
+  <script src="../assets/main.js?v=6" defer></script>
+</body>
+</html>
