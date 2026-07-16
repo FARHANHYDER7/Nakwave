@@ -4,7 +4,7 @@
     {
       "name": "hyder-site",
       "runtimeExecutable": "sh",
-      "runtimeArgs": ["-c", "python3 -m http.server \"${PORT:-4179}\" --directory website"],
+      "runtimeArgs": ["-c", "python3 -m http.server \"${PORT:-4179}\" --directory nakwave"],
       "autoPort": true
     }
   ]
