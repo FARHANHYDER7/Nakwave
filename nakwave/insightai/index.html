@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InsightAI — Business Intelligence by Nakwave</title>
+  <meta name="description" content="InsightAI turns raw business data into cleaned KPIs, anomaly alerts, forecasts and AI-written insights. Built by Nakwave. Loaded with a live demo dataset — try it." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://nakwave.com/insightai/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='26' fill='%230E3E2A'/><circle cx='50' cy='50' r='16' fill='%23AFE3C4'/><circle cx='50' cy='50' r='30' fill='none' stroke='%23AFE3C4' stroke-width='6' stroke-dasharray='60 40'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=1" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="side">
+    <a class="side-logo" href="../index.html" title="Built by Nakwave">
+      <span class="logo-orb" aria-hidden="true"></span>
+      <span>Insight<b>AI</b></span>
+    </a>
+
+    <nav class="side-nav">
+      <span class="side-label">Menu</span>
+      <button class="snav active" data-view="dashboard"><i>▦</i>Dashboard</button>
+      <button class="snav" data-view="forecast"><i>◈</i>Forecast</button>
+      <button class="snav" data-view="customers"><i>◉</i>Customers</button>
+      <button class="snav" data-view="alerts"><i>◬</i>Alerts <em class="badge" id="alert-count">0</em></button>
+      <span class="side-label">General</span>
+      <button class="snav" id="btn-report"><i>▤</i>AI Report</button>
+      <button class="snav" id="btn-import2"><i>⇪</i>Import data</button>
+      <button class="snav" id="btn-reset"><i>↺</i>Demo dataset</button>
+    </nav>
+
+    <a class="side-promo" href="../work/insightai.html">
+      <strong>Built by Nakwave</strong>
+      <span>Read the case study of this product →</span>
+    </a>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <!-- topbar -->
+    <header class="topbar">
+      <button class="search" id="btn-palette"><span>⌘K</span> Search or ask anything…</button>
+      <div class="top-actions">
+        <button class="btn ghost" id="btn-import">⇪ Import CSV</button>
+        <button class="btn solid" id="btn-copilot">✦ AI Copilot</button>
+        <div class="avatar" title="Demo workspace"><span>DC</span><div><strong>Demo Co.</strong><em>retail · demo data</em></div></div>
+      </div>
+    </header>
+
+    <!-- header row -->
+    <div class="page-head">
+      <div>
+        <h1 id="view-title">Dashboard</h1>
+        <p id="view-sub">Live view of your business — cleaned, scored and explained by AI.</p>
+      </div>
+      <div class="range" role="tablist" aria-label="Date range">
+        <button data-days="30">30d</button>
+        <button data-days="90" class="active">90d</button>
+        <button data-days="182">6m</button>
+        <button data-days="364">12m</button>
+      </div>
+    </div>
+
+    <!-- ============ VIEW: DASHBOARD ============ -->
+    <section class="view" id="view-dashboard">
+
+      <div class="kpis" id="kpi-row"></div>
+
+      <div class="grid g-main">
+        <div class="card span2">
+          <div class="card-head">
+            <div><h3>Revenue analytics</h3><p id="rev-sub">Weekly revenue with AI-flagged anomalies</p></div>
+            <span class="chip-ai">✦ anomaly scan on</span>
+          </div>
+          <div class="chart-wrap"><canvas id="ch-revenue" height="240"></canvas><div class="tip" id="tip"></div></div>
+        </div>
+
+        <div class="card feed-card">
+          <div class="card-head"><div><h3>AI insights</h3><p>Written by the engine from your numbers</p></div></div>
+          <ul class="feed" id="insight-feed"></ul>
+        </div>
+      </div>
+
+      <div class="grid g-three">
+        <div class="card">
+          <div class="card-head"><div><h3>Channel mix</h3><p>Revenue share by channel</p></div></div>
+          <div class="donut-row"><canvas id="ch-donut" width="150" height="150"></canvas><ul class="legend" id="donut-legend"></ul></div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><div><h3>Top products</h3><p>By revenue, this period</p></div></div>
+          <ul class="toplist" id="top-products"></ul>
+        </div>
+
+        <div class="card whatif">
+          <div class="card-head"><div><h3>What-if simulator</h3><p>Model a change before you spend</p></div></div>
+          <label>Ad spend <output id="wi-ads-v">+0%</output><input type="range" id="wi-ads" min="-30" max="50" value="0" /></label>
+          <label>Average price <output id="wi-price-v">+0%</output><input type="range" id="wi-price" min="-20" max="20" value="0" /></label>
+          <div class="wi-out"><span>Projected next-quarter revenue</span><strong id="wi-result">—</strong><em id="wi-delta"></em></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VIEW: FORECAST ============ -->
+    <section class="view hidden" id="view-forecast">
+      <div class="grid g-main">
+        <div class="card span2">
+          <div class="card-head">
+            <div><h3>12-week revenue forecast</h3><p>Trend + seasonality model with confidence band</p></div>
+            <span class="chip-ai">✦ model: trend×season</span>
+          </div>
+          <div class="chart-wrap"><canvas id="ch-forecast" height="260"></canvas></div>
+        </div>
+        <div class="card feed-card">
+          <div class="card-head"><div><h3>Forecast notes</h3><p>How to read this</p></div></div>
+          <ul class="feed" id="forecast-notes"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VIEW: CUSTOMERS ============ -->
+    <section class="view hidden" id="view-customers">
+      <div class="grid g-main">
+        <div class="card span2">
+          <div class="card-head"><div><h3>Customer segments</h3><p>RFM scoring — recency, frequency, monetary</p></div><span class="chip-ai">✦ auto-segmented</span></div>
+          <div class="seg-grid" id="seg-grid"></div>
+        </div>
+        <div class="card feed-card">
+          <div class="card-head"><div><h3>Retention moves</h3><p>AI-suggested next actions</p></div></div>
+          <ul class="feed" id="seg-actions"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VIEW: ALERTS ============ -->
+    <section class="view hidden" id="view-alerts">
+      <div class="card">
+        <div class="card-head"><div><h3>Anomaly alerts</h3><p>Z-score scan across every metric, every week</p></div><span class="chip-ai">✦ threshold σ ≥ 2.1</span></div>
+        <ul class="alerts" id="alert-list"></ul>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- ============ COPILOT DRAWER ============ -->
+<aside class="copilot" id="copilot" aria-label="AI Copilot">
+  <header><h3>✦ Copilot</h3><p>Answers computed from your live data</p><button class="x" id="copilot-x">✕</button></header>
+  <div class="chat" id="chat"></div>
+  <div class="sugg" id="sugg"></div>
+  <form id="chat-form"><input id="chat-in" placeholder="Ask about your numbers…" autocomplete="off" /><button class="btn solid">→</button></form>
+</aside>
+
+<!-- ============ COMMAND PALETTE ============ -->
+<div class="palette hidden" id="palette">
+  <div class="pal-box">
+    <input id="pal-in" placeholder="Type a command or question…" autocomplete="off" />
+    <ul id="pal-list"></ul>
+  </div>
+</div>
+
+<!-- ============ REPORT MODAL ============ -->
+<div class="modal hidden" id="report-modal">
+  <div class="modal-box report">
+    <header><h3>Executive report</h3><div><button class="btn ghost" onclick="window.print()">Print / PDF</button><button class="x" id="report-x">✕</button></div></header>
+    <article id="report-body"></article>
+  </div>
+</div>
+
+<!-- ============ IMPORT MODAL ============ -->
+<div class="modal hidden" id="import-modal">
+  <div class="modal-box">
+    <header><h3>Import your data</h3><button class="x" id="import-x">✕</button></header>
+    <div class="drop" id="drop">
+      <strong>Drop a CSV here</strong> or <label class="linky">browse<input type="file" id="file" accept=".csv" hidden /></label>
+      <p>Needs a date column and a revenue/amount column — the AI cleaner maps the rest.</p>
+    </div>
+    <ul class="clean-log hidden" id="clean-log"></ul>
+  </div>
+</div>
+
+<input type="file" id="file2" accept=".csv" hidden />
+<script src="app.js?v=1" defer></script>
+</body>
+</html>
