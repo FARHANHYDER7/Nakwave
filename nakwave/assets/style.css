@@ -1181,3 +1181,64 @@ body.cursor-on .wcard { cursor: none; }
 
 /* audit page: land on the form */
 #audit-form { scroll-margin-top: 90px; }
+
+/* ============================================================
+   v9 — case study system: meta strip, live product frames,
+   deliver rows, AI tools grid, homepage case banner.
+   ============================================================ */
+.case-meta { display: grid; grid-template-columns: repeat(4, 1fr); border-block: 1px solid var(--hairline); margin-top: 54px; }
+.case-meta > div { padding: 22px 26px; border-left: 1px solid var(--hairline); }
+.case-meta > div:first-child { border-left: none; padding-left: 0; }
+.case-meta h5 { font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gray); font-weight: 500; margin-bottom: 8px; }
+.case-meta p { font-size: 0.95rem; font-weight: 500; }
+@media (max-width: 860px) {
+  .case-meta { grid-template-columns: 1fr 1fr; }
+  .case-meta > div { border-left: none; padding-left: 0; border-top: 1px solid var(--hairline); }
+  .case-meta > div:nth-child(-n+2) { border-top: none; }
+}
+
+.live-shot { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--hairline); background: #fff; }
+.live-frame { position: relative; width: 100%; aspect-ratio: 16 / 10; overflow: hidden; background: #f4f3ec; }
+.live-frame iframe {
+  position: absolute; top: 0; left: 0; width: 1280px; height: 800px;
+  border: 0; transform-origin: 0 0; pointer-events: none;
+}
+.live-shot.small .live-frame { aspect-ratio: 4 / 3; }
+.live-shot figcaption { padding: 14px 18px; font-size: 0.84rem; color: var(--gray); border-top: 1px solid var(--hairline); }
+.frame-note { margin-top: 14px; font-size: 0.85rem; color: var(--gray); }
+.frames-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 50px; }
+@media (max-width: 980px) { .frames-grid { grid-template-columns: 1fr; } }
+
+.case-cols { margin-top: 40px; }
+.case-cols p { max-width: 72ch; color: #3c3c38; margin-bottom: 18px; font-size: 1.02rem; }
+.case-cols em { color: var(--ink); }
+.case-list { margin-top: 28px; max-width: 620px; }
+.case-list li { padding: 13px 0; border-top: 1px solid #d9d8d0; font-weight: 500; font-size: 0.95rem; }
+.case-list li::before { content: "→  "; color: var(--accent); }
+
+.deliver-rows { margin-top: 54px; }
+.deliver { display: grid; grid-template-columns: 90px 1fr; gap: 26px; padding: 36px 0; border-top: 1px solid var(--hairline); }
+.deliver:last-child { border-bottom: 1px solid var(--hairline); }
+@media (max-width: 640px) { .deliver { grid-template-columns: 48px 1fr; } }
+.d-num { color: var(--accent); font-weight: 500; letter-spacing: 0.06em; padding-top: 5px; }
+.deliver h3 { font-size: clamp(1.25rem, 2.4vw, 1.6rem); font-weight: 500; letter-spacing: -0.02em; margin-bottom: 10px; }
+.deliver p { color: var(--gray); max-width: 72ch; }
+
+.tools-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: 54px; }
+@media (max-width: 1080px) { .tools-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .tools-grid { grid-template-columns: 1fr; } }
+.tool { background: var(--dark-tile); border: 1px solid var(--dark-hairline); border-radius: 16px; padding: 24px 22px; transition: border-color 0.3s, transform 0.3s var(--ease); }
+.tool:hover { border-color: rgba(255, 255, 255, 0.25); transform: translateY(-3px); }
+.tool h4 { font-size: 1rem; font-weight: 600; margin-bottom: 9px; color: #fff; }
+.tool h4::before { content: "✦ "; color: var(--accent-soft); }
+.tool p { font-size: 0.85rem; color: var(--dark-gray); line-height: 1.55; }
+
+.cs-banner { display: grid; grid-template-columns: 1.12fr 0.88fr; background: var(--tile); border-radius: calc(var(--radius) + 6px); overflow: hidden; }
+@media (max-width: 900px) { .cs-banner { grid-template-columns: 1fr; } }
+.cs-left { padding: clamp(18px, 3vw, 30px); }
+.cs-body { padding: clamp(28px, 4vw, 54px); display: flex; flex-direction: column; justify-content: center; gap: 18px; }
+.cs-body h3 { font-size: clamp(1.5rem, 2.8vw, 2.2rem); font-weight: 500; letter-spacing: -0.025em; }
+.cs-meta-mini { display: flex; gap: 12px; font-size: 0.8rem; color: var(--gray); flex-wrap: wrap; font-weight: 500; }
+.cs-body > p { color: var(--gray); font-size: 0.95rem; }
+.cs-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 4px; }
+.wcard-link { display: inline-block; margin-top: 12px; color: var(--accent-soft); font-size: 0.88rem; font-weight: 600; }

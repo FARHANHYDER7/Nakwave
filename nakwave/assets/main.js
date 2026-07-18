@@ -609,4 +609,23 @@
     const fn = document.getElementById("f-name");
     if (fn) setTimeout(() => fn.focus({ preventScroll: true }), 700);
   }
+
+  /* ---------- live product frames (case study): lazy iframe, scaled to fit ---------- */
+  document.querySelectorAll(".live-frame").forEach((wrap) => {
+    const fio = new IntersectionObserver((es) => {
+      es.forEach((en) => {
+        if (!en.isIntersecting) return;
+        fio.unobserve(wrap);
+        const f = document.createElement("iframe");
+        f.src = wrap.dataset.src;
+        f.setAttribute("aria-hidden", "true");
+        f.tabIndex = -1;
+        wrap.appendChild(f);
+        const fit = () => { f.style.transform = "scale(" + (wrap.clientWidth / 1280) + ")"; };
+        fit();
+        addEventListener("resize", fit);
+      });
+    }, { rootMargin: "400px" });
+    fio.observe(wrap);
+  });
 })();

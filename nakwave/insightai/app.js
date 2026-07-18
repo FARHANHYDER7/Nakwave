@@ -28,8 +28,8 @@ function mulberry32(a) {
 }
 
 /* ---------------- demo dataset (seeded, deterministic) ---------------- */
-const PRODUCTS = ["Aurora Sneaker", "Trail Runner X", "Everyday Tote", "Canvas High-Top", "Merino Crew", "Studio Legging", "Field Jacket", "Slide Sandal"];
-const CHANNELS = ["Online store", "Marketplace", "Retail POS", "WhatsApp"];
+const PRODUCTS = ["Deluxe King", "Garden Twin", "Family Suite", "Penthouse Loft", "Courtyard Double", "Breakfast add-on", "Spa & Wellness", "Airport transfer"];
+const CHANNELS = ["Direct website", "Booking.com", "Expedia", "Corporate & walk-in"];
 
 function makeDemo() {
   const rnd = mulberry32(20260718);
@@ -37,7 +37,7 @@ function makeDemo() {
   const end = new Date(); end.setHours(0, 0, 0, 0);
   const start = end.getTime() - (days - 1) * DAY;
   const rows = [];
-  const chW = [0.44, 0.27, 0.19, 0.10];
+  const chW = [0.38, 0.33, 0.19, 0.10];
   const pW = PRODUCTS.map((_, i) => 1 / (i + 1.6));
   const pTot = pW.reduce((a, b) => a + b, 0);
   for (let d = 0; d < days; d++) {
@@ -49,8 +49,8 @@ function makeDemo() {
     let promo = 1;
     if (d > 118 && d < 126) promo = 1.85;                               // flash sale
     if (d > 226 && d < 230) promo = 0.45;                               // outage dip
-    const base = 3400 * wk * trend * season * promo * (0.86 + rnd() * 0.28);
-    const orders = Math.max(4, Math.round(base / (52 + rnd() * 26)));
+    const base = 5600 * wk * trend * season * promo * (0.86 + rnd() * 0.28);
+    const orders = Math.max(2, Math.round(base / (150 + rnd() * 70)));
     for (const [ci, ch] of CHANNELS.entries()) {
       const rev = base * chW[ci] * (0.85 + rnd() * 0.3);
       const o = Math.max(1, Math.round(orders * chW[ci] * (0.8 + rnd() * 0.4)));
@@ -243,15 +243,15 @@ function recompute() {
   const rev = sum(cur, "revenue"), pRev = sum(prev, "revenue") || 1;
   const ord = sum(cur, "orders"), pOrd = sum(prev, "orders") || 1;
   const aov = rev / (ord || 1), pAov = pRev / pOrd;
-  const custs = Math.round(ord * 0.62), pCusts = Math.round(pOrd * 0.62) || 1;
+  const custs = Math.round(ord * 1.9), pCusts = Math.round(pOrd * 1.9) || 1;
   CACHE = { cur, prev, prevOk, wk, wkAll, anoms, fc, weeklyGrowth, mix, prods, rev, pRev, ord, pOrd, aov, pAov, custs, pCusts };
 
   /* KPIs */
   const kpis = [
     { l: "Total revenue", v: fmt(rev), d: prevOk ? rev / pRev - 1 : null, f: true, sp: wk.map(w => w.revenue) },
-    { l: "Orders", v: fmtN(ord), d: prevOk ? ord / pOrd - 1 : null, sp: wk.map(w => w.orders) },
-    { l: "Customers", v: fmtN(custs), d: prevOk ? custs / pCusts - 1 : null, sp: wk.map(w => w.orders * 0.62) },
-    { l: "Avg order value", v: "$" + aov.toFixed(0), d: prevOk ? aov / pAov - 1 : null, sp: wk.map(w => w.revenue / (w.orders || 1)) },
+    { l: "Bookings", v: fmtN(ord), d: prevOk ? ord / pOrd - 1 : null, sp: wk.map(w => w.orders) },
+    { l: "Guests", v: fmtN(custs), d: prevOk ? custs / pCusts - 1 : null, sp: wk.map(w => w.orders * 1.9) },
+    { l: "Avg booking value", v: "$" + aov.toFixed(0), d: prevOk ? aov / pAov - 1 : null, sp: wk.map(w => w.revenue / (w.orders || 1)) },
   ];
   $("#kpi-row").innerHTML = kpis.map((k, i) => `
     <div class="kpi ${k.f ? "featured" : ""}">
@@ -288,8 +288,8 @@ function recompute() {
       : { t: `Revenue is <strong>${growth >= 0 ? "up" : "down"} ${pct(Math.abs(growth)).slice(1)}</strong> vs the previous period — ${growth >= 0 ? "growth is compounding" : "worth a look this week"}.`, s: growth >= 0 ? "" : "warn" },
     { t: `<strong>${WEEKDAYS[bestDay[0]]}</strong> is your strongest day — ${Math.round(bestDay[1] / rev * 100)}% of period revenue. Schedule launches and campaigns there.` },
     { t: `<strong>${mix[0][0]}</strong> drives ${Math.round(share0 * 100)}% of revenue${share0 > 0.5 ? " — concentration risk; grow a second channel" : " — healthy channel spread"}.`, s: share0 > 0.5 ? "warn" : "" },
-    { t: `Fastest riser: <strong>${riser[0]}</strong>, ${riser[1] > 9 ? "new this period" : pct(riser[1] - 1).slice(1) + " vs previous period"}. Consider featuring it.` },
-    { t: `AOV is <strong>$${aov.toFixed(0)}</strong> (${pct(aov / pAov - 1)}) — ${aov / pAov >= 1 ? "bundling is working" : "test bundles or free-shipping thresholds"}.`, s: aov / pAov >= 1 ? "" : "warn" },
+    { t: `Fastest riser: <strong>${riser[0]}</strong>, ${riser[1] > 9 ? "new this period" : pct(riser[1] - 1).slice(1) + " vs previous period"}. Push it in the booking flow.` },
+    { t: `Avg booking value is <strong>$${aov.toFixed(0)}</strong> (${pct(aov / pAov - 1)}) — ${aov / pAov >= 1 ? "upsells are landing" : "test packages and minimum-stay offers"}.`, s: aov / pAov >= 1 ? "" : "warn" },
   ];
   if (anoms.length) ins.splice(1, 0, { t: `<strong>${anoms.length} anomal${anoms.length > 1 ? "ies" : "y"}</strong> flagged in recent weeks — see Alerts for the breakdown.`, s: "bad" });
   $("#insight-feed").innerHTML = ins.map(i => `<li class="${i.s || ""}">${i.t}</li>`).join("");
@@ -344,7 +344,7 @@ function whatIf() {
   $("#wi-price-v").textContent = (price >= 0 ? "+" : "") + Math.round(price * 100) + "%";
   const base = CACHE.fc.slice(0, 12).reduce((a, f) => a + f.v, 0);
   const adLift = ads >= 0 ? Math.sqrt(1 + ads) - 1 : ads * 0.8;      // diminishing returns
-  const volume = Math.pow(1 + price, -1.4) - 1;                      // price elasticity −1.4
+  const volume = Math.pow(1 + price, -0.9) - 1;                      // room-rate elasticity −0.9
   const out = base * (1 + adLift * 0.35) * (1 + price) * (1 + volume);
   const d = out / base - 1;
   $("#wi-result").textContent = fmt(out);
@@ -373,7 +373,7 @@ $("#ch-revenue").addEventListener("mouseleave", () => { $("#tip").style.opacity 
 const TITLES = {
   dashboard: ["Dashboard", "Live view of your business — cleaned, scored and explained by AI."],
   forecast: ["Forecast", "Where the next 12 weeks are heading, with honest uncertainty."],
-  customers: ["Customers", "Auto-segmented by recency, frequency and spend."],
+  customers: ["Guests", "Auto-segmented by recency, frequency and spend."],
   alerts: ["Alerts", "Everything the anomaly scanner flagged, newest first."],
 };
 $$(".snav[data-view]").forEach(b => b.addEventListener("click", () => {
@@ -408,8 +408,8 @@ function say(html, who) {
 function answer(q) {
   const c = CACHE, l = q.toLowerCase();
   const growth = c.rev / c.pRev - 1;
-  if (/best|top/.test(l) && /product/.test(l))
-    return `Your top product this period is <strong>${c.prods[0][0]}</strong> at ${fmt(c.prods[0][1])} (${Math.round(c.prods[0][1] / c.rev * 100)}% of revenue). #2 is ${c.prods[1][0]} at ${fmt(c.prods[1][1])}.`;
+  if (/best|top/.test(l) && /product|room|suite|source/.test(l))
+    return `Your top revenue source this period is <strong>${c.prods[0][0]}</strong> at ${fmt(c.prods[0][1])} (${Math.round(c.prods[0][1] / c.rev * 100)}% of revenue). #2 is ${c.prods[1][0]} at ${fmt(c.prods[1][1])}.`;
   if (/channel/.test(l))
     return `<strong>${c.mix[0][0]}</strong> leads with ${Math.round(c.mix[0][1] / c.rev * 100)}% of revenue. Full mix: ${c.mix.map(m => `${m[0]} ${Math.round(m[1] / c.rev * 100)}%`).join(" · ")}.`;
   if (/forecast|next|predict/.test(l))
@@ -419,12 +419,12 @@ function answer(q) {
     const a = c.anoms[0];
     return `Most recent: week of <strong>${dLabel(a.t)}</strong> — revenue ${fmt(a.rev)}, ${pct(a.rev / a.mean - 1)} vs its 8-week norm (z=${a.z.toFixed(1)}). ${a.rev > a.mean ? "Looks like a promo/press spike — find what caused it and repeat it." : "Check stock, checkout uptime and tracking for that week."}`;
   }
-  if (/aov|order value|basket/.test(l))
-    return `AOV is <strong>$${c.aov.toFixed(0)}</strong>, ${pct(c.aov / c.pAov - 1)} vs the previous period. ${c.aov / c.pAov >= 1 ? "Whatever you changed — keep it." : "Try bundles or a free-shipping threshold ~20% above current AOV."}`;
+  if (/aov|abv|booking value|rate|adr/.test(l))
+    return `Average booking value is <strong>$${c.aov.toFixed(0)}</strong>, ${pct(c.aov / c.pAov - 1)} vs the previous period. ${c.aov / c.pAov >= 1 ? "Whatever you changed — keep it." : "Test packages: breakfast + late checkout bundles typically lift ABV 8-15%."}`;
   if (/revenue|sales|how.*(doing|business)|summar/.test(l))
-    return `Period revenue is <strong>${fmt(c.rev)}</strong> across ${fmtN(c.ord)} orders — ${growth >= 0 ? "up" : "down"} ${pct(Math.abs(growth)).slice(1)} vs previous. Top product ${c.prods[0][0]}; top channel ${c.mix[0][0]}; ${c.anoms.length} anomaly flag${c.anoms.length === 1 ? "" : "s"}.`;
+    return `Period revenue is <strong>${fmt(c.rev)}</strong> across ${fmtN(c.ord)} bookings — ${growth >= 0 ? "up" : "down"} ${pct(Math.abs(growth)).slice(1)} vs previous. Top source ${c.prods[0][0]}; top channel ${c.mix[0][0]}; ${c.anoms.length} anomaly flag${c.anoms.length === 1 ? "" : "s"}.`;
   if (/do|action|recommend|advice|improve|grow/.test(l))
-    return `Three moves, from your data: <strong>1)</strong> Double down on ${WEEKDAYS[new Date(c.cur[0].t).getDay()]}–weekend campaigns — weekends outperform. <strong>2)</strong> ${c.mix[0][1] / c.rev > 0.5 ? "Reduce dependence on " + c.mix[0][0] + " by growing a second channel." : "Push " + c.prods[0][0] + " — it's carrying momentum."} <strong>3)</strong> Run the what-if simulator before changing prices; elasticity cuts both ways.`;
+    return `Three moves, from your data: <strong>1)</strong> Double down on ${WEEKDAYS[new Date(c.cur[0].t).getDay()]}–weekend campaigns — weekends outperform. <strong>2)</strong> ${c.mix[0][1] / c.rev > 0.5 ? "Reduce dependence on " + c.mix[0][0] + " by growing a second channel." : "Push " + c.prods[0][0] + " — it's carrying momentum."} <strong>3)</strong> Run the what-if simulator before touching room rates; elasticity cuts both ways.`;
   return `I can answer about revenue, products, channels, AOV, anomalies, forecasts or recommendations — all computed from the ${isDemo ? "demo" : "imported"} dataset. Try: <em>"why did revenue spike?"</em>`;
 }
 $("#chat-form").addEventListener("submit", (e) => {
@@ -435,7 +435,7 @@ $("#chat-form").addEventListener("submit", (e) => {
   say(q, "user");
   setTimeout(() => say(answer(q), "ai"), 350);
 });
-const SUGG = ["How's the business doing?", "Why did revenue spike?", "Top products?", "Forecast next month", "What should I do next?"];
+const SUGG = ["How's the hotel doing?", "Why did revenue spike?", "Best room type?", "Forecast next month", "What should I do next?"];
 $("#sugg").innerHTML = SUGG.map(s => `<button>${s}</button>`).join("");
 $$("#sugg button").forEach(b => b.addEventListener("click", () => {
   say(b.textContent, "user");
@@ -486,17 +486,17 @@ function openReport() {
     <p>Revenue came in at <strong>${fmt(c.rev)}</strong> across <strong>${fmtN(c.ord)}</strong> orders${growth === null ? "" : ` — ${growth >= 0 ? "up" : "down"} <strong>${pct(Math.abs(growth)).slice(1)}</strong> against the previous period`}. Average order value is <strong>$${c.aov.toFixed(0)}</strong>${growth === null ? "" : ` (${pct(c.aov / c.pAov - 1)})`}.</p>
     <h4>Where it came from</h4>
     <ul>${c.mix.map(m => `<li><strong>${m[0]}</strong> — ${fmt(m[1])} (${Math.round(m[1] / c.rev * 100)}%)</li>`).join("")}</ul>
-    <h4>Products</h4>
-    <p>${c.prods[0][0]} leads at ${fmt(c.prods[0][1])}; the top three products account for ${Math.round((c.prods[0][1] + c.prods[1][1] + c.prods[2][1]) / c.rev * 100)}% of revenue.</p>
+    <h4>Rooms & services</h4>
+    <p>${c.prods[0][0]} leads at ${fmt(c.prods[0][1])}; the top three revenue sources account for ${Math.round((c.prods[0][1] + c.prods[1][1] + c.prods[2][1]) / c.rev * 100)}% of revenue.</p>
     <h4>Anomalies</h4>
     <p>${c.anoms.length ? c.anoms.map(a => `Week of ${dLabel(a.t)}: ${pct(a.rev / a.mean - 1)} vs norm (z=${a.z.toFixed(1)})`).join(" · ") : "None flagged at σ ≥ 2.1."}</p>
     <h4>Outlook</h4>
     <p>The trend×seasonality model projects <strong>${fmt(c.fc.reduce((a, f) => a + f.v, 0))}</strong> over the next 12 weeks (weekly growth ${pct(c.weeklyGrowth)}), within an 80% confidence band.</p>
     <h4>Recommended actions</h4>
     <ul>
-      <li>Concentrate campaigns on weekend peaks — they outperform midweek consistently.</li>
-      <li>${c.mix[0][1] / c.rev > 0.5 ? `Diversify beyond ${c.mix[0][0]} (currently ${Math.round(c.mix[0][1] / c.rev * 100)}% of revenue).` : "Channel spread is healthy — maintain current allocation."}</li>
-      <li>${c.aov / c.pAov >= 1 ? "AOV is rising — protect it; avoid blanket discounts." : "Lift AOV with bundles or a free-shipping threshold set ~20% above current AOV."}</li>
+      <li>Concentrate campaigns on weekend peaks — leisure demand outperforms midweek consistently.</li>
+      <li>${c.mix[0][1] / c.rev > 0.5 ? `Diversify beyond ${c.mix[0][0]} (currently ${Math.round(c.mix[0][1] / c.rev * 100)}% of revenue — OTA commissions compound).` : "Channel spread is healthy — every point shifted to direct saves 15-18% commission."}</li>
+      <li>${c.aov / c.pAov >= 1 ? "Booking value is rising — protect it; avoid blanket discounting." : "Lift booking value with packages: breakfast, spa and late-checkout bundles."}</li>
       <li>Investigate every flagged anomaly within the week it appears — causes fade fast.</li>
     </ul>`;
   $("#report-modal").classList.remove("hidden");
@@ -597,13 +597,16 @@ drop.addEventListener("drop", (e) => { const f = e.dataTransfer.files[0]; if (f)
 
 function resetDemo() {
   DATA = makeDemo(); isDemo = true;
-  $(".avatar strong").textContent = "Demo Co.";
-  $(".avatar em").textContent = "retail · demo data";
+  $(".avatar strong").textContent = "The Mosaic House";
+  $(".avatar em").textContent = "hotel workspace · demo data";
   recompute();
 }
 $("#btn-reset").addEventListener("click", resetDemo);
 
 /* ---------------- boot ---------------- */
 recompute();
-say(`Hi — I'm the InsightAI copilot. I compute answers from the live dataset (currently the demo store). Ask me anything below, or import your own CSV.`, "ai");
+say(`Hi — I'm the InsightAI copilot. I compute answers from the live dataset (The Mosaic House demo workspace). Ask me anything below, or import your own CSV.`, "ai");
+/* deep-link views: /insightai/#forecast etc. */
+const hv = location.hash.slice(1);
+if (TITLES[hv]) $(`.snav[data-view="${hv}"]`).click();
 })();

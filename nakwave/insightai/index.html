@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>InsightAI — Business Intelligence by Nakwave</title>
+  <title>InsightAI — Hotel BI for The Mosaic House | by Nakwave</title>
   <meta name="description" content="InsightAI turns raw business data into cleaned KPIs, anomaly alerts, forecasts and AI-written insights. Built by Nakwave. Loaded with a live demo dataset — try it." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://nakwave.com/insightai/" />
@@ -28,7 +28,7 @@
       <span class="side-label">Menu</span>
       <button class="snav active" data-view="dashboard"><i>▦</i>Dashboard</button>
       <button class="snav" data-view="forecast"><i>◈</i>Forecast</button>
-      <button class="snav" data-view="customers"><i>◉</i>Customers</button>
+      <button class="snav" data-view="customers"><i>◉</i>Guests</button>
       <button class="snav" data-view="alerts"><i>◬</i>Alerts <em class="badge" id="alert-count">0</em></button>
       <span class="side-label">General</span>
       <button class="snav" id="btn-report"><i>▤</i>AI Report</button>
@@ -51,7 +51,7 @@
       <div class="top-actions">
         <button class="btn ghost" id="btn-import">⇪ Import CSV</button>
         <button class="btn solid" id="btn-copilot">✦ AI Copilot</button>
-        <div class="avatar" title="Demo workspace"><span>DC</span><div><strong>Demo Co.</strong><em>retail · demo data</em></div></div>
+        <div class="avatar" title="Demo workspace"><span>MH</span><div><strong>The Mosaic House</strong><em>hotel workspace · demo data</em></div></div>
       </div>
     </header>
 
@@ -96,14 +96,14 @@
         </div>
 
         <div class="card">
-          <div class="card-head"><div><h3>Top products</h3><p>By revenue, this period</p></div></div>
+          <div class="card-head"><div><h3>Top revenue sources</h3><p>Rooms &amp; services, this period</p></div></div>
           <ul class="toplist" id="top-products"></ul>
         </div>
 
         <div class="card whatif">
           <div class="card-head"><div><h3>What-if simulator</h3><p>Model a change before you spend</p></div></div>
           <label>Ad spend <output id="wi-ads-v">+0%</output><input type="range" id="wi-ads" min="-30" max="50" value="0" /></label>
-          <label>Average price <output id="wi-price-v">+0%</output><input type="range" id="wi-price" min="-20" max="20" value="0" /></label>
+          <label>Average room rate <output id="wi-price-v">+0%</output><input type="range" id="wi-price" min="-20" max="20" value="0" /></label>
           <div class="wi-out"><span>Projected next-quarter revenue</span><strong id="wi-result">—</strong><em id="wi-delta"></em></div>
         </div>
       </div>
@@ -130,7 +130,7 @@
     <section class="view hidden" id="view-customers">
       <div class="grid g-main">
         <div class="card span2">
-          <div class="card-head"><div><h3>Customer segments</h3><p>RFM scoring — recency, frequency, monetary</p></div><span class="chip-ai">✦ auto-segmented</span></div>
+          <div class="card-head"><div><h3>Guest segments</h3><p>RFM scoring — recency, frequency, spend</p></div><span class="chip-ai">✦ auto-segmented</span></div>
           <div class="seg-grid" id="seg-grid"></div>
         </div>
         <div class="card feed-card">
