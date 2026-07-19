@@ -1242,3 +1242,13 @@ body.cursor-on .wcard { cursor: none; }
 .cs-body > p { color: var(--gray); font-size: 0.95rem; }
 .cs-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 4px; }
 .wcard-link { display: inline-block; margin-top: 12px; color: var(--accent-soft); font-size: 0.88rem; font-weight: 600; }
+
+/* meridian work-card visual */
+.meridian-mock { background: #06070d; position: relative; overflow: hidden; padding: 22px; display: flex; flex-direction: column; justify-content: space-between; }
+.mm-glow { position: absolute; width: 70%; height: 70%; right: -20%; top: -25%; border-radius: 50%; background: radial-gradient(circle, rgba(108,92,255,0.35), transparent 65%); }
+.mm-hud { font-family: ui-monospace, monospace; font-size: 0.58rem; letter-spacing: 0.22em; color: #8b90b0; }
+.mm-title { font-size: 1.5rem; font-weight: 600; line-height: 1.05; letter-spacing: -0.02em; color: #eef0ff; }
+.mm-title em { background: linear-gradient(100deg, #6c5cff, #4fd8ff); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.mm-chat { display: flex; flex-direction: column; gap: 6px; }
+.mm-chat span { align-self: flex-end; background: linear-gradient(100deg, #6c5cff, #4fd8ff); color: #fff; font-size: 0.7rem; padding: 6px 11px; border-radius: 10px 10px 2px 10px; }
+.mm-chat b { align-self: flex-start; background: #10131f; border: 1px solid rgba(160,165,220,0.15); color: #cdd2f2; font-size: 0.7rem; font-weight: 500; padding: 6px 11px; border-radius: 10px 10px 10px 2px; }

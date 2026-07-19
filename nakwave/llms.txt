@@ -21,6 +21,6 @@ Key facts:
 
 ## Company
 
-- [Work & case studies](https://nakwave.com/#work): InsightAI analytics platform, Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
+- [Work & case studies](https://nakwave.com/#work): InsightAI analytics platform (live hotel BI demo), Meridian Motors AI Showroom OS (interactive dealership concept: live inventory chat, trade valuation, financing pre-qual, test-drive booking), Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
 - [Process](https://nakwave.com/#process): Audit → Fix → Automate → Compound.
 - [FAQ](https://nakwave.com/#faq): Common questions on AI visibility, AEO vs SEO, chatbots, and timelines.
