@@ -3,234 +3,184 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Meridian Motors × Nakwave — The AI-Run Dealership | Interactive Concept</title>
-  <meta name="description" content="An interactive concept by Nakwave: a luxury dealership run by an AI sales employee. Talk to it, get a trade-in valued, pre-qualify financing, book a test drive — then watch a full day of the AI's work replayed. Every answer is computed live." />
+  <title>Meridian — The AI Employee, built for luxury dealerships. A Nakwave concept</title>
+  <meta name="description" content="A lead arrives at 11:47 PM. The AI qualifies the customer, values the trade, books the test drive. The salesperson walks in the next morning fully briefed. An interactive concept by Nakwave — every number computed live." />
   <link rel="canonical" href="https://nakwave.com/meridian/" />
   <meta name="robots" content="index, follow" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Meridian Motors — The AI-Run Dealership | a Nakwave concept" />
-  <meta property="og:description" content="Talk to an AI sales employee with live inventory, trade-in valuation, financing pre-qual and test-drive booking — then replay its whole workday." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%2306070d'/><path d='M25 68 L44 32 L56 54 L68 32 L79 68' stroke='%236c5cff' stroke-width='7' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+  <meta property="og:title" content="Meridian — The AI Employee, built for luxury dealerships" />
+  <meta property="og:description" content="One night in a dealership that never sleeps — told as it happens, computed as you watch. A Nakwave concept." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23080808'/><circle cx='50' cy='50' r='10' fill='%235b4dff'/></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=2" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
 <body>
 
-<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
 <div class="grain" aria-hidden="true"></div>
 
-<!-- ================= HUD NAV ================= -->
-<header class="hud">
-  <a class="hud-logo" href="#top">MERIDIAN<em>MOTORS</em></a>
-  <div class="hud-status" aria-hidden="true"><i></i><span id="hud-clock">AI ONLINE</span><b>· avg reply 8s</b></div>
-  <a class="hud-tag" href="../work/insightai.html" title="More Nakwave builds">INTERACTIVE CONCEPT · BUILT BY <b>NAKWAVE</b></a>
-  <a class="hud-cta" href="#demo">Talk to the AI</a>
+<!-- ================= NAV ================= -->
+<header class="nav">
+  <a class="nav-mark" href="#top">MERIDIAN</a>
+  <span class="nav-time" id="nav-time" aria-hidden="true">23:47:00</span>
+  <a class="nav-note" href="../index.html">A NAKWAVE CONCEPT</a>
 </header>
 
 <main id="top">
 
-  <!-- ================= S1 · HERO ================= -->
+  <!-- ================= HERO ================= -->
   <section class="hero" id="hero">
-    <p class="mono-label reveal">MERIDIAN OS · AI SALES EMPLOYEE · V2.4</p>
-    <h1 class="reveal"><span>The dealership</span><span>that never <em>sleeps.</em></span></h1>
-    <p class="hero-sub reveal">Every lead answered in seconds. Every trade valued on the spot. Every test drive booked while your competitors are closed. This is a working concept of a dealership run on Nakwave's AI — <b>everything below is computed live, try it.</b></p>
-    <div class="hero-ticks reveal" aria-hidden="true">
-      <span>LEAD RESPONSE <b id="tick-resp">00:08</b></span>
-      <span>INVENTORY <b>18 UNITS LIVE</b></span>
-      <span>AFTER-HOURS CAPTURE <b>ACTIVE</b></span>
-      <span>CRM SYNC <b>REALTIME</b></span>
-    </div>
-    <svg class="hero-car reveal" viewBox="0 0 900 220" aria-hidden="true" preserveAspectRatio="xMidYMax meet">
-      <defs>
-        <linearGradient id="carline" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#6c5cff" stop-opacity="0"/><stop offset="0.5" stop-color="#8f7bff"/><stop offset="1" stop-color="#4fd8ff" stop-opacity="0"/>
-        </linearGradient>
-      </defs>
-      <path class="car-path" d="M60 185 C140 182 160 178 205 158 C260 132 320 92 420 84 C540 74 640 92 700 122 C740 142 790 158 840 166 M205 158 L215 185 M700 122 L735 180" fill="none" stroke="url(#carline)" stroke-width="2.5" stroke-linecap="round"/>
-      <circle class="car-wheel" cx="255" cy="186" r="26" fill="none" stroke="url(#carline)" stroke-width="2.5"/>
-      <circle class="car-wheel" cx="680" cy="186" r="26" fill="none" stroke="url(#carline)" stroke-width="2.5"/>
-      <line class="scanline" x1="60" y1="210" x2="840" y2="210" stroke="rgba(140,130,255,0.25)" stroke-width="1"/>
-    </svg>
-    <a class="scroll-hint" href="#reality" aria-label="Scroll">⌄</a>
+    <div class="hero-light" aria-hidden="true"></div>
+    <p class="tc reveal" data-d="0">23:47 PM — THE SHOWROOM IS CLOSED</p>
+    <h1><span class="hl-line reveal" data-d="1">The AI</span><span class="hl-line reveal" data-d="2">Employee.</span></h1>
+    <p class="hero-tag reveal" data-d="3">Built for luxury dealerships.</p>
+    <div class="hero-floor" aria-hidden="true"></div>
+    <a class="cue reveal" data-d="4" href="#talk"><span></span></a>
   </section>
 
-  <!-- ================= S2 · THE REALITY ================= -->
-  <section class="panel" id="reality">
-    <p class="mono-label reveal">01 · THE PROBLEM, MEASURED</p>
-    <h2 class="reveal">Your showroom closes at 8.<br />Your buyers don't.</h2>
-    <div class="stat-row reveal-stagger">
-      <div class="stat"><b data-count="33" data-suffix="%">0%</b><span>of dealer internet leads get <em>no reply at all</em> — mystery-shop studies, 2026</span></div>
-      <div class="stat"><b data-count="13.2" data-suffix="%">0%</b><span>of dealerships respond within 5 minutes of an inquiry</span></div>
-      <div class="stat"><b data-count="391" data-suffix="%">0%</b><span>higher close rate when leads are contacted inside 60 seconds — Velocify, 3.5M-lead study</span></div>
-    </div>
-    <div class="ba-split reveal">
-      <div class="ba-col before">
-        <h4>BEFORE · manual floor</h4>
-        <ul>
-          <li>Overnight AutoTrader lead read at 9:40 AM</li>
-          <li>Trade-in "let me check with my manager" — 2 days</li>
-          <li>Financing chat happens after the buyer is tired</li>
-          <li>Follow-ups live in a salesperson's memory</li>
-          <li>Owner sees numbers at month-end, if at all</li>
+  <!-- ================= TALK ================= -->
+  <section class="sec" id="talk">
+    <p class="tc reveal">01 — IT IS LISTENING</p>
+    <h2 class="reveal">Ask it anything<br />a customer would.</h2>
+    <p class="lede reveal">Live inventory. Real depreciation mathematics. A genuine payment model. Nothing below is scripted.</p>
+
+    <div class="talk reveal">
+      <div class="ledger" aria-label="What the system has learned">
+        <span class="ledger-line" id="score-line" aria-hidden="true"></span>
+        <ul id="ledger-list">
+          <li data-k="state"><i>STATUS</i><b id="ledger-state">Observing</b></li>
+          <li data-k="intent"><i>INTEREST</i><b>—</b></li>
+          <li data-k="budget"><i>BUDGET</i><b>—</b></li>
+          <li data-k="trade"><i>TRADE</i><b>—</b></li>
+          <li data-k="finance"><i>FINANCE</i><b>—</b></li>
+          <li data-k="appt"><i>DRIVE</i><b>—</b></li>
         </ul>
       </div>
-      <div class="ba-arrow" aria-hidden="true"><span>AI</span></div>
-      <div class="ba-col after">
-        <h4>AFTER · Meridian OS</h4>
-        <ul>
-          <li>Every channel answered in <b>~8 seconds</b>, 24/7</li>
-          <li>Trade valued on the spot with a defensible range</li>
-          <li>Pre-qualified before they set foot in the showroom</li>
-          <li>Follow-ups fire on schedule, every time</li>
-          <li>Owner dashboard updates in realtime</li>
-        </ul>
-      </div>
-    </div>
-  </section>
 
-  <!-- ================= S3 · LIVE DEMO ================= -->
-  <section class="panel" id="demo">
-    <p class="mono-label reveal">02 · TALK TO IT — THIS IS LIVE</p>
-    <h2 class="reveal">Meet the AI on the floor.</h2>
-    <p class="panel-sub reveal">Ask for an SUV under $70k. Get your trade valued. Pre-qualify a payment. Book a test drive. Nothing is scripted — the answers are computed from live inventory, real depreciation math and a real payment model.</p>
-
-    <div class="demo-grid reveal">
-      <div class="chat-shell">
-        <div class="chat-top"><i></i><span>MERIDIAN AI · SALES FLOOR</span><b id="chat-state">listening</b></div>
-        <div class="chat-log" id="chat-log"></div>
-        <div class="chat-sugg" id="chat-sugg"></div>
-        <form class="chat-form" id="chat-form">
-          <input id="chat-in" placeholder="Try: an SUV under $70k…" autocomplete="off" />
-          <button aria-label="Send">→</button>
+      <div class="conv">
+        <div class="conv-log" id="chat-log"></div>
+        <div class="conv-sugg" id="chat-sugg"></div>
+        <form class="conv-form" id="chat-form">
+          <input id="chat-in" placeholder="Ask about the floor…" autocomplete="off" aria-label="Message the AI" />
+          <button aria-label="Send">Send</button>
         </form>
       </div>
+    </div>
 
-      <aside class="lead-shell">
-        <div class="gauge-card">
-          <p class="mono-label">LEAD SCORE · LIVE</p>
-          <div class="gauge-wrap"><canvas id="gauge" width="180" height="110"></canvas><b id="gauge-num">0</b></div>
-          <span class="gauge-tag" id="gauge-tag">COLD — just browsing</span>
-        </div>
-        <div class="crm-card">
-          <p class="mono-label">CRM RECORD · AUTO-FILLED</p>
-          <ul id="crm-list">
-            <li data-k="intent"><span>Interest</span><b>—</b></li>
-            <li data-k="budget"><span>Budget</span><b>—</b></li>
-            <li data-k="trade"><span>Trade-in</span><b>—</b></li>
-            <li data-k="finance"><span>Financing</span><b>—</b></li>
-            <li data-k="appt"><span>Appointment</span><b>—</b></li>
-          </ul>
-        </div>
-        <div class="handoff-card" id="handoff" hidden>
-          <p class="mono-label">→ BRIEFING SENT TO SALES</p>
-          <p id="handoff-text"></p>
-        </div>
-      </aside>
+    <div class="briefing" id="handoff" hidden>
+      <p class="tc">08:55 — BRIEFING, DELIVERED</p>
+      <p id="handoff-text"></p>
     </div>
   </section>
 
-  <!-- ================= S4 · REPLAY ================= -->
-  <section class="panel" id="replay">
-    <p class="mono-label reveal">03 · ONE NIGHT, REPLAYED</p>
-    <h2 class="reveal">Watch last night's work.</h2>
-    <p class="panel-sub reveal">A real sequence the system is designed to run — from a 11:04 PM AutoTrader lead to a briefed salesperson at 8:55 AM. Press play, or click any step.</p>
-    <div class="replay reveal">
-      <div class="replay-bar">
-        <button id="replay-play" aria-label="Play">▶</button>
-        <div class="replay-track" id="replay-track"><i id="replay-prog"></i></div>
+  <!-- ================= NIGHT (scroll story) ================= -->
+  <section class="night" id="night">
+    <div class="night-stage">
+      <p class="tc night-tc"><span id="story-time">23:47</span> — ONE NIGHT, AS IT HAPPENS</p>
+
+      <div class="scene" data-s="0">
+        <p class="scene-small">AutoTrader · lead #4417</p>
+        <p class="scene-big">“Is the GLC 300<br />still available?”</p>
       </div>
-      <ol class="replay-steps" id="replay-steps"></ol>
-      <div class="replay-detail" id="replay-detail"></div>
-    </div>
-  </section>
 
-  <!-- ================= S5 · BLUEPRINT ================= -->
-  <section class="panel" id="blueprint">
-    <p class="mono-label reveal">04 · THE AUTOMATION BLUEPRINT</p>
-    <h2 class="reveal">Every channel. One brain.</h2>
-    <div class="bp-wrap reveal">
-      <svg class="bp-lines" id="bp-lines" aria-hidden="true"></svg>
-      <div class="bp-grid" id="bp-grid">
-        <div class="bp-col">
-          <div class="bp-node src" data-n="website"><span>SOURCE</span>Website chat</div>
-          <div class="bp-node src" data-n="autotrader"><span>SOURCE</span>AutoTrader / Cars.com</div>
-          <div class="bp-node src" data-n="whatsapp"><span>SOURCE</span>WhatsApp &amp; SMS</div>
-        </div>
-        <div class="bp-col mid">
-          <div class="bp-node core" data-n="core"><span>MERIDIAN AI CORE</span>Qualify · Value · Pre-qual · Book</div>
-        </div>
-        <div class="bp-col">
-          <div class="bp-node" data-n="crm"><span>SYSTEM</span>CRM record</div>
-          <div class="bp-node" data-n="cal"><span>SYSTEM</span>Showroom calendar</div>
-          <div class="bp-node" data-n="team"><span>HUMAN</span>Sales team briefing</div>
-        </div>
-        <div class="bp-col">
-          <div class="bp-node" data-n="follow"><span>AUTOMATION</span>Follow-up sequences</div>
-          <div class="bp-node" data-n="dash"><span>OWNER</span>Live dashboard</div>
-        </div>
+      <div class="scene" data-s="1">
+        <p class="scene-small">Meridian · 8 seconds later</p>
+        <p class="scene-big scene-type" id="type-target"></p>
+      </div>
+
+      <div class="scene" data-s="2">
+        <p class="scene-small">Qualification · no forms, just conversation</p>
+        <ul class="scene-facts">
+          <li>BUDGET — <b>$52–60,000</b></li>
+          <li>TRADE — <b>2018 AUDI Q5 · 61,000 MI</b></li>
+          <li>TIMELINE — <b>THIS WEEK</b></li>
+        </ul>
+      </div>
+
+      <div class="scene" data-s="3">
+        <p class="scene-small">Trade-in · computed, not guessed</p>
+        <p class="scene-big"><b id="story-trade">$0</b></p>
+        <p class="scene-foot">Run the same car through the conversation above.<br />You will get the same number.</p>
+      </div>
+
+      <div class="scene" data-s="4">
+        <p class="scene-small">Showroom calendar</p>
+        <p class="scene-big">Saturday, 10:00.<br />The car will be out front.</p>
+      </div>
+
+      <div class="scene" data-s="5">
+        <p class="scene-small">08:55 — the human takes over</p>
+        <p class="scene-big">Sofia walks in<br />already knowing everything.</p>
+      </div>
+
+      <div class="scene" data-s="6">
+        <p class="scene-big scene-end">The dealership closed<br />another sale<br /><em>before it opened.</em></p>
       </div>
     </div>
   </section>
 
-  <!-- ================= S6 · DASHBOARD ================= -->
-  <section class="panel" id="dash">
-    <p class="mono-label reveal">05 · WHAT THE OWNER SEES</p>
-    <h2 class="reveal">The 30-second morning check.</h2>
-    <div class="dash-grid reveal-stagger">
-      <div class="dcard kpi"><span>AVG FIRST RESPONSE</span><b data-count="8" data-suffix="s">0</b><em>industry: 47 min – 9 hrs</em></div>
-      <div class="dcard kpi"><span>AFTER-HOURS LEADS CAPTURED</span><b data-count="41" data-suffix="%">0</b><em>of weekly volume</em></div>
-      <div class="dcard kpi"><span>TEST DRIVES / WEEK</span><b data-count="23" data-suffix="">0</b><em>booked by the AI</em></div>
-      <div class="dcard kpi"><span>PIPELINE VALUE</span><b data-count="1.24" data-suffix="M" data-prefix="$">0</b><em>live, deduplicated</em></div>
-      <div class="dcard wide">
-        <span>LEADS BY SOURCE · THIS WEEK</span>
-        <canvas id="ch-sources" height="170"></canvas>
-      </div>
-      <div class="dcard wide">
-        <span>FUNNEL · INQUIRY → SOLD</span>
-        <div class="funnel" id="funnel"></div>
-      </div>
+  <!-- ================= CASE ================= -->
+  <section class="sec" id="case">
+    <p class="tc reveal">02 — WHAT THIS IS</p>
+    <h2 class="reveal">One employee.<br />Never off the floor.</h2>
+    <div class="case-cols">
+      <p class="reveal">Meridian is an interactive concept by Nakwave: a dealership operations layer where one AI employee answers every channel, qualifies every lead, values every trade against a real depreciation model, pre-qualifies financing with genuine payment mathematics, and books the showroom calendar — then hands a complete briefing to the humans who close.</p>
+      <ul class="case-list">
+        <li><i>RESPONDS</i>Every channel, every hour, in seconds</li>
+        <li><i>VALUES</i>Trade-ins priced on the spot, defensibly</li>
+        <li><i>QUALIFIES</i>Budget, timeline, financing — in conversation</li>
+        <li><i>BOOKS</i>Test drives against the live calendar</li>
+        <li><i>BRIEFS</i>Sales walks in ahead, not blind</li>
+      </ul>
     </div>
   </section>
 
-  <!-- ================= S7 · PROBLEMS SOLVED ================= -->
-  <section class="panel" id="solved">
-    <p class="mono-label reveal">06 · PROBLEM → SOLUTION → IMPACT</p>
-    <h2 class="reveal">The numbers a GM actually cares about.</h2>
-    <div class="solve-rows">
-      <div class="solve reveal"><div><span>PROBLEM</span><p>Internet leads wait hours — a third are never answered</p></div><div><span>SOLUTION</span><p>AI first-response on every channel, 24/7</p></div><div class="imp"><span>IMPACT</span><p>Hours <i>→</i> <b>~8 seconds</b></p></div></div>
-      <div class="solve reveal"><div><span>PROBLEM</span><p>Trade-in valuation needs a manager, takes days</p></div><div><span>SOLUTION</span><p>Instant computed range from year, mileage, condition</p></div><div class="imp"><span>IMPACT</span><p>2 days <i>→</i> <b>20 seconds</b></p></div></div>
-      <div class="solve reveal"><div><span>PROBLEM</span><p>Buyers arrive cold — financing talk starts at the desk</p></div><div><span>SOLUTION</span><p>Pre-qualification in chat before the visit</p></div><div class="imp"><span>IMPACT</span><p>Cold walk-ins <i>→</i> <b>briefed buyers</b></p></div></div>
-      <div class="solve reveal"><div><span>PROBLEM</span><p>Follow-ups depend on human memory</p></div><div><span>SOLUTION</span><p>Scheduled sequences with human handoff rules</p></div><div class="imp"><span>IMPACT</span><p>Forgotten <i>→</i> <b>100% automated</b></p></div></div>
-    </div>
-    <p class="fine reveal">Industry figures: published dealership response-time studies and Velocify's 3.5M-lead analysis (391% close-rate lift under 60s). Meridian metrics are design targets of this concept build, not audited client results.</p>
-  </section>
-
-  <!-- ================= S8 · STACK ================= -->
-  <section class="panel" id="stack">
-    <p class="mono-label reveal">07 · UNDER THE HOOD</p>
-    <div class="stack-rail reveal" aria-label="Technology stack">
-      <span>Claude / OpenAI</span><i>→</i><span>n8n orchestration</span><i>→</i><span>Supabase</span><i>→</i><span>WhatsApp Business API</span><i>→</i><span>Twilio SMS</span><i>→</i><span>Google Calendar</span><i>→</i><span>CRM webhooks</span><i>→</i><span>Live dashboard</span>
+  <!-- ================= FLOW ================= -->
+  <section class="flow" id="flow">
+    <p class="tc reveal">03 — THE LINE</p>
+    <h2 class="reveal">Every channel.<br />One brain.</h2>
+    <div class="flow-rail">
+      <span class="flow-track" aria-hidden="true"><i id="flow-dot"></i></span>
+      <ol>
+        <li><i>IN</i>Website · AutoTrader · WhatsApp</li>
+        <li class="flow-core"><i>MERIDIAN</i>Qualify — Value — Book</li>
+        <li><i>OUT</i>CRM · Calendar · Sales team</li>
+        <li><i>AFTER</i>Follow-ups that never forget</li>
+        <li><i>ABOVE</i>The owner sees everything, live</li>
+      </ol>
     </div>
   </section>
 
-  <!-- ================= S9 · CTA ================= -->
-  <section class="panel cta" id="cta">
-    <h2 class="reveal">This took 21 days to build.<br /><em>Imagine it running your floor.</em></h2>
-    <p class="panel-sub reveal">Meridian is an interactive concept — the machinery is real. Nakwave designs and operates AI systems like this for real businesses: dealerships, hotels, clinics, anyone whose leads can't wait.</p>
+  <!-- ================= RESULTS ================= -->
+  <section class="sec" id="results">
+    <p class="tc reveal">04 — THE ARITHMETIC</p>
+    <div class="res-rows">
+      <div class="res reveal"><span>First response</span><b>Hours <em>→</em> 8 seconds</b></div>
+      <div class="res reveal"><span>Trade valuation</span><b>Two days <em>→</em> 20 seconds</b></div>
+      <div class="res reveal"><span>Follow-ups</span><b>Forgotten <em>→</em> 100%</b></div>
+      <div class="res reveal"><span>The 60-second window</span><b><em>+</em>391% close rate</b></div>
+    </div>
+    <p class="fine reveal">A third of dealership internet leads receive no reply at all; 13.2% of dealers respond within five minutes (industry mystery-shop studies, 2026). The 391% figure is Velocify's 3.5-million-lead analysis of contact inside 60 seconds. Meridian's own metrics are design targets of this concept, not audited client results.</p>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="cta" id="cta">
+    <p class="tc reveal">NAKWAVE — SEO &amp; AI AUTOMATION STUDIO</p>
+    <h2 class="reveal">Your floor.<br /><em>Our machine.</em></h2>
     <div class="cta-row reveal">
-      <a class="hud-cta big" href="../index.html#contact">Build this for my business</a>
-      <a class="ghost-link" href="../work/insightai.html">See the InsightAI case study →</a>
+      <a class="btn-main" id="btn-main" href="../index.html#contact"><span>Start a project</span></a>
+      <a class="quiet" href="../work/insightai.html">See more work</a>
     </div>
   </section>
+
 </main>
 
-<footer class="mfoot">
-  <span>MERIDIAN MOTORS — a fictional brand, built as an interactive concept.</span>
-  <a href="../index.html">© 2026 NAKWAVE · SEO &amp; AI AUTOMATION STUDIO</a>
+<footer class="foot">
+  <span>MERIDIAN IS A FICTIONAL MARQUE — AN INTERACTIVE CONCEPT, EVERY NUMBER COMPUTED IN YOUR BROWSER.</span>
+  <a href="../index.html">© 2026 NAKWAVE</a>
 </footer>
 
-<script src="app.js?v=2" defer></script>
+<script src="app.js?v=3" defer></script>
 </body>
 </html>
