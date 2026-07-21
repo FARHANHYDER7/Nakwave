@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/style.css?v=10" />
+  <link rel="stylesheet" href="assets/style.css?v=12" />
 
   <!-- Structured data: Organization + WebSite -->
   <script type="application/ld+json">
@@ -599,25 +599,75 @@
   <!-- ================= CASE STUDY ================= -->
   <section id="case-study">
     <div class="container">
-      <span class="section-tag reveal">Featured case study</span>
-      <h2 class="section-title reveal">The Mosaic House runs on InsightAI.</h2>
-      <p class="section-sub reveal">A boutique hotel's booking chaos turned into one living dashboard — anomaly alerts, 12-week forecasts, an AI copilot and a Monday report that writes itself. Read how it was built, then test the real product.</p>
-      <div class="cs-banner reveal">
-        <div class="cs-left">
-          <div class="live-shot">
-            <div class="shot-bar"><span class="sdots"><i></i><i></i><i></i></span><span class="shot-url">nakwave.com/insightai — live product</span></div>
-            <div class="live-frame" data-src="insightai/"></div>
-          </div>
+      <div class="cs-head">
+        <div class="cs-head-copy">
+          <span class="section-tag reveal">Featured builds</span>
+          <h2 class="section-title reveal">Work you can open right now.</h2>
+          <p class="section-sub reveal">Not screenshots — the real things, running live in your browser. A hotel's booking chaos turned into one living dashboard, an AI sales employee for luxury dealerships, and a silk store rebuilt from invisible to AI-ready with the score measured on the page. Drag sideways and open any of them.</p>
         </div>
-        <div class="cs-body">
-          <h3>Hotel BI &amp; AI automation, delivered as a working product.</h3>
-          <div class="cs-meta-mini"><span>BI Dashboard</span><span>·</span><span>AI Analytics</span><span>·</span><span>Automation</span><span>·</span><span>21 days</span></div>
-          <p>Statistical anomaly scans, trend×seasonality forecasting, guest segmentation, a computed-answer copilot and one-click owner reports — all running live in your browser.</p>
-          <div class="cs-actions">
-            <a href="work/insightai.html" class="btn btn-primary"><span class="btn-label" data-text="Read the case study"><span>Read the case study</span></span></a>
-            <a href="insightai/" class="btn btn-ghost"><span class="btn-label" data-text="Test the product"><span>Test the product</span></span></a>
-          </div>
+        <div class="strip-nav reveal">
+          <button class="snav-btn" data-dir="-1" aria-label="Scroll builds left">←</button>
+          <button class="snav-btn" data-dir="1" aria-label="Scroll builds right">→</button>
         </div>
+      </div>
+    </div>
+
+    <div class="hstrip-wrap">
+      <div class="cs-rail hstrip" id="cs-rail" tabindex="0" aria-label="Featured builds — scrolls sideways">
+
+        <article class="cs-banner reveal">
+          <div class="cs-left">
+            <div class="live-shot">
+              <div class="shot-bar"><span class="sdots"><i></i><i></i><i></i></span><span class="shot-url">nakwave.com/insightai — live product</span></div>
+              <div class="live-frame" data-src="insightai/"></div>
+            </div>
+          </div>
+          <div class="cs-body">
+            <h3>Hotel BI &amp; AI automation, delivered as a working product.</h3>
+            <div class="cs-meta-mini"><span>BI Dashboard</span><span>·</span><span>AI Analytics</span><span>·</span><span>Automation</span><span>·</span><span>21 days</span></div>
+            <p>Statistical anomaly scans, trend×seasonality forecasting, guest segmentation, a computed-answer copilot and one-click owner reports — all running live in your browser.</p>
+            <div class="cs-actions">
+              <a href="work/insightai.html" class="btn btn-primary"><span class="btn-label" data-text="Read the case study"><span>Read the case study</span></span></a>
+              <a href="insightai/" class="btn btn-ghost"><span class="btn-label" data-text="Test the product"><span>Test the product</span></span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="cs-banner reveal">
+          <div class="cs-left">
+            <div class="live-shot">
+              <div class="shot-bar"><span class="sdots"><i></i><i></i><i></i></span><span class="shot-url">nakwave.com/meridian — interactive concept</span></div>
+              <div class="live-frame" data-src="meridian/"></div>
+            </div>
+          </div>
+          <div class="cs-body">
+            <h3>An AI employee, built for luxury dealerships.</h3>
+            <div class="cs-meta-mini"><span>Conversational AI</span><span>·</span><span>Lead Scoring</span><span>·</span><span>Interactive concept</span></div>
+            <p>A cinematic concept for Meridian: an AI sales agent that answers inventory questions, values trade-ins and books test drives — every figure computed live by the same engine, never scripted. Read how it works, then run the conversation.</p>
+            <div class="cs-actions">
+              <a href="work/meridian.html" class="btn btn-primary"><span class="btn-label" data-text="Read the case study"><span>Read the case study</span></span></a>
+              <a href="meridian/" class="btn btn-ghost"><span class="btn-label" data-text="Open the experience"><span>Open the experience</span></span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="cs-banner reveal">
+          <div class="cs-left">
+            <div class="live-shot">
+              <div class="shot-bar"><span class="sdots"><i></i><i></i><i></i></span><span class="shot-url">nakwave.com/work/silk-rebuild — before &amp; after</span></div>
+              <div class="silk-poster"><span class="sp-wm">Aarohi Silks</span><span class="sp-sub">Handwoven · Kanchipuram</span></div>
+            </div>
+          </div>
+          <div class="cs-body">
+            <h3>A silk store, rebuilt from invisible to the top.</h3>
+            <div class="cs-meta-mini"><span>Technical SEO</span><span>·</span><span>AEO</span><span>·</span><span>Measured 16→91</span></div>
+            <p>We took a broken saree storefront — buried near the 100th result with no schema, no crawl files and thin copy — and rebuilt it for search and AI engines alike. See the before, the cinematic rebuild and every fix that moved the needle.</p>
+            <div class="cs-actions">
+              <a href="work/silk-rebuild.html" class="btn btn-primary"><span class="btn-label" data-text="Read the case study"><span>Read the case study</span></span></a>
+            </div>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>

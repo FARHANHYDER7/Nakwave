@@ -1235,6 +1235,33 @@ body.cursor-on .wcard { cursor: none; }
 
 .cs-banner { display: grid; grid-template-columns: 1.12fr 0.88fr; background: var(--tile); border-radius: calc(var(--radius) + 6px); overflow: hidden; }
 @media (max-width: 900px) { .cs-banner { grid-template-columns: 1fr; } }
+/* case-study rail: two builds, side by side, scroll sideways */
+.cs-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+.cs-head-copy { max-width: 760px; }
+.cs-rail { margin-top: 40px; }
+.cs-rail .cs-banner { width: min(1040px, 92vw); }
+/* silk-rebuild card poster (static, cinematic version lives on the case study) */
+.silk-poster {
+  position: relative; aspect-ratio: 16/10; border-radius: var(--radius); overflow: hidden;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  background:
+    radial-gradient(120% 80% at 78% 22%, rgba(255,224,150,0.22), transparent 55%),
+    radial-gradient(140% 120% at 30% 90%, #2a0810, transparent 60%),
+    linear-gradient(155deg, #3d0a16 0%, #7a1730 45%, #4a0f1c 100%);
+}
+.silk-poster::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: repeating-linear-gradient(115deg, rgba(233,200,120,0.06) 0 2px, transparent 2px 9px);
+  mix-blend-mode: screen;
+}
+.silk-poster .sp-wm {
+  position: relative; font-family: Georgia, "Times New Roman", serif; font-weight: 500;
+  font-size: clamp(1.6rem, 3.4vw, 2.6rem); letter-spacing: 0.02em;
+  background: linear-gradient(100deg, #a9772e, #f2d79f 45%, #fff2cf 55%, #a9772e);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(233,200,120,0.25));
+}
+.silk-poster .sp-sub { position: relative; margin-top: 10px; font-size: 0.66rem; letter-spacing: 0.36em; text-transform: uppercase; color: rgba(233,200,120,0.7); }
 .cs-left { padding: clamp(18px, 3vw, 30px); }
 .cs-body { padding: clamp(28px, 4vw, 54px); display: flex; flex-direction: column; justify-content: center; gap: 18px; }
 .cs-body h3 { font-size: clamp(1.5rem, 2.8vw, 2.2rem); font-weight: 500; letter-spacing: -0.025em; }

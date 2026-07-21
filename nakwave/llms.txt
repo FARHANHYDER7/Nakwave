@@ -10,7 +10,7 @@ Key facts:
 
 ## Services
 
-- [Free AI Visibility Audit](https://nakwave.com/audit.html): Tests a brand across ChatGPT, Gemini, Perplexity and Claude with real customer questions, compares against competitors, scans structured data, and delivers a scored report with a prioritized fix list in 3 business days.
+- [Free AI Visibility Audit](https://nakwave.com/audit.html): Send your website and we test your brand across ChatGPT, Gemini, Perplexity and Claude with real customer questions, compare against competitors, scan structured data, and deliver a scored report with a prioritized fix list in 3 business days.
 - [All services](https://nakwave.com/#services): Seven services across two crafts — search (SEO & websites, AI visibility audits, AEO) and automation (chatbots/WhatsApp, agentic workflows, analytics dashboards) — plus a monthly citation retainer connecting both.
 
 ## Guides
@@ -21,6 +21,7 @@ Key facts:
 
 ## Company
 
-- [Work & case studies](https://nakwave.com/#work): InsightAI analytics platform (live hotel BI demo), Meridian Motors AI Showroom OS (interactive dealership concept: live inventory chat, trade valuation, financing pre-qual, test-drive booking), Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
+- [Work & case studies](https://nakwave.com/#work): InsightAI analytics platform (live hotel BI demo), Meridian Motors AI Showroom OS (interactive dealership concept: live inventory chat, trade valuation, financing pre-qual, test-drive booking), Aarohi Silks SEO rebuild (before/after technical SEO + AEO demonstration, score measured live 16→91), Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
+- [Aarohi Silks SEO rebuild case study](https://nakwave.com/work/silk-rebuild.html): A demonstration rebuild of a silk-saree storefront from effectively-invisible to page-one-ready, with a measured 16→91 AI-visibility jump, a cinematic silk hero and every bug-and-fix listed — schema, crawl files, llms.txt, answer-first content.
 - [Process](https://nakwave.com/#process): Audit → Fix → Automate → Compound.
 - [FAQ](https://nakwave.com/#faq): Common questions on AI visibility, AEO vs SEO, chatbots, and timelines.
