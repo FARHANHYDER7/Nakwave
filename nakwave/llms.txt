@@ -18,6 +18,9 @@ Key facts:
 - [What Is AEO? Answer Engine Optimization Explained](https://nakwave.com/blog/what-is-aeo.html): Plain-English explanation of AEO, how it differs from SEO, and the five pillars of citable content.
 - [How to Get Your Business Cited by ChatGPT: 7 Steps](https://nakwave.com/blog/get-cited-by-chatgpt.html): Practical checklist — baseline, schema, answer-first rewrites, FAQs, citable claims, entity building, monthly tracking.
 - [llms.txt: What It Is and Should You Have One](https://nakwave.com/blog/llms-txt-guide.html): Honest guide to the llms.txt standard, its adoption status, and why we ship it anyway.
+- [AI Overviews & Zero-Click Search: What the 2026 Data Means](https://nakwave.com/blog/zero-click-search-2026.html): 83% of AI-Overview searches end without a click and 5 of 6 citations come from outside the top 10 — what the data means and how to stay visible.
+- [How to Get Your Local Business Cited by ChatGPT & AI Search in 2026](https://nakwave.com/blog/local-business-ai-search.html): Practical local playbook — LocalBusiness schema, reviews, Google Business Profile, Yelp/Perplexity and entity consistency.
+- [AI Agents Are the New Shoppers: Agentic Search in 2026](https://nakwave.com/blog/ai-agents-agentic-search.html): How autonomous agents (ChatGPT Operator, Project Astra, Perplexity Comet) browse and buy, and how to make your site the option they choose.
 
 ## Company
 

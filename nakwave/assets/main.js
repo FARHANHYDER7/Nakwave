@@ -414,22 +414,21 @@
     const words = (rot.dataset.words || "").split(",");
     const wEl = rot.querySelector(".rotator-word");
     if (reduceMotion) {
-      wEl.textContent = words[words.length - 1];
+      wEl.textContent = words[0];
     } else {
       let i = 0;
       const step = () => {
-        i++;
-        if (i >= words.length) return;
+        i = (i + 1) % words.length;
         wEl.classList.add("out");
         setTimeout(() => {
           wEl.textContent = words[i];
           wEl.classList.remove("out");
           wEl.classList.add("in");
           setTimeout(() => wEl.classList.remove("in"), 360);
-          if (i < words.length - 1) setTimeout(step, 1050);
+          setTimeout(step, 1700);
         }, 270);
       };
-      setTimeout(step, (pre ? 3000 : 1000));
+      setTimeout(step, (pre ? 3000 : 1600));
     }
   }
 
