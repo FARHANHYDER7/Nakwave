@@ -1266,13 +1266,7 @@ body.cursor-on .wcard { cursor: none; }
   filter: drop-shadow(0 2px 8px rgba(233,200,120,0.25));
 }
 .silk-poster .sp-sub { position: relative; margin-top: 10px; font-size: 0.66rem; letter-spacing: 0.36em; text-transform: uppercase; color: rgba(233,200,120,0.7); }
-/* WhatsApp — floating button + contact link */
-.wa-float { position: fixed; right: 22px; bottom: 22px; z-index: 200; width: 58px; height: 58px; border-radius: 50%; background: #25d366; color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 12px 30px -8px rgba(37,211,102,0.6); transition: transform .2s, box-shadow .2s; }
-.wa-float:hover { transform: scale(1.08); box-shadow: 0 16px 36px -8px rgba(37,211,102,0.75); color: #fff; }
-.wa-float::before { content: ""; position: absolute; inset: 0; border-radius: 50%; background: #25d366; animation: wapulse 2.6s ease-out infinite; z-index: -1; }
-@keyframes wapulse { 0% { transform: scale(1); opacity: .5; } 100% { transform: scale(1.8); opacity: 0; } }
-@media (max-width: 640px) { .wa-float { width: 52px; height: 52px; right: 16px; bottom: 16px; } }
-@media (prefers-reduced-motion: reduce) { .wa-float::before { animation: none; } }
+/* WhatsApp — contact-section link (no floating button; kept at the end of the page) */
 .contact-whatsapp { display: inline-flex; align-items: center; gap: 10px; margin-top: 20px; padding: 12px 22px; border-radius: 999px; background: #25d366; color: #fff; font-weight: 600; font-size: 0.95rem; transition: transform .18s, background .2s; }
 .contact-whatsapp:hover { transform: translateY(-2px); background: #1fb457; color: #fff; }
 .cs-left { padding: clamp(18px, 3vw, 30px); }
