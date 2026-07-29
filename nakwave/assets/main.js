@@ -432,25 +432,6 @@
     }
   }
 
-  /* ---------- hero: wave photo 3D parallax ---------- */
-  const wave = document.querySelector(".hero-wave");
-  if (wave && !reduceMotion) {
-    const wimg = wave.querySelector("img");
-    let rx = 0, ry = 0, txw = 0, tyw = 0, sy = 0;
-    addEventListener("mousemove", (e) => {
-      txw = (e.clientX / innerWidth - 0.5) * -30;
-      tyw = (e.clientY / innerHeight - 0.5) * -18;
-    });
-    addEventListener("scroll", () => { sy = Math.min(scrollY * 0.18, 130); }, { passive: true });
-    (function wloop() {
-      rx += (txw - rx) * 0.06;
-      ry += (tyw - ry) * 0.06;
-      wave.style.transform = "translate3d(" + rx + "px, " + (ry + sy) + "px, 0)";
-      if (wimg) wimg.style.rotate = (rx * 0.14) + "deg";
-      requestAnimationFrame(wloop);
-    })();
-  }
-
   /* ---------- hero: ghost wordmark scroll fill ---------- */
   const gm = document.querySelector(".ghost-mark");
   if (gm) {

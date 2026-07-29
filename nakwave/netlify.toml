@@ -1,0 +1,95 @@
+# ============================================================
+# Nakwave — Netlify deploy configuration
+# Static site, no build step. Drop this folder (or the zip) into
+# Netlify and it serves from the repo/folder root.
+# ============================================================
+
+[build]
+  # Nothing to compile — the site is plain HTML/CSS/JS.
+  publish = "."
+  command = ""
+
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  # Deliberately OFF. Pretty URLs would 301 /audit.html -> /audit, but every
+  # canonical tag, sitemap entry and internal link on this site uses the
+  # .html form. Enabling it would point every canonical at a redirect.
+  pretty_urls = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = false          # files are independent; bundling would break load order
+  minify = true
+
+[build.processing.images]
+  compress = true
+
+
+# ---------------- redirects ----------------
+# Force the apex domain (nakwave.services) as the single canonical host,
+# so www.* never splits SEO authority or duplicates content.
+[[redirects]]
+  from = "https://www.nakwave.services/*"
+  to = "https://nakwave.services/:splat"
+  status = 301
+  force = true
+
+# Retired page: the self-serve scanner was removed — send it to the audit
+# funnel instead of returning a 404 to anyone holding an old link.
+[[redirects]]
+  from = "/scan.html"
+  to = "/audit.html"
+  status = 301
+
+[[redirects]]
+  from = "/scan"
+  to = "/audit.html"
+  status = 301
+
+
+# ---------------- headers ----------------
+# Baseline security + privacy headers for every response.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+# HTML must revalidate so content edits go live immediately.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Fingerprinted assets (?v=N) are safe to cache hard for a year.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Crawler files should refresh daily, not be pinned.
+[[headers]]
+  for = "/robots.txt"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/sitemap.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# llms.txt is a plain-text manifest for AI crawlers — serve it as text,
+# not as a download, so ChatGPT/Perplexity/Claude can actually read it.
+[[headers]]
+  for = "/llms.txt"
+  [headers.values]
+    Content-Type = "text/plain; charset=utf-8"
+    Cache-Control = "public, max-age=86400"

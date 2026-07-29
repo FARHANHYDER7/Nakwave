@@ -940,22 +940,6 @@ footer { padding: clamp(80px, 10vw, 130px) 0 40px; background: var(--paper); bor
 .hero-ascii span.on { color: rgba(11, 11, 11, 0.16); }
 .hero-ascii span.hot { color: var(--accent); opacity: 1; transition: color 0.12s; }
 
-.hero-wave {
-  position: absolute; z-index: 1; right: -8vw; top: 2vh;
-  width: min(40vw, 620px); pointer-events: none;
-  will-change: transform;
-}
-.hero-wave img {
-  width: 100%; display: block;
-  filter: drop-shadow(0 40px 60px rgba(214, 51, 40, 0.18));
-  will-change: transform;
-  animation: waveFloat 7s ease-in-out infinite;
-  -webkit-mask-image: radial-gradient(ellipse 62% 58% at 55% 48%, #000 45%, transparent 82%);
-  mask-image: radial-gradient(ellipse 62% 58% at 55% 48%, #000 45%, transparent 82%);
-}
-@keyframes waveFloat { 0%, 100% { translate: 0 0; } 50% { translate: 0 -14px; } }
-@media (max-width: 900px) { .hero-wave { display: none; } }
-
 /* rotating headline word */
 .rotator { display: inline-block; overflow: hidden; vertical-align: bottom; }
 .rotator-word { display: inline-block; transition: transform 0.26s var(--ease), opacity 0.26s; }
