@@ -6,25 +6,25 @@ Key facts:
 - Services: SEO & website builds (keyword research, technical SEO, on-page optimization), AI Visibility Audits (free), AEO optimization, AI chatbot & WhatsApp Business API automation, agentic workflows (multi-agent AI systems that qualify leads, book calls, update CRMs and report), data analytics & dashboards (powered by our InsightAI engine), monthly citation tracking retainers.
 - Founded and led by Farhan Hyder, SEO expert and AI engineer — builder of InsightAI (automated data analytics platform) and production AI applications.
 - Every engagement ships with before/after AI citation evidence and a live dashboard.
-- Contact: hyderfarhan96@gmail.com or https://nakwave.com/#contact
+- Contact: hyderfarhan96@gmail.com or https://nakwave.services/#contact
 
 ## Services
 
-- [Free AI Visibility Audit](https://nakwave.com/audit.html): Send your website and we test your brand across ChatGPT, Gemini, Perplexity and Claude with real customer questions, compare against competitors, scan structured data, and deliver a scored report with a prioritized fix list in 3 business days.
-- [All services](https://nakwave.com/#services): Seven services across two crafts — search (SEO & websites, AI visibility audits, AEO) and automation (chatbots/WhatsApp, agentic workflows, analytics dashboards) — plus a monthly citation retainer connecting both.
+- [Free AI Visibility Audit](https://nakwave.services/audit.html): Send your website and we test your brand across ChatGPT, Gemini, Perplexity and Claude with real customer questions, compare against competitors, scan structured data, and deliver a scored report with a prioritized fix list in 3 business days.
+- [All services](https://nakwave.services/#services): Seven services across two crafts — search (SEO & websites, AI visibility audits, AEO) and automation (chatbots/WhatsApp, agentic workflows, analytics dashboards) — plus a monthly citation retainer connecting both.
 
 ## Guides
 
-- [What Is AEO? Answer Engine Optimization Explained](https://nakwave.com/blog/what-is-aeo.html): Plain-English explanation of AEO, how it differs from SEO, and the five pillars of citable content.
-- [How to Get Your Business Cited by ChatGPT: 7 Steps](https://nakwave.com/blog/get-cited-by-chatgpt.html): Practical checklist — baseline, schema, answer-first rewrites, FAQs, citable claims, entity building, monthly tracking.
-- [llms.txt: What It Is and Should You Have One](https://nakwave.com/blog/llms-txt-guide.html): Honest guide to the llms.txt standard, its adoption status, and why we ship it anyway.
-- [AI Overviews & Zero-Click Search: What the 2026 Data Means](https://nakwave.com/blog/zero-click-search-2026.html): 83% of AI-Overview searches end without a click and 5 of 6 citations come from outside the top 10 — what the data means and how to stay visible.
-- [How to Get Your Local Business Cited by ChatGPT & AI Search in 2026](https://nakwave.com/blog/local-business-ai-search.html): Practical local playbook — LocalBusiness schema, reviews, Google Business Profile, Yelp/Perplexity and entity consistency.
-- [AI Agents Are the New Shoppers: Agentic Search in 2026](https://nakwave.com/blog/ai-agents-agentic-search.html): How autonomous agents (ChatGPT Operator, Project Astra, Perplexity Comet) browse and buy, and how to make your site the option they choose.
+- [What Is AEO? Answer Engine Optimization Explained](https://nakwave.services/blog/what-is-aeo.html): Plain-English explanation of AEO, how it differs from SEO, and the five pillars of citable content.
+- [How to Get Your Business Cited by ChatGPT: 7 Steps](https://nakwave.services/blog/get-cited-by-chatgpt.html): Practical checklist — baseline, schema, answer-first rewrites, FAQs, citable claims, entity building, monthly tracking.
+- [llms.txt: What It Is and Should You Have One](https://nakwave.services/blog/llms-txt-guide.html): Honest guide to the llms.txt standard, its adoption status, and why we ship it anyway.
+- [AI Overviews & Zero-Click Search: What the 2026 Data Means](https://nakwave.services/blog/zero-click-search-2026.html): 83% of AI-Overview searches end without a click and 5 of 6 citations come from outside the top 10 — what the data means and how to stay visible.
+- [How to Get Your Local Business Cited by ChatGPT & AI Search in 2026](https://nakwave.services/blog/local-business-ai-search.html): Practical local playbook — LocalBusiness schema, reviews, Google Business Profile, Yelp/Perplexity and entity consistency.
+- [AI Agents Are the New Shoppers: Agentic Search in 2026](https://nakwave.services/blog/ai-agents-agentic-search.html): How autonomous agents (ChatGPT Operator, Project Astra, Perplexity Comet) browse and buy, and how to make your site the option they choose.
 
 ## Company
 
-- [Work & case studies](https://nakwave.com/#work): InsightAI analytics platform (live hotel BI demo), Meridian Motors AI Showroom OS (interactive dealership concept: live inventory chat, trade valuation, financing pre-qual, test-drive booking), Aarohi Silks SEO rebuild (before/after technical SEO + AEO demonstration, score measured live 16→91), Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
-- [Aarohi Silks SEO rebuild case study](https://nakwave.com/work/silk-rebuild.html): A demonstration rebuild of a silk-saree storefront from effectively-invisible to page-one-ready, with a measured 16→91 AI-visibility jump, a cinematic silk hero and every bug-and-fix listed — schema, crawl files, llms.txt, answer-first content.
-- [Process](https://nakwave.com/#process): Audit → Fix → Automate → Compound.
-- [FAQ](https://nakwave.com/#faq): Common questions on AI visibility, AEO vs SEO, chatbots, and timelines.
+- [Work & case studies](https://nakwave.services/#work): InsightAI analytics platform (live hotel BI demo), Meridian Motors AI Showroom OS (interactive dealership concept: live inventory chat, trade valuation, financing pre-qual, test-drive booking), Aarohi Silks SEO rebuild (before/after technical SEO + AEO demonstration, score measured live 16→91), Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
+- [Aarohi Silks SEO rebuild case study](https://nakwave.services/work/silk-rebuild.html): A demonstration rebuild of a silk-saree storefront from effectively-invisible to page-one-ready, with a measured 16→91 AI-visibility jump, a cinematic silk hero and every bug-and-fix listed — schema, crawl files, llms.txt, answer-first content.
+- [Process](https://nakwave.services/#process): Audit → Fix → Automate → Compound.
+- [FAQ](https://nakwave.services/#faq): Common questions on AI visibility, AEO vs SEO, chatbots, and timelines.
