@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nakwave — SEO &amp; AI Automation Studio | Get Found Everywhere. Automate Everything.</title>
-  <meta name="description" content="Nakwave is an SEO and AI-automation studio. Search: SEO that ranks you on Google and AEO that gets you cited by ChatGPT, Gemini, Perplexity and Claude. Automation: AI chatbots, WhatsApp bots, multi-agent workflows and analytics dashboards that run what happens next." />
+  <title>Nakwave — SEO, AEO &amp; AI Automation Studio</title>
+  <meta name="description" content="SEO and AEO that get you ranked on Google and cited by ChatGPT, Gemini and Perplexity — plus AI chatbots and agents that run what happens next." />
   <link rel="canonical" href="https://nakwave.services/" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Nakwave" />
-  <meta property="og:title" content="Nakwave — Get Found Everywhere. Automate Everything." />
-  <meta property="og:description" content="Two crafts, one studio: SEO + AEO that get your brand found on Google and in AI answers, and AI engineering — chatbots, agents, dashboards — that runs what happens next." />
+  <meta property="og:title" content="Nakwave — SEO, AEO &amp; AI Automation Studio" />
+  <meta property="og:description" content="SEO and AEO that get you ranked on Google and cited by ChatGPT, Gemini and Perplexity — plus AI chatbots and agents that run what happens next." />
   <meta property="og:url" content="https://nakwave.services/" />
   <meta property="og:image" content="https://nakwave.services/assets/og-cover.png" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/style.css?v=14" />
+  <link rel="stylesheet" href="assets/style.css?v=15" />
 
   <!-- Structured data: Organization + WebSite -->
   <script type="application/ld+json">
@@ -39,6 +39,19 @@
         "description": "SEO and AI-automation studio with two equal crafts. Search: search engine optimization and answer engine optimization (AEO) that get brands found on Google and cited by AI engines. Automation: AI chatbots, WhatsApp automation, multi-agent workflows and data analytics that run the business processes that follow.",
         "founder": { "@id": "https://nakwave.services/#farhan" },
         "slogan": "Get found everywhere. Automate everything.",
+        "email": "hyderfarhan96@gmail.com",
+        "telephone": "+91-6361506839",
+        "priceRange": "$$",
+        "areaServed": [{ "@type": "Country", "name": "India" }, { "@type": "Place", "name": "Worldwide" }],
+        "availableLanguage": ["English", "Hindi", "Kannada"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "email": "hyderfarhan96@gmail.com",
+          "telephone": "+91-6361506839",
+          "areaServed": "IN",
+          "availableLanguage": ["English", "Hindi", "Kannada"]
+        },
         "knowsAbout": ["Search Engine Optimization", "Technical SEO", "Keyword Research", "Answer Engine Optimization", "Generative Engine Optimization", "AI Visibility", "WhatsApp Business API", "AI Chatbots", "Agentic Workflows", "Multi-Agent Systems", "Data Analytics"],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
@@ -67,7 +80,12 @@
         "@id": "https://nakwave.services/#website",
         "url": "https://nakwave.services/",
         "name": "Nakwave",
-        "publisher": { "@id": "https://nakwave.services/#org" }
+        "publisher": { "@id": "https://nakwave.services/#org" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": { "@type": "EntryPoint", "urlTemplate": "https://nakwave.services/blog/?q={search_term_string}" },
+          "query-input": "required name=search_term_string"
+        }
       }
     ]
   }
@@ -149,7 +167,7 @@
     <div class="container nav-inner">
       <a href="#" class="logo"><span class="logo-mark">N</span>NAKWAVE<span style="color:var(--accent)">.</span></a>
       <div class="nav-links">
-        <a href="#services">Services</a>
+        <a href="services/index.html">Services</a>
         <a href="#work">My Works</a>
         <a href="#process">Process</a>
         <a href="#faq">FAQ</a>
@@ -496,7 +514,7 @@
               <div class="sp-nav"><strong>NORTHGATE</strong><span class="sp-links"><i></i><i></i><i></i><i></i></span><em>Book viewing</em></div>
               <div class="sp-hero">
                 <div class="sp-copy">
-                  <h5>Find your next home in the city you love</h5>
+                  <h3 class="mini-h">Find your next home in the city you love</h3>
                   <span class="sp-sub"></span><span class="sp-sub short"></span>
                   <span class="sp-cta">Browse listings</span>
                 </div>
@@ -531,7 +549,7 @@
               <div class="sp-nav"><strong>Hartley &amp; Partners</strong><span class="sp-links"><i></i><i></i><i></i></span><em>Consult</em></div>
               <div class="sp-hero">
                 <div class="sp-copy">
-                  <h5>Commercial law, explained in plain English</h5>
+                  <h3 class="mini-h">Commercial law, explained in plain English</h3>
                   <span class="sp-sub"></span><span class="sp-sub short"></span>
                   <span class="sp-cta">Ask a question</span>
                 </div>
@@ -637,7 +655,7 @@
               <div class="sp-nav"><strong>Serene Skin</strong><span class="sp-links"><i></i><i></i><i></i></span><em>Book now</em></div>
               <div class="sp-hero">
                 <div class="sp-copy">
-                  <h5>Glow that starts with expert care</h5>
+                  <h3 class="mini-h">Glow that starts with expert care</h3>
                   <span class="sp-sub"></span><span class="sp-sub short"></span>
                   <span class="sp-cta">View treatments</span>
                 </div>
@@ -738,13 +756,13 @@
       <div class="ba-slider reveal" id="ba-slider" style="--pos:50%">
         <div class="ba-pane ba-before">
           <span class="ba-label">Before</span>
-          <h6>Welcome to our firm</h6>
+          <h3>Welcome to our firm</h3>
           <i class="l w95"></i><i class="l w88"></i><i class="l w92"></i><i class="l w85"></i><i class="l w90"></i><i class="l w60"></i>
           <p class="ba-hint">…the actual answer is buried in paragraph six</p>
         </div>
         <div class="ba-pane ba-after">
           <span class="ba-label">After</span>
-          <h6>Do you handle commercial leases? Yes — here's exactly how.</h6>
+          <h3>Do you handle commercial leases? Yes — here's exactly how.</h3>
           <span class="ba-chip">✓ Answer-first</span><span class="ba-chip">FAQ schema</span><span class="ba-chip">Citable claim</span>
           <i class="l hot w80"></i><i class="l w70"></i><i class="l w45"></i>
         </div>
@@ -978,7 +996,7 @@
           <p class="footer-desc">SEO &amp; AI automation studio. One craft gets you found — on Google and in AI answers. The other builds the bots, agents and dashboards that do the work.</p>
         </div>
         <div class="footer-col">
-          <h4>Services</h4>
+          <h3>Services</h3>
           <ul>
             <li><a href="audit.html#audit-form">AI Visibility Audit</a></li>
             <li><a href="#services">AEO Optimization</a></li>
@@ -989,7 +1007,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Company</h4>
+          <h3>Company</h3>
           <ul>
             <li><a href="#work">My Works</a></li>
             <li><a href="#process">Process</a></li>
@@ -998,7 +1016,7 @@
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Start</h4>
+          <h3>Start</h3>
           <ul>
             <li><a href="audit.html#audit-form">Free AI Audit</a></li>
             <li><a href="audit-sample.html">Sample audit report</a></li>
@@ -1026,7 +1044,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js" defer></script>
-  <script src="assets/hero-field.js?v=14" defer></script>
-  <script src="assets/main.js?v=14" defer></script>
+  <script src="assets/hero-field.js?v=15" defer></script>
+  <script src="assets/main.js?v=15" defer></script>
 </body>
 </html>

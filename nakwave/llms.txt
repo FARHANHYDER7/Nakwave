@@ -1,30 +1,42 @@
 # Nakwave
 
-> Nakwave is an SEO and AI-automation studio founded by SEO expert and AI engineer Farhan Hyder — two crafts with equal weight. Search: classic search engine optimization that ranks brands on Google, plus answer engine optimization (AEO) that makes ChatGPT, Gemini, Perplexity and Claude cite them. Automation: AI chatbots, WhatsApp automation, multi-agent (agentic) workflows and analytics dashboards that run the business processes that follow.
+> Nakwave is an SEO and AI-automation studio founded by SEO expert and AI engineer Farhan Hyder — two crafts with equal weight. Search: search engine optimization that ranks brands on Google, plus answer engine optimization (AEO) that gets them cited by ChatGPT, Gemini, Perplexity and Claude. Automation: AI chatbots, WhatsApp automation, multi-agent (agentic) workflows and analytics dashboards that run the business processes that follow.
 
 Key facts:
-- Services: SEO & website builds (keyword research, technical SEO, on-page optimization), AI Visibility Audits (free), AEO optimization, AI chatbot & WhatsApp Business API automation, agentic workflows (multi-agent AI systems that qualify leads, book calls, update CRMs and report), data analytics & dashboards (powered by our InsightAI engine), monthly citation tracking retainers.
-- Founded and led by Farhan Hyder, SEO expert and AI engineer — builder of InsightAI (automated data analytics platform) and production AI applications.
-- Every engagement ships with before/after AI citation evidence and a live dashboard.
-- Contact: hyderfarhan96@gmail.com or https://nakwave.services/#contact
+- Founded and led by Farhan Hyder, SEO expert and AI engineer. Contact: hyderfarhan96@gmail.com · +91 6361506839.
+- Serves clients in India and worldwide. Languages: English, Hindi, Kannada.
+- Free AI Visibility Audit delivered in 3 business days, no obligation, report yours to keep.
+- Every engagement reports movement from the client's own Search Console and live AI-engine testing.
+- Demonstration builds are labelled as demonstrations; industry statistics are cited as industry statistics.
 
 ## Services
 
-- [Free AI Visibility Audit](https://nakwave.services/audit.html): Send your website and we test your brand across ChatGPT, Gemini, Perplexity and Claude with real customer questions, compare against competitors, scan structured data, and deliver a scored report with a prioritized fix list in 3 business days.
-- [All services](https://nakwave.services/#services): Seven services across two crafts — search (SEO & websites, AI visibility audits, AEO) and automation (chatbots/WhatsApp, agentic workflows, analytics dashboards) — plus a monthly citation retainer connecting both.
+- [All services](https://nakwave.services/services/): Two crafts — search (SEO, AEO, AI visibility audits) and automation (chatbots, agentic workflows, analytics).
+- [Answer Engine Optimization (AEO)](https://nakwave.services/services/answer-engine-optimization.html): Structured data, answer-first rewrites, entity and E-E-A-T signals, AI crawl layer and monthly citation tracking so AI engines extract, trust and cite the brand.
+- [AI Visibility Audit](https://nakwave.services/services/ai-visibility-audit.html): Free scored audit testing a brand across ChatGPT, Gemini, Perplexity and Claude with real customer questions, benchmarked against named competitors.
+- [SEO Services & Website Builds](https://nakwave.services/services/seo-services.html): Technical SEO, site architecture, on-page work and fast static builds engineered for Google and AI engines in one pass.
+- [AI Chatbots & WhatsApp Automation](https://nakwave.services/services/ai-chatbots-whatsapp-automation.html): Bots trained on real catalogue and policy data on the official WhatsApp Business API, with qualification, booking and human handover.
+- [Agentic AI Workflows](https://nakwave.services/services/agentic-workflows.html): Multi-agent systems that qualify leads, book meetings, update CRMs and report, with guardrails and human escalation.
+- [Data Analytics & Dashboards](https://nakwave.services/services/analytics-dashboards.html): Cleaned data, live KPI dashboards, statistical anomaly alerts, forecasting and a computed-answer copilot.
 
 ## Guides
 
 - [What Is AEO? Answer Engine Optimization Explained](https://nakwave.services/blog/what-is-aeo.html): Plain-English explanation of AEO, how it differs from SEO, and the five pillars of citable content.
-- [How to Get Your Business Cited by ChatGPT: 7 Steps](https://nakwave.services/blog/get-cited-by-chatgpt.html): Practical checklist — baseline, schema, answer-first rewrites, FAQs, citable claims, entity building, monthly tracking.
+- [How to Get Your Business Cited by ChatGPT](https://nakwave.services/blog/get-cited-by-chatgpt.html): Practical seven-step checklist — baseline, schema, answer-first rewrites, FAQs, citable claims, entity building, monthly tracking.
 - [llms.txt: What It Is and Should You Have One](https://nakwave.services/blog/llms-txt-guide.html): Honest guide to the llms.txt standard, its adoption status, and why we ship it anyway.
-- [AI Overviews & Zero-Click Search: What the 2026 Data Means](https://nakwave.services/blog/zero-click-search-2026.html): 83% of AI-Overview searches end without a click and 5 of 6 citations come from outside the top 10 — what the data means and how to stay visible.
-- [How to Get Your Local Business Cited by ChatGPT & AI Search in 2026](https://nakwave.services/blog/local-business-ai-search.html): Practical local playbook — LocalBusiness schema, reviews, Google Business Profile, Yelp/Perplexity and entity consistency.
-- [AI Agents Are the New Shoppers: Agentic Search in 2026](https://nakwave.services/blog/ai-agents-agentic-search.html): How autonomous agents (ChatGPT Operator, Project Astra, Perplexity Comet) browse and buy, and how to make your site the option they choose.
+- [AI Overviews & Zero-Click Search: The 2026 Data](https://nakwave.services/blog/zero-click-search-2026.html): 83% of AI-Overview searches end without a click and 5 in 6 citations come from outside the top 10 — what that means and how to respond.
+- [Get Your Local Business Cited by ChatGPT & AI Search](https://nakwave.services/blog/local-business-ai-search.html): Local playbook — LocalBusiness schema, reviews, Google Business Profile, Yelp/Perplexity and entity consistency.
+- [AI Agents Are the New Shoppers](https://nakwave.services/blog/ai-agents-agentic-search.html): How autonomous agents browse and buy, and how to be the option they choose.
+
+## Work & proof
+
+- [Aarohi Silks — an SEO rebuild, measured](https://nakwave.services/work/silk-rebuild.html): A demonstration rebuild taking a storefront from an AI-visibility score of 16 to 91, with all 20 detected bugs and their fixes listed.
+- [InsightAI — a working BI product](https://nakwave.services/work/insightai.html): Live analytics engine with anomaly detection, trend-and-seasonality forecasting, RFM segmentation and a computed-answer copilot.
+- [Meridian — an AI employee for luxury dealerships](https://nakwave.services/work/meridian.html): Interactive concept with real inventory NLU, depreciation-based trade valuation, finance maths and lead scoring. Labelled a concept, not a client deployment.
+- [Sample AI Visibility Audit](https://nakwave.services/audit-sample.html): A real published audit scoring a live site 38/100 with evidence for every finding.
 
 ## Company
 
-- [Work & case studies](https://nakwave.services/#work): InsightAI analytics platform (live hotel BI demo), Meridian Motors AI Showroom OS (interactive dealership concept: live inventory chat, trade valuation, financing pre-qual, test-drive booking), Aarohi Silks SEO rebuild (before/after technical SEO + AEO demonstration, score measured live 16→91), Nakwa app, WhatsApp commerce bots, multi-agent lead pipelines, AEO turnarounds.
-- [Aarohi Silks SEO rebuild case study](https://nakwave.services/work/silk-rebuild.html): A demonstration rebuild of a silk-saree storefront from effectively-invisible to page-one-ready, with a measured 16→91 AI-visibility jump, a cinematic silk hero and every bug-and-fix listed — schema, crawl files, llms.txt, answer-first content.
-- [Process](https://nakwave.services/#process): Audit → Fix → Automate → Compound.
-- [FAQ](https://nakwave.services/#faq): Common questions on AI visibility, AEO vs SEO, chatbots, and timelines.
+- [About Nakwave](https://nakwave.services/about.html): Who we are, how we work, and the proof you can open and interrogate.
+- [Contact](https://nakwave.services/contact.html): Email, WhatsApp, or send a website for the free audit.
+- [Privacy](https://nakwave.services/privacy.html) · [Terms](https://nakwave.services/terms.html)
