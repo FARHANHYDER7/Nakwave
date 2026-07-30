@@ -1,0 +1,7 @@
+# url,Business Name  — edit this list, then: python3 prospect-tool.py --batch prospects.txt
+https://www.reginoldsdental.com/,Reginolds Dental
+https://www.chiseldental.co.in/,Chisel Dental
+https://www.dentaldecare.com/,Dental De Care
+https://beyondsmiles.co.in/,Beyond Smiles Dental
+https://www.dentiszone.com/,Dentis Zone
+https://thedentalvenue.com/,The Dental Venue

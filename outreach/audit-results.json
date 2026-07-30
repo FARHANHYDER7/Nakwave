@@ -1,0 +1,155 @@
+[
+ [
+  "Reginolds Dental",
+  {
+   "url": "https://www.reginoldsdental.com/",
+   "status": 200,
+   "words": 186,
+   "schema": [],
+   "title": "Reginolds Dental Clinic, Koramangala, Bangalore",
+   "title_len": 47,
+   "desc_len": 316,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 13,
+   "imgs_noalt": 9,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "robots_ok": false,
+   "sitemap_ok": true,
+   "llms_ok": false,
+   "viewport": true
+  },
+  17
+ ],
+ [
+  "Chisel Dental",
+  {
+   "url": "https://www.chiseldental.co.in/",
+   "status": 200,
+   "words": 1393,
+   "schema": [],
+   "title": "Chisel Dental Clinic | Dentist | Bangalore | Koramangala | Best | Dental Care",
+   "title_len": 77,
+   "desc_len": 158,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 86,
+   "imgs_noalt": 82,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "robots_ok": true,
+   "sitemap_ok": false,
+   "llms_ok": false,
+   "viewport": true
+  },
+  14
+ ],
+ [
+  "Dental De Care",
+  {
+   "url": "https://www.dentaldecare.com/",
+   "status": 200,
+   "words": 1520,
+   "schema": [],
+   "title": "Invisalign Indiranagar | Clear Aligner Treatment - Dental De Care",
+   "title_len": 65,
+   "desc_len": 154,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 75,
+   "imgs_noalt": 2,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "llms_ok": true,
+   "viewport": true
+  },
+  6
+ ],
+ [
+  "Beyond Smiles Dental",
+  {
+   "url": "https://beyondsmiles.co.in/",
+   "status": 200,
+   "words": 1207,
+   "schema": [
+    "Dentist"
+   ],
+   "title": "Indiranagar - Beyond Smiles Dental Clinic",
+   "title_len": 41,
+   "desc_len": 138,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 32,
+   "imgs_noalt": 32,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "llms_ok": false,
+   "viewport": true
+  },
+  6
+ ],
+ [
+  "Dentis Zone",
+  {
+   "url": "https://www.dentiszone.com/",
+   "status": 200,
+   "words": 1153,
+   "schema": [
+    "Dentist",
+    "MedicalOrganization",
+    "WebSite"
+   ],
+   "title": "Best Dental Clinic in Koramangala | Top Dentists In Koramangala, Bangalore",
+   "title_len": 74,
+   "desc_len": 161,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 64,
+   "imgs_noalt": 31,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "llms_ok": true,
+   "viewport": true
+  },
+  4
+ ],
+ [
+  "The Dental Venue",
+  {
+   "url": "https://thedentalvenue.com/",
+   "status": 200,
+   "words": 1984,
+   "schema": [
+    "Dentist",
+    "FAQPage"
+   ],
+   "title": "Top Dentist in Koramangala | Dental Clinic | The Dental Venue",
+   "title_len": 61,
+   "desc_len": 136,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 15,
+   "imgs_noalt": 14,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": true,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "llms_ok": true,
+   "viewport": true
+  },
+  3
+ ]
+]
