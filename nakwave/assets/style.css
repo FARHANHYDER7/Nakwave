@@ -125,10 +125,13 @@ h1, h2, h3, h4 {
   font-weight: 600; font-size: 1.28rem; letter-spacing: -0.02em;
   display: flex; align-items: center; gap: 10px;
 }
+/* wave mark — naked, no container (brand mark) */
 .logo .logo-mark {
-  width: 32px; height: 32px; border-radius: 9px; background: var(--ink);
-  display: grid; place-items: center; font-size: 0.95rem; color: #fff; font-weight: 600;
+  width: 42px; height: auto; display: block; flex-shrink: 0;
 }
+.logo .logo-mark path { stroke: var(--accent); }
+/* on dark sections the wave keeps its vermilion — it reads on both */
+.section-dark .logo .logo-mark path, .on-dark .logo .logo-mark path { stroke: var(--accent); }
 .nav-links { display: flex; gap: 32px; font-size: 0.95rem; color: var(--ink); font-weight: 500; }
 .nav-links a { position: relative; opacity: 0.65; transition: opacity 0.2s; }
 .nav-links a:hover { opacity: 1; }

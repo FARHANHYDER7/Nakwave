@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Nakwave">
+  <rect width="512" height="512" fill="#0b0b0b"/>
+  <path d="M64 256q64-160 128 0t128 0 128 0" fill="none" stroke="#ff2d00" stroke-width="46" stroke-linecap="round"/>
+</svg>
