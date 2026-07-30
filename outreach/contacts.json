@@ -1,0 +1,61 @@
+{
+ "Reginolds Dental": {
+  "emails": [],
+  "phones": [
+   "+919886067262"
+  ],
+  "site": "https://www.reginoldsdental.com"
+ },
+ "Chisel Dental": {
+  "emails": [
+   "chiseldentalclinics@gmail.com"
+  ],
+  "phones": [
+   "+919986560009"
+  ],
+  "site": "https://www.chiseldental.co.in"
+ },
+ "Dental De Care": {
+  "emails": [
+   "cal-plugin@chatcal-498800.iam.gserviceaccount.com",
+   "chatrack@chatcal-498800.iam.gserviceaccount.com",
+   "dentaldecare4u@gmail.com"
+  ],
+  "phones": [
+   "+917338389911",
+   "08041102331"
+  ],
+  "site": "https://www.dentaldecare.com"
+ },
+ "Beyond Smiles Dental": {
+  "emails": [
+   "abc@gmail.com",
+   "drshobithshetty@gmail.com"
+  ],
+  "phones": [
+   "+919886724383",
+   "917624865553"
+  ],
+  "site": "https://beyondsmiles.co.in"
+ },
+ "Dentis Zone": {
+  "emails": [
+   "dentiszone@gmail.com"
+  ],
+  "phones": [
+   "+919110442603",
+   "08041136602"
+  ],
+  "site": "https://www.dentiszone.com"
+ },
+ "The Dental Venue": {
+  "emails": [
+   "thedentalvenue@gmail.com"
+  ],
+  "phones": [
+   "+91910882029069",
+   "+919108829069"
+  ],
+  "site": "https://thedentalvenue.com"
+ }
+}

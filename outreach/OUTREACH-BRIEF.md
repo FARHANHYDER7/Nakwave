@@ -1,326 +1,409 @@
-# Nakwave — Bangalore prospect brief
+# Nakwave — Bangalore dental prospects
 
-Every finding below was read from the live site. Nothing is estimated.
-Verify any of them yourself before sending — that's the point.
+Six real clinics. Every finding was read off their live website today —
+open any of them and check. Written in plain English, no jargon.
 
-**Before you send anything:** open ChatGPT and ask *"best dental clinic in Koramangala"*.
-Screenshot the answer. If your prospect isn't named, that screenshot is your strongest opener.
+## Contact list
 
----
+| # | Business | Email | Phone | Problems | Worth contacting? |
+|---|---|---|---|---|---|
+| 1 | Reginolds Dental | _use contact form_ | +919886067262 | 20 | **Best target.** Worst site, running since 1998 — real business, invisible online. |
+| 2 | Chisel Dental | chiseldentalclinics@gmail.com | +919986560009 | 16 | **Strong target.** Big site, no foundations at all. |
+| 3 | Dental De Care | dentaldecare4u@gmail.com | +917338389911 | 8 | Good content, zero setup. Easy win. |
+| 4 | Beyond Smiles Dental | drshobithshetty@gmail.com | +919886724383 | 7 | Half-done. Also has a fake `abc@gmail.com` live on their site. |
+| 5 | Dentis Zone | dentiszone@gmail.com | +919110442603 | 6 | Mostly fine. Low priority. |
+| 6 | The Dental Venue | thedentalvenue@gmail.com | +91910882029069 | 5 | **Skip.** They've already done it properly. |
 
-## Priority order
-
-| # | Business | Pain | Why they're worth contacting |
-|---|---|---|---|
-| 1 | Reginolds Dental | 17 | Worst site of the six and running since 1998 — established business, invisible online. Best first call. |
-| 2 | Chisel Dental | 14 | Zero schema, no sitemap, no H1, and 82 of 86 images unlabelled. Big site, no foundation. |
-| 3 | Dental De Care | 6 | 1,520 words of good content with zero schema — everything to gain, nothing to rebuild. |
-| 4 | Beyond Smiles Dental | 6 | Has Dentist schema but no H1 and every single image unlabelled. Half-done job. |
-| 5 | Dentis Zone | 4 | Reasonably set up. Lower priority — lead with the title/alt issues only. |
-| 6 | The Dental Venue | 3 | Already doing it properly (Dentist + FAQ schema). Skip, or approach as a peer. |
+> Reginolds and Dental De Care don't publish an email — use their website contact form,
+> or WhatsApp the number. In India WhatsApp often gets a faster reply than email anyway.
 
 ---
 
 
 ## 1. Reginolds Dental
 
-**Site:** https://www.reginoldsdental.com/  
-**Homepage:** 186 words  
-**Schema found:** **none at all**  
-**Pain score:** 17
+**Website:** https://www.reginoldsdental.com/  
+**Email:** _not published — use their contact form_  
+**Phone / WhatsApp:** +919886067262  
+**Homepage:** 186 words · loaded in 1.5s  
+**Google can identify the business type:** **No**
 
-**Verified findings:**
+**What's wrong (plain English):**
 
-- `CRITICAL` no structured data (schema) anywhere on the site — AI engines have nothing to confirm who you are or what you do
-- `HIGH` robots.txt is missing or returns an error page instead of crawler instructions
-- `HIGH` only about 186 words on the homepage — too thin for an AI engine to quote
-- `MEDIUM` no H1 heading at all — the single strongest on-page topic signal is missing
-- `LOW` meta description is 316 characters, so it gets cut off in results (~160 max)
-- `MEDIUM` 9 of 13 images have no alt text — invisible to search and to screen readers
-- `LOW` no FAQ schema — the questions your customers ask AI aren't marked up as answers
-- `LOW` no llms.txt — nothing tells ChatGPT/Perplexity how to summarise your business
+- **[BIG]** Your website never actually tells Google what kind of business you are.  
+  To Google it's just a page of words — not "a dental clinic in Koramangala". That's why competitors show up with star ratings and opening hours in search and you don't.
+- **[BIG]** The file that tells Google how to read your site is missing or broken.  
+  Google is guessing its way around your site instead of being guided.
+- **[BIG]** Your homepage has only about 186 words on it.  
+  Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for.
+- **[MEDIUM]** Your page has no main headline.  
+  The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess.
+- **[SMALL]** Your Google summary is 316 characters, so it gets cut off mid-sentence.  
+  People decide whether to click from that line. Yours ends in "...".
+- **[MEDIUM]** 9 of your 13 photos have no description attached.  
+  Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
+- **[MEDIUM]** Your reviews aren't set up to show as stars in Google results.  
+  Star ratings in search are one of the biggest things that make people click you over the next listing.
+- **[SMALL]** Common customer questions aren't marked up as questions and answers.  
+  Those are exactly what Google and ChatGPT pull answers from.
 
-**Draft email:**
+**Email to send:**
 
 ```
-Subject: Reginolds Dental — no structured data (schema) anywhere on the site
+Subject: Reginolds Dental — a few things stopping Google finding you
 
 Hi Reginolds Dental team,
 
-I ran a quick technical check on https://www.reginoldsdental.com/ this morning — I do this for a
-living and yours came up while I was looking at dental clinics in Bangalore.
+I had a look at your website this morning. I fix this stuff for a living, and
+yours came up while I was going through dental clinics in Koramangala.
 
-Three things stood out:
+I found a few things that are quietly costing you customers. In plain English:
 
-• no structured data (schema) anywhere on the site — AI engines have nothing to confirm who you are or what you do
-• robots.txt is missing or returns an error page instead of crawler instructions
-• only about 186 words on the homepage — too thin for an AI engine to quote
+1. Your website never actually tells Google what kind of business you are.
+   → To Google it's just a page of words — not "a dental clinic in Koramangala". That's why competitors show up with star ratings and opening hours in search and you don't.
 
-None of this is about how the site looks — it looks fine. It's about whether
-Google and AI assistants like ChatGPT can actually read and recommend you.
-Right now they're working with very little.
+2. The file that tells Google how to read your site is missing or broken.
+   → Google is guessing its way around your site instead of being guided.
 
-I've written the full breakdown (every issue, ranked, with the fix for each).
-Happy to send it over — free, no strings, and it's yours whether or not we
-ever work together.
+3. Your homepage has only about 186 words on it.
+   → Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for.
 
-Want it?
+None of this is about how the site looks — it looks good. It's about what
+Google and ChatGPT can actually read when someone searches "dental clinic in Koramangala".
+Right now they're working with very little, so they recommend whoever they
+can read instead.
+
+Try it yourself: search "dental clinic in Koramangala" and see who comes up before you.
+
+I've written the full list — everything I found, what it's costing you, and
+how to fix each one. Happy to send it over free, no strings. It's yours to
+use whether you hire me or not.
+
+Want me to send it?
 
 Farhan Hyder
-Nakwave — SEO & AI visibility
+Nakwave — I make businesses easy to find on Google and AI
 https://nakwave.services
 +91 63615 06839
 ```
 
 ## 2. Chisel Dental
 
-**Site:** https://www.chiseldental.co.in/  
-**Homepage:** 1393 words  
-**Schema found:** **none at all**  
-**Pain score:** 14
+**Website:** https://www.chiseldental.co.in/  
+**Email:** chiseldentalclinics@gmail.com  
+**Phone / WhatsApp:** +919986560009  
+**Homepage:** 1393 words · loaded in 0.8s  
+**Google can identify the business type:** **No**
 
-**Verified findings:**
+**What's wrong (plain English):**
 
-- `CRITICAL` no structured data (schema) anywhere on the site — AI engines have nothing to confirm who you are or what you do
-- `HIGH` no XML sitemap — new pages can go undiscovered for weeks
-- `MEDIUM` no H1 heading at all — the single strongest on-page topic signal is missing
-- `LOW` page title is 77 characters — truncated in search results (~60 max)
-- `MEDIUM` 82 of 86 images have no alt text — invisible to search and to screen readers
-- `LOW` no FAQ schema — the questions your customers ask AI aren't marked up as answers
-- `LOW` no llms.txt — nothing tells ChatGPT/Perplexity how to summarise your business
+- **[BIG]** Your website never actually tells Google what kind of business you are.  
+  To Google it's just a page of words — not "a dental clinic in Koramangala". That's why competitors show up with star ratings and opening hours in search and you don't.
+- **[BIG]** There's no list of your pages for Google to follow.  
+  When you add a new page or service, it can take weeks to appear in search — or never.
+- **[MEDIUM]** Your page has no main headline.  
+  The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess.
+- **[SMALL]** Your page title is 77 characters — too long for Google to show fully.  
+  The end gets chopped off in the results.
+- **[MEDIUM]** 82 of your 86 photos have no description attached.  
+  Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
+- **[MEDIUM]** Your reviews aren't set up to show as stars in Google results.  
+  Star ratings in search are one of the biggest things that make people click you over the next listing.
+- **[SMALL]** Common customer questions aren't marked up as questions and answers.  
+  Those are exactly what Google and ChatGPT pull answers from.
 
-**Draft email:**
+**Email to send:**
 
 ```
-Subject: Chisel Dental — no structured data (schema) anywhere on the site
+Subject: Chisel Dental — a few things stopping Google finding you
 
 Hi Chisel Dental team,
 
-I ran a quick technical check on https://www.chiseldental.co.in/ this morning — I do this for a
-living and yours came up while I was looking at dental clinics in Bangalore.
+I had a look at your website this morning. I fix this stuff for a living, and
+yours came up while I was going through dental clinics in Koramangala.
 
-Three things stood out:
+I found a few things that are quietly costing you customers. In plain English:
 
-• no structured data (schema) anywhere on the site — AI engines have nothing to confirm who you are or what you do
-• no XML sitemap — new pages can go undiscovered for weeks
+1. Your website never actually tells Google what kind of business you are.
+   → To Google it's just a page of words — not "a dental clinic in Koramangala". That's why competitors show up with star ratings and opening hours in search and you don't.
 
-None of this is about how the site looks — it looks fine. It's about whether
-Google and AI assistants like ChatGPT can actually read and recommend you.
-Right now they're working with very little.
+2. There's no list of your pages for Google to follow.
+   → When you add a new page or service, it can take weeks to appear in search — or never.
 
-I've written the full breakdown (every issue, ranked, with the fix for each).
-Happy to send it over — free, no strings, and it's yours whether or not we
-ever work together.
+None of this is about how the site looks — it looks good. It's about what
+Google and ChatGPT can actually read when someone searches "dental clinic in Koramangala".
+Right now they're working with very little, so they recommend whoever they
+can read instead.
 
-Want it?
+Try it yourself: search "dental clinic in Koramangala" and see who comes up before you.
+
+I've written the full list — everything I found, what it's costing you, and
+how to fix each one. Happy to send it over free, no strings. It's yours to
+use whether you hire me or not.
+
+Want me to send it?
 
 Farhan Hyder
-Nakwave — SEO & AI visibility
+Nakwave — I make businesses easy to find on Google and AI
 https://nakwave.services
 +91 63615 06839
 ```
 
 ## 3. Dental De Care
 
-**Site:** https://www.dentaldecare.com/  
-**Homepage:** 1520 words  
-**Schema found:** **none at all**  
-**Pain score:** 6
+**Website:** https://www.dentaldecare.com/  
+**Email:** dentaldecare4u@gmail.com  
+**Phone / WhatsApp:** +917338389911, 08041102331  
+**Homepage:** 1520 words · loaded in 1.2s  
+**Google can identify the business type:** **No**
 
-**Verified findings:**
+**What's wrong (plain English):**
 
-- `CRITICAL` no structured data (schema) anywhere on the site — AI engines have nothing to confirm who you are or what you do
-- `LOW` page title is 65 characters — truncated in search results (~60 max)
-- `LOW` no FAQ schema — the questions your customers ask AI aren't marked up as answers
+- **[BIG]** Your website never actually tells Google what kind of business you are.  
+  To Google it's just a page of words — not "a dental clinic in Indiranagar". That's why competitors show up with star ratings and opening hours in search and you don't.
+- **[SMALL]** Your page title is 65 characters — too long for Google to show fully.  
+  The end gets chopped off in the results.
+- **[MEDIUM]** Your reviews aren't set up to show as stars in Google results.  
+  Star ratings in search are one of the biggest things that make people click you over the next listing.
+- **[SMALL]** Common customer questions aren't marked up as questions and answers.  
+  Those are exactly what Google and ChatGPT pull answers from.
 
-**Draft email:**
+**Email to send:**
 
 ```
-Subject: Dental De Care — no structured data (schema) anywhere on the site
+Subject: Dental De Care — a few things stopping Google finding you
 
 Hi Dental De Care team,
 
-I ran a quick technical check on https://www.dentaldecare.com/ this morning — I do this for a
-living and yours came up while I was looking at dental clinics in Bangalore.
+I had a look at your website this morning. I fix this stuff for a living, and
+yours came up while I was going through dental clinics in Indiranagar.
 
-Three things stood out:
+I found a few things that are quietly costing you customers. In plain English:
 
-• no structured data (schema) anywhere on the site — AI engines have nothing to confirm who you are or what you do
+1. Your website never actually tells Google what kind of business you are.
+   → To Google it's just a page of words — not "a dental clinic in Indiranagar". That's why competitors show up with star ratings and opening hours in search and you don't.
 
-None of this is about how the site looks — it looks fine. It's about whether
-Google and AI assistants like ChatGPT can actually read and recommend you.
-Right now they're working with very little.
+None of this is about how the site looks — it looks good. It's about what
+Google and ChatGPT can actually read when someone searches "dental clinic in Indiranagar".
+Right now they're working with very little, so they recommend whoever they
+can read instead.
 
-I've written the full breakdown (every issue, ranked, with the fix for each).
-Happy to send it over — free, no strings, and it's yours whether or not we
-ever work together.
+Try it yourself: search "dental clinic in Indiranagar" and see who comes up before you.
 
-Want it?
+I've written the full list — everything I found, what it's costing you, and
+how to fix each one. Happy to send it over free, no strings. It's yours to
+use whether you hire me or not.
+
+Want me to send it?
 
 Farhan Hyder
-Nakwave — SEO & AI visibility
+Nakwave — I make businesses easy to find on Google and AI
 https://nakwave.services
 +91 63615 06839
 ```
 
 ## 4. Beyond Smiles Dental
 
-**Site:** https://beyondsmiles.co.in/  
-**Homepage:** 1207 words  
-**Schema found:** Dentist  
-**Pain score:** 6
+**Website:** https://beyondsmiles.co.in/  
+**Email:** drshobithshetty@gmail.com  
+**Phone / WhatsApp:** +919886724383, 917624865553  
+**Homepage:** 1207 words · loaded in 2.6s  
+**Google can identify the business type:** Yes
 
-**Verified findings:**
+**What's wrong (plain English):**
 
-- `MEDIUM` no H1 heading at all — the single strongest on-page topic signal is missing
-- `MEDIUM` 32 of 32 images have no alt text — invisible to search and to screen readers
-- `LOW` no FAQ schema — the questions your customers ask AI aren't marked up as answers
-- `LOW` no llms.txt — nothing tells ChatGPT/Perplexity how to summarise your business
+- **[MEDIUM]** Your page has no main headline.  
+  The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess.
+- **[MEDIUM]** 32 of your 32 photos have no description attached.  
+  Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
+- **[MEDIUM]** Your reviews aren't set up to show as stars in Google results.  
+  Star ratings in search are one of the biggest things that make people click you over the next listing.
+- **[SMALL]** Common customer questions aren't marked up as questions and answers.  
+  Those are exactly what Google and ChatGPT pull answers from.
 
-**Draft email:**
+**Email to send:**
 
 ```
-Subject: Beyond Smiles Dental — no H1 heading at all
+Subject: Beyond Smiles Dental — a few things stopping Google finding you
 
 Hi Beyond Smiles Dental team,
 
-I ran a quick technical check on https://beyondsmiles.co.in/ this morning — I do this for a
-living and yours came up while I was looking at dental clinics in Bangalore.
+I had a look at your website this morning. I fix this stuff for a living, and
+yours came up while I was going through dental clinics in Indiranagar.
 
-Three things stood out:
+I found a few things that are quietly costing you customers. In plain English:
 
-• no H1 heading at all — the single strongest on-page topic signal is missing
-• 32 of 32 images have no alt text — invisible to search and to screen readers
-• no FAQ schema — the questions your customers ask AI aren't marked up as answers
+1. Your page has no main headline.
+   → The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess.
 
-None of this is about how the site looks — it looks fine. It's about whether
-Google and AI assistants like ChatGPT can actually read and recommend you.
-Right now they're working with very little.
+2. 32 of your 32 photos have no description attached.
+   → Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
 
-I've written the full breakdown (every issue, ranked, with the fix for each).
-Happy to send it over — free, no strings, and it's yours whether or not we
-ever work together.
+3. Your reviews aren't set up to show as stars in Google results.
+   → Star ratings in search are one of the biggest things that make people click you over the next listing.
 
-Want it?
+None of this is about how the site looks — it looks good. It's about what
+Google and ChatGPT can actually read when someone searches "dental clinic in Indiranagar".
+Right now they're working with very little, so they recommend whoever they
+can read instead.
+
+Try it yourself: search "dental clinic in Indiranagar" and see who comes up before you.
+
+I've written the full list — everything I found, what it's costing you, and
+how to fix each one. Happy to send it over free, no strings. It's yours to
+use whether you hire me or not.
+
+Want me to send it?
 
 Farhan Hyder
-Nakwave — SEO & AI visibility
+Nakwave — I make businesses easy to find on Google and AI
 https://nakwave.services
 +91 63615 06839
 ```
 
 ## 5. Dentis Zone
 
-**Site:** https://www.dentiszone.com/  
-**Homepage:** 1153 words  
-**Schema found:** Dentist, MedicalOrganization, WebSite  
-**Pain score:** 4
+**Website:** https://www.dentiszone.com/  
+**Email:** dentiszone@gmail.com  
+**Phone / WhatsApp:** +919110442603, 08041136602  
+**Homepage:** 1153 words · loaded in 1.1s  
+**Google can identify the business type:** Yes
 
-**Verified findings:**
+**What's wrong (plain English):**
 
-- `LOW` page title is 74 characters — truncated in search results (~60 max)
-- `MEDIUM` 31 of 64 images have no alt text — invisible to search and to screen readers
-- `LOW` no FAQ schema — the questions your customers ask AI aren't marked up as answers
+- **[SMALL]** Your page title is 74 characters — too long for Google to show fully.  
+  The end gets chopped off in the results.
+- **[MEDIUM]** 31 of your 64 photos have no description attached.  
+  Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
+- **[MEDIUM]** Your reviews aren't set up to show as stars in Google results.  
+  Star ratings in search are one of the biggest things that make people click you over the next listing.
+- **[SMALL]** Common customer questions aren't marked up as questions and answers.  
+  Those are exactly what Google and ChatGPT pull answers from.
 
-**Draft email:**
+**Email to send:**
 
 ```
-Subject: Dentis Zone — page title is 74 characters
+Subject: Dentis Zone — a few things stopping Google finding you
 
 Hi Dentis Zone team,
 
-I ran a quick technical check on https://www.dentiszone.com/ this morning — I do this for a
-living and yours came up while I was looking at dental clinics in Bangalore.
+I had a look at your website this morning. I fix this stuff for a living, and
+yours came up while I was going through dental clinics in Koramangala.
 
-Three things stood out:
+I found a few things that are quietly costing you customers. In plain English:
 
-• page title is 74 characters — truncated in search results (~60 max)
-• 31 of 64 images have no alt text — invisible to search and to screen readers
-• no FAQ schema — the questions your customers ask AI aren't marked up as answers
+1. Your page title is 74 characters — too long for Google to show fully.
+   → The end gets chopped off in the results.
 
-None of this is about how the site looks — it looks fine. It's about whether
-Google and AI assistants like ChatGPT can actually read and recommend you.
-Right now they're working with very little.
+2. 31 of your 64 photos have no description attached.
+   → Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
 
-I've written the full breakdown (every issue, ranked, with the fix for each).
-Happy to send it over — free, no strings, and it's yours whether or not we
-ever work together.
+3. Your reviews aren't set up to show as stars in Google results.
+   → Star ratings in search are one of the biggest things that make people click you over the next listing.
 
-Want it?
+None of this is about how the site looks — it looks good. It's about what
+Google and ChatGPT can actually read when someone searches "dental clinic in Koramangala".
+Right now they're working with very little, so they recommend whoever they
+can read instead.
+
+Try it yourself: search "dental clinic in Koramangala" and see who comes up before you.
+
+I've written the full list — everything I found, what it's costing you, and
+how to fix each one. Happy to send it over free, no strings. It's yours to
+use whether you hire me or not.
+
+Want me to send it?
 
 Farhan Hyder
-Nakwave — SEO & AI visibility
+Nakwave — I make businesses easy to find on Google and AI
 https://nakwave.services
 +91 63615 06839
 ```
 
 ## 6. The Dental Venue
 
-**Site:** https://thedentalvenue.com/  
-**Homepage:** 1984 words  
-**Schema found:** Dentist, FAQPage  
-**Pain score:** 3
+**Website:** https://thedentalvenue.com/  
+**Email:** thedentalvenue@gmail.com  
+**Phone / WhatsApp:** +91910882029069, +919108829069  
+**Homepage:** 1984 words · loaded in 1.1s  
+**Google can identify the business type:** Yes
 
-**Verified findings:**
+**What's wrong (plain English):**
 
-- `LOW` page title is 61 characters — truncated in search results (~60 max)
-- `MEDIUM` 14 of 15 images have no alt text — invisible to search and to screen readers
+- **[SMALL]** Your page title is 61 characters — too long for Google to show fully.  
+  The end gets chopped off in the results.
+- **[MEDIUM]** 14 of your 15 photos have no description attached.  
+  Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
+- **[MEDIUM]** Your reviews aren't set up to show as stars in Google results.  
+  Star ratings in search are one of the biggest things that make people click you over the next listing.
 
-**Draft email:**
+**Email to send:**
 
 ```
-Subject: The Dental Venue — page title is 61 characters
+Subject: The Dental Venue — a few things stopping Google finding you
 
 Hi The Dental Venue team,
 
-I ran a quick technical check on https://thedentalvenue.com/ this morning — I do this for a
-living and yours came up while I was looking at dental clinics in Bangalore.
+I had a look at your website this morning. I fix this stuff for a living, and
+yours came up while I was going through dental clinics in Koramangala.
 
-Three things stood out:
+I found a few things that are quietly costing you customers. In plain English:
 
-• page title is 61 characters — truncated in search results (~60 max)
-• 14 of 15 images have no alt text — invisible to search and to screen readers
+1. Your page title is 61 characters — too long for Google to show fully.
+   → The end gets chopped off in the results.
 
-None of this is about how the site looks — it looks fine. It's about whether
-Google and AI assistants like ChatGPT can actually read and recommend you.
-Right now they're working with very little.
+2. 14 of your 15 photos have no description attached.
+   → Google can't actually see pictures — it reads the description. Yours are invisible to it, and to Google Images.
 
-I've written the full breakdown (every issue, ranked, with the fix for each).
-Happy to send it over — free, no strings, and it's yours whether or not we
-ever work together.
+3. Your reviews aren't set up to show as stars in Google results.
+   → Star ratings in search are one of the biggest things that make people click you over the next listing.
 
-Want it?
+None of this is about how the site looks — it looks good. It's about what
+Google and ChatGPT can actually read when someone searches "dental clinic in Koramangala".
+Right now they're working with very little, so they recommend whoever they
+can read instead.
+
+Try it yourself: search "dental clinic in Koramangala" and see who comes up before you.
+
+I've written the full list — everything I found, what it's costing you, and
+how to fix each one. Happy to send it over free, no strings. It's yours to
+use whether you hire me or not.
+
+Want me to send it?
 
 Farhan Hyder
-Nakwave — SEO & AI visibility
+Nakwave — I make businesses easy to find on Google and AI
 https://nakwave.services
 +91 63615 06839
 ```
 
 ---
 
-## How to use this
+## How to send these
 
-1. **Verify before sending.** Open each site, confirm the finding is still true. Sites change.
-2. **Personalise the first line.** One specific human detail ("saw you've been in Koramangala since 1998") beats any template.
-3. **Send Tue–Thu, 10–11am or 4–5pm IST.** Avoid Monday mornings and Friday afternoons.
-4. **Follow up once**, 4 days later, one line: *"Did the audit reach you? Happy to send it again."* Never more than twice.
-5. **When they reply, deliver the audit — don't pitch.** The report does the selling. Then one question: *"Want me to fix these, or would you rather hand it to your developer?"*
+1. **Check the finding first.** Open their site, confirm it's still true. If they fixed it, don't send.
 
-## Generating more prospects
+2. **Do the search yourself.** Google *"dental clinic in Koramangala"*, then ask ChatGPT the same.
+   Screenshot both. If they're missing, attach it — that one image does more than the whole email.
+
+3. **Change the first line.** Add one human detail: *"saw you've been in Koramangala since 1998"*.
+   Templates get deleted. One specific line stops that.
+
+4. **Send Tue–Thu, 10–11am or 4–5pm IST.** Not Monday morning, not Friday evening.
+
+5. **Follow up once**, four days later, one line: *"Did this reach you? Happy to resend."* Then stop.
+
+6. **When they reply — send the audit. Don't pitch.** Then ask one question:
+   *"Want me to fix these, or would you rather your developer did?"*
+
+## Getting more prospects
 
 ```bash
-# single business
-python3 prospect-tool.py https://example.com "Business Name"
-
-# whole list — add lines to prospects.txt as: url,Business Name
+python3 prospect-tool.py https://site.com "Name" "restaurant" "Indiranagar"
 python3 prospect-tool.py --batch prospects.txt
 ```
 
-Find prospects on Google Maps: search *"dentist Koramangala"*, open each listing, grab the website.
-Prioritise businesses with **good reviews but a weak site** — they have money and a real problem.
-
-**Note:** some sites (Shopify, Cloudflare-protected) block automated fetching and will show as unreachable.
-Check those by hand in the browser — right-click → View Page Source, search for `application/ld+json`.
-If it's not there, they have no schema.
+Add lines to `prospects.txt` as `url,Name,category,area`. Find them on Google Maps —
+search *"dentist Koramangala"*, open each listing, copy the website.
+**Best targets: good reviews but a weak website.** They have money and a real problem.
 
