@@ -54,6 +54,23 @@ def clean_phones(raw):
     return out[:3]
 
 
+def has_mx(domain):
+    """A published address on a domain with no MX bounces. SPARC Physio's site
+    publishes info@sparcphysio.com while the site itself is sparcphysio.com.in —
+    that domain does not resolve, and the email hard-bounced. Check before use;
+    bounces cost sender reputation."""
+    import subprocess
+    try:
+        for rr in ("MX", "A"):
+            out = subprocess.run(["dig", "+short", rr, domain],
+                                 capture_output=True, text=True, timeout=15).stdout.strip()
+            if rr == "MX" and out:
+                return True
+        return False
+    except Exception:
+        return False
+
+
 def contacts(url):
     root = "/".join(url.split("/")[:3])
     emails, phones, pages = [], [], 0
@@ -68,7 +85,8 @@ def contacts(url):
         phones += PHONE_RE.findall(re.sub(r'<[^>]+>', ' ', html))
         if clean_emails(emails):
             break                                  # found one, stop crawling
-    return clean_emails(emails)[:3], clean_phones(phones), pages
+    ok = [e for e in clean_emails(emails) if has_mx(e.split('@')[1])]
+    return ok[:3], clean_phones(phones), pages
 
 
 def score(a, f, emails):
