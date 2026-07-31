@@ -1,0 +1,1585 @@
+[
+ {
+  "name": "Ezhimala Ayurveda Wellness",
+  "url": "https://ezhimalaayurvedawellness.com/",
+  "cat": "ayurveda retreat",
+  "area": "Kannur",
+  "ok": true,
+  "audit": {
+   "url": "https://ezhimalaayurvedawellness.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 100,
+   "words": 1229,
+   "schema": [],
+   "title": "Best Ayurveda Wellness Resorts in Kannur | Ayurveda Retreats Kerala",
+   "title_len": 67,
+   "desc": "Experience healing and rejuvenation at one of the best Ayurveda wellness resorts in Kerala. Book now for an unforgettable Ayurveda retreats in Kerala.",
+   "desc_len": 150,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 25,
+   "imgs_noalt": 9,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a ayurveda retreat in Kannur\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "SMALL",
+    "Your page title is 67 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "9 of your 25 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@ezhimalaayurvedawellness.com"
+  ],
+  "phones": [
+   "7594997775",
+   "7594997774"
+  ],
+  "pages_crawled": 1,
+  "big": 3,
+  "total": 7,
+  "score": 75
+ },
+ {
+  "name": "Jeevess Ayurveda",
+  "url": "https://www.jeevess.in/",
+  "cat": "ayurveda retreat",
+  "area": "Wayanad",
+  "ok": true,
+  "audit": {
+   "url": "https://www.jeevess.in/",
+   "status": 200,
+   "secs": 0.4,
+   "kb": 82,
+   "words": 1451,
+   "schema": [
+    "HealthAndBeautyBusiness",
+    "LodgingBusiness",
+    "Resort"
+   ],
+   "title": "Best 5 Star Luxury Ayurveda Resort in Wayanad, Kerala | Wayanad Top Resorts & Hotels in India",
+   "title_len": 93,
+   "desc": "Jeevess \u2014 the best Ayurveda resort in Kerala, Wayanad. \r\n    Experience authentic Panchakarma, Kalari Marma, Naturopathy & Ozone Therapy on 30 acres of medicinal flora in the Western Ghats. \r\n    Heal deeply. Book your retreat.",
+   "desc_len": 227,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 138,
+   "imgs_noalt": 133,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 227 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 93 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "133 of your 138 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@jeevess.in"
+  ],
+  "phones": [
+   "9288004403",
+   "9288004402"
+  ],
+  "pages_crawled": 1,
+  "big": 2,
+  "total": 8,
+  "score": 70
+ },
+ {
+  "name": "Dr Rajendra Cosmetic Surgery",
+  "url": "https://www.drrajendra.com/",
+  "cat": "cosmetic surgery clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.drrajendra.com/",
+   "status": 200,
+   "secs": 3.3,
+   "kb": 996,
+   "words": 1958,
+   "schema": [],
+   "title": "Best Plastic Surgeon in Bangalore | Expert Cosmetic Surgeon",
+   "title_len": 59,
+   "desc": "Achieve your aesthetic goals with the top plastic surgeon in Bangalore -Dr. Rajendra. Safe, effective, personalized treatments for natural-looking results.",
+   "desc_len": 155,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 31,
+   "imgs_noalt": 28,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a cosmetic surgery clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "28 of your 31 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ],
+   [
+    "MEDIUM",
+    "Your homepage took 3.3 seconds to load for me (996KB).",
+    "Speed is a ranking factor, and most people leave before a slow page finishes loading."
+   ]
+  ],
+  "emails": [
+   "contact@drrajendra.com"
+  ],
+  "phones": [
+   "8571428571"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 6,
+  "score": 62
+ },
+ {
+  "name": "Pink Apple Aesthetics",
+  "url": "https://pinkappleaesthetics.com/",
+  "cat": "cosmetic surgery clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://pinkappleaesthetics.com/",
+   "status": 200,
+   "secs": 0.9,
+   "kb": 335,
+   "words": 1927,
+   "schema": [],
+   "title": "Plastic &amp; Cosmetic Surgery Clinic in Bangalore | Dr. Pinky Devi Ayyappan - Pink Apple Aesthetics",
+   "title_len": 100,
+   "desc": "Board- Certified Surgeon Dr. Pinky Devi Ayyappan offers 40 + Cosmetic &amp; Plastic Procedures in Bangalore. Safe, natural-looking results. Book a Consultation",
+   "desc_len": 159,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 32,
+   "imgs_noalt": 1,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a cosmetic surgery clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "SMALL",
+    "Your page title is 100 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@pinkappleaesthetics.com"
+  ],
+  "phones": [
+   "6372172381"
+  ],
+  "pages_crawled": 1,
+  "big": 2,
+  "total": 5,
+  "score": 59
+ },
+ {
+  "name": "Alorence Immigration",
+  "url": "https://alorenceimmigration.com/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://alorenceimmigration.com/",
+   "status": 200,
+   "secs": 1.6,
+   "kb": 228,
+   "words": 1378,
+   "schema": [],
+   "title": "Canada immigration services, Australia immigration consultants, PR visa Canada, Australian PR process, skilled migration, Canada visa assistance, Australia permanent residency, immigration consultancy, migrate to Canada, migrate to Australia - Alorence Immigration Pvt Ltd",
+   "title_len": 272,
+   "desc": "Looking to Canada immigration services or Australia immigration consultants? Our expert visa consultants provide reliable immigration services, PR guidance, and application support to help you settle abroad successfully.",
+   "desc_len": 220,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 32,
+   "imgs_noalt": 31,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a immigration consultancy in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 220 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 272 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "31 of your 32 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@alorenceimmigration.com",
+   "info@alorenceimmigration.com%20"
+  ],
+  "phones": [
+   "7507779235"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 7,
+  "score": 59
+ },
+ {
+  "name": "Mekosha Ayurveda",
+  "url": "https://mekosha.com/",
+  "cat": "ayurveda retreat",
+  "area": "Kerala",
+  "ok": true,
+  "audit": {
+   "url": "https://mekosha.com/",
+   "status": 200,
+   "secs": 1.1,
+   "kb": 154,
+   "words": 2096,
+   "schema": [],
+   "title": "Top Ayurvedic Retreat in Kerala, Ayurvedic Resorts in india | Mekosha Ayurveda",
+   "title_len": 78,
+   "desc": "Experience holistic healing at Mekosha, a top Ayurvedic retreat in Kerala and one of the best Ayurvedic resorts in India, blending tradition, nature, and luxury. Book now.",
+   "desc_len": 171,
+   "has_desc": true,
+   "h1_count": 5,
+   "imgs": 48,
+   "imgs_noalt": 47,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a ayurveda retreat in Kerala\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 5 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 171 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 78 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "47 of your 48 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@mekosha.com"
+  ],
+  "phones": [
+   "9746381729",
+   "9999999999",
+   "8789799401"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 7,
+  "score": 59
+ },
+ {
+  "name": "Immigration Xperts",
+  "url": "https://www.immigrationxperts.com/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.immigrationxperts.com/",
+   "status": 200,
+   "secs": 1.3,
+   "kb": 223,
+   "words": 4618,
+   "schema": [
+    "Product"
+   ],
+   "title": "No #1 Immigration &amp; Visa Consultants for Australia 2026 - Immigration Experts",
+   "title_len": 81,
+   "desc": "Immigration Experts is the #1 immigration consultant offering visa services, study visas, and Australia immigration with seamless processes and expert guidance.",
+   "desc_len": 160,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 200,
+   "imgs_noalt": 119,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your page title is 81 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "119 of your 200 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@immigrationxperts.com",
+   "delhi@immigrationxperts.com",
+   "lucknow@immigrationxperts.in"
+  ],
+  "phones": [
+   "6830467928",
+   "8447696555",
+   "7718882427"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 6,
+  "score": 58
+ },
+ {
+  "name": "Studio Oura",
+  "url": "https://studiooura.in/",
+  "cat": "pilates and yoga studio",
+  "area": "Indiranagar",
+  "ok": true,
+  "audit": {
+   "url": "https://studiooura.in/",
+   "status": 200,
+   "secs": 1.0,
+   "kb": 206,
+   "words": 989,
+   "schema": [],
+   "title": "Studio Oura - Pilates &amp; Yoga Studio in Indiranagar, Bangalore",
+   "title_len": 65,
+   "desc": "Studio Oura is a boutique Pilates &amp; Yoga studio in Indiranagar, Bangalore offering Mat Pilates, Yoga, Nutrition and Infrared light therapy.",
+   "desc_len": 143,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 5,
+   "imgs_noalt": 2,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a pilates and yoga studio in Indiranagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your page title is 65 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "2 of your 5 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "hello@studiooura.in"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 6,
+  "score": 58
+ },
+ {
+  "name": "DM Consultants",
+  "url": "https://dm-consultant.in/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://dm-consultant.in/",
+   "status": 200,
+   "secs": 3.0,
+   "kb": 371,
+   "words": 3378,
+   "schema": [
+    "FAQPage"
+   ],
+   "title": "Visa &amp; Immigration Experts | Canada, Europe, US &amp; More",
+   "title_len": 62,
+   "desc": "Find the best-fit immigration solution from India. Contact our DM team in India and know your eligibility for various immigration programs.",
+   "desc_len": 139,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 37,
+   "imgs_noalt": 29,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your page title is 62 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "29 of your 37 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "info.bglr@dm-consultant.com",
+   "info@dm-consultant.com"
+  ],
+  "phones": [
+   "8904074400",
+   "8043791667",
+   "9819227737"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 57
+ },
+ {
+  "name": "Holistic Eco-Resort",
+  "url": "https://www.holisticecoresort.com/",
+  "cat": "ayurveda retreat",
+  "area": "Kerala",
+  "ok": true,
+  "audit": {
+   "url": "https://www.holisticecoresort.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 81,
+   "words": 1380,
+   "schema": [
+    "Hotel"
+   ],
+   "title": "Holistic Eco-Resort | Kerala Ayurveda Retreat",
+   "title_len": 45,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 6,
+   "imgs": 27,
+   "imgs_noalt": 1,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 6 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "booking@holisticstay.in"
+  ],
+  "phones": [
+   "9560422973"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 57
+ },
+ {
+  "name": "GreenTree Immigration",
+  "url": "https://www.greentreeimmigration.com/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.greentreeimmigration.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 188,
+   "words": 3111,
+   "schema": [],
+   "title": "Best Canada PR, Australia PR, Germany & UK | Best Immigration & Study Abroad Consultancy | GreenTree Immigration",
+   "title_len": 112,
+   "desc": "Get the top-notch immigration and visa consultancy services in India from the Industry expert Green tree. Contact us and get free immigration assistance.",
+   "desc_len": 153,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 126,
+   "imgs_noalt": 24,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a immigration consultancy in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your page title is 112 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@greentreeimmigration.com",
+   "cpm@greentreeimmigration.com"
+  ],
+  "phones": [
+   "9884699919",
+   "9962959919",
+   "9047799919"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 53
+ },
+ {
+  "name": "Aanandakosha",
+  "url": "https://aanandakosha.com/",
+  "cat": "ayurveda retreat",
+  "area": "Kerala",
+  "ok": true,
+  "audit": {
+   "url": "https://aanandakosha.com/",
+   "status": 200,
+   "secs": 0.9,
+   "kb": 349,
+   "words": 6931,
+   "schema": [],
+   "title": "Best Ayurveda Retreat Resort in Kerala | Aanandakosha",
+   "title_len": 53,
+   "desc": "Aananda Kosha is a leading Ayurveda resort in Kerala, offering authentic Ayurvedic retreats, yoga facility, Ayurvedic detox, and healing at its retreat centre in Kerela.",
+   "desc_len": 169,
+   "has_desc": true,
+   "h1_count": 3,
+   "imgs": 77,
+   "imgs_noalt": 12,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a ayurveda retreat in Kerala\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 3 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 169 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@anandakosha.com"
+  ],
+  "phones": [
+   "9999999999",
+   "7236328125",
+   "8848589807"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 53
+ },
+ {
+  "name": "Kansas Overseas Careers",
+  "url": "https://www.kansaz.in/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.kansaz.in/",
+   "status": 200,
+   "secs": 0.3,
+   "kb": 139,
+   "words": 1694,
+   "schema": [],
+   "title": "Best Immigration &amp; Visa Process Consultants in India",
+   "title_len": 56,
+   "desc": "Kansas Overseas is a one-stop solution for all your visa needs. We have expertise in Permanent Residence Visas, Visit Visas, Student Visas, and many more.",
+   "desc_len": 154,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 43,
+   "imgs_noalt": 6,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a immigration consultancy in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "sec-bad@kansaz.in",
+   "vizag@kansaz.in",
+   "chennai@kansaz.in"
+  ],
+  "phones": [
+   "7680021742",
+   "7680021737",
+   "7550127444"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 52
+ },
+ {
+  "name": "Curls & Curves",
+  "url": "https://curlsncurves.com/",
+  "cat": "cosmetic surgery clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://curlsncurves.com/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 112,
+   "words": 1409,
+   "schema": [
+    "MedicalBusiness"
+   ],
+   "title": "Best Cosmetic Surgery Clinic in Bangalore, India | Plastic &amp; Cosmetic Surgeon in Bangalore | Curls &amp; Curves Cosmetic Srgery Centre",
+   "title_len": 138,
+   "desc": "Enhance your natural beauty with Curls &amp; Curves, the best cosmetic surgery clinic in Bangalore. Dr. Girish A.C. offers advanced hair restoration and cosmetic procedures.",
+   "desc_len": 173,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 42,
+   "imgs_noalt": 3,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 173 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 138 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "drgirishac74@gmail.com"
+  ],
+  "phones": [
+   "9480281652"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 49
+ },
+ {
+  "name": "The Ayur Villa",
+  "url": "https://www.theayurvilla.com/",
+  "cat": "ayurveda retreat",
+  "area": "Kovalam",
+  "ok": true,
+  "audit": {
+   "url": "https://www.theayurvilla.com/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 230,
+   "words": 1007,
+   "schema": [
+    "BreadcrumbList",
+    "HowTo",
+    "Resort",
+    "SpeakableSpecification"
+   ],
+   "title": "Kerala Ayurveda Retreat | Personalised Ayurveda in Kerala | The Ayur Villa",
+   "title_len": 74,
+   "desc": "Experience authentic personalised Ayurveda in Kerala at The Ayur Villa. Rejuvenate with traditional Panchakarma therapies, yoga, meditation, Ayurvedic diet, and wellness retreats designed for European travellers seeking holistic healing in India.",
+   "desc_len": 246,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 28,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 246 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 74 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@theayurvilla.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 49
+ },
+ {
+  "name": "Trilife",
+  "url": "https://www.trilife.in/",
+  "cat": "cosmetic surgery clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.trilife.in/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 35,
+   "words": 145,
+   "schema": [
+    "Hospital",
+    "Organization",
+    "WebSite"
+   ],
+   "title": "TriLife - Best MultiSpeciality Hospital in Bangalore",
+   "title_len": 52,
+   "desc": "TriLife is a leading super speciality hospital in bangalore offering treatments in orthopedics, cardiology etc. Call for an appointment today to get best healthcare services.",
+   "desc_len": 174,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 11,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your homepage has only about 145 words on it.",
+    "Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 174 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "reachus@trilife.in"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 48
+ },
+ {
+  "name": "Nationwide Visas",
+  "url": "https://www.nationwidevisas.com/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.nationwidevisas.com/",
+   "status": 200,
+   "secs": 1.1,
+   "kb": 483,
+   "words": 3038,
+   "schema": [
+    "LegalService",
+    "WebSite"
+   ],
+   "title": "Best Immigration Consultants in India for Canada, Australia & Germany",
+   "title_len": 69,
+   "desc": "Nationwide Visas is the best immigration consultants offering visa Service, study visa, investor visa, and immigration to Canada, Australia & Germany.",
+   "desc_len": 150,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 60,
+   "imgs_noalt": 3,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your page title is 69 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@nationwidevisas.com"
+  ],
+  "phones": [
+   "9292929281",
+   "7070701927",
+   "7070701925"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 48
+ },
+ {
+  "name": "Dr Sandhya Bala",
+  "url": "https://www.drsandhyabala.com/",
+  "cat": "cosmetic surgery clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.drsandhyabala.com/",
+   "status": 200,
+   "secs": 0.4,
+   "kb": 121,
+   "words": 2168,
+   "schema": [
+    "FAQPage",
+    "Product"
+   ],
+   "title": "Dr. Sandhya Bala",
+   "title_len": 16,
+   "desc": "Best Plastic Surgeon in Bangalore: Dr. Sandhya Bala is one of the leading Cosmetic surgeon in Bangalore and has helped her clients feel more confident and take pride in their appearance.",
+   "desc_len": 186,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 45,
+   "imgs_noalt": 1,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 186 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "info@drsandhyabala.com",
+   "drsandhyabala@gmail.com"
+  ],
+  "phones": [
+   "7259605940"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 47
+ },
+ {
+  "name": "Phoenix GRS",
+  "url": "https://phoenixgrs.com/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://phoenixgrs.com/",
+   "status": 200,
+   "secs": 1.4,
+   "kb": 262,
+   "words": 2796,
+   "schema": [],
+   "title": "Best Canada Immigration Consultants In Bangalore 2026 | Visa",
+   "title_len": 60,
+   "desc": "Looking to immigrate to Canada? Seek guidance from Canada Immigration Consultants in Bangalore for expert assistance and seamless migration process to Canada.",
+   "desc_len": 158,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 41,
+   "imgs_noalt": 0,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a immigration consultancy in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "shahid@phoenixgrs.com",
+   "info@phoenixgrs.com"
+  ],
+  "phones": [
+   "6963511560",
+   "9071570020",
+   "9606931462"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 47
+ },
+ {
+  "name": "Sitaram Ayurvedic Retreat",
+  "url": "https://sitaramretreat.com/",
+  "cat": "ayurveda retreat",
+  "area": "Kerala",
+  "ok": true,
+  "audit": {
+   "url": "https://sitaramretreat.com/",
+   "status": 200,
+   "secs": 0.7,
+   "kb": 186,
+   "words": 2643,
+   "schema": [
+    "Organization"
+   ],
+   "title": "Sitaram Ayurvedic Retreat Kerala | #1 Ayurveda Resort in Kerala | Sitaram Retreat",
+   "title_len": 81,
+   "desc": "Experience authentic Panchakarma &amp; Ayurvedic healing at Sitaram Retreat \u2014 Kerala&#039;s trusted NABH-accredited ayurveda resort in kerala since 1993. Beach &amp; mountain locations. Book your consultation today.",
+   "desc_len": 215,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 126,
+   "imgs_noalt": 80,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "SMALL",
+    "Your Google summary is 215 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 81 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "80 of your 126 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "retreat@sitaramayurveda.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 5,
+  "score": 43
+ },
+ {
+  "name": "Krishnendu Ayurveda",
+  "url": "https://krishnendu.org/",
+  "cat": "ayurveda retreat",
+  "area": "Kerala",
+  "ok": true,
+  "audit": {
+   "url": "https://krishnendu.org/",
+   "status": 200,
+   "secs": 1.2,
+   "kb": 230,
+   "words": 4090,
+   "schema": [
+    "MedicalBusiness"
+   ],
+   "title": "Best Ayurveda Treatment Center in Kerala | Best Ayurvedic Treatment Centre in Kerala",
+   "title_len": 84,
+   "desc": "Best Ayurvedic Treatment Center in Kerala, India - Krishnendu Ayurveda Hospital, specializes in Authentic Kerala Ayurveda Treatments and Panchakarma Therapies.",
+   "desc_len": 159,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 15,
+   "imgs_noalt": 6,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your page title is 84 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "6 of your 15 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [],
+  "phones": [
+   "7180502515",
+   "9544488333"
+  ],
+  "pages_crawled": 7,
+  "big": 1,
+  "total": 5,
+  "score": 28
+ },
+ {
+  "name": "Visas Avenue",
+  "url": "https://www.visasavenue.com/",
+  "cat": "immigration consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.visasavenue.com/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 191,
+   "words": 2266,
+   "schema": [
+    "LegalService",
+    "Product",
+    "WebSite"
+   ],
+   "title": "Immigration Consultants in India for Australia, Canada,NZ,UK",
+   "title_len": 60,
+   "desc": "Visas Avenue is a registered Canada immigration consultant in India with exceptional success rate. Its also the best Australia immigration Consultant.",
+   "desc_len": 150,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 106,
+   "imgs_noalt": 8,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [],
+  "phones": [
+   "7818000777",
+   "7289077352",
+   "8929130353"
+  ],
+  "pages_crawled": 13,
+  "big": 1,
+  "total": 3,
+  "score": 22
+ },
+ {
+  "name": "Aesthetics Plus Clinics",
+  "url": "https://aestheticsplus.in/",
+  "cat": "cosmetic surgery clinic",
+  "area": "Bangalore",
+  "ok": false
+ },
+ {
+  "name": "Kairali Ayurvedic Healing Village",
+  "url": "https://ayurvedichealingvillage.com/",
+  "cat": "ayurveda retreat",
+  "area": "Palakkad",
+  "ok": false
+ }
+]

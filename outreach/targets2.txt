@@ -1,0 +1,25 @@
+# round 2 — url,Business Name,category,area
+https://www.drsandhyabala.com/,Dr Sandhya Bala,cosmetic surgery clinic,Bangalore
+https://aestheticsplus.in/,Aesthetics Plus Clinics,cosmetic surgery clinic,Bangalore
+https://pinkappleaesthetics.com/,Pink Apple Aesthetics,cosmetic surgery clinic,Bangalore
+https://curlsncurves.com/,Curls & Curves,cosmetic surgery clinic,Bangalore
+https://www.drrajendra.com/,Dr Rajendra Cosmetic Surgery,cosmetic surgery clinic,Bangalore
+https://www.trilife.in/,Trilife,cosmetic surgery clinic,Bangalore
+https://www.kansaz.in/,Kansas Overseas Careers,immigration consultancy,Bangalore
+https://www.greentreeimmigration.com/,GreenTree Immigration,immigration consultancy,Bangalore
+https://alorenceimmigration.com/,Alorence Immigration,immigration consultancy,Bangalore
+https://phoenixgrs.com/,Phoenix GRS,immigration consultancy,Bangalore
+https://dm-consultant.in/,DM Consultants,immigration consultancy,Bangalore
+https://www.immigrationxperts.com/,Immigration Xperts,immigration consultancy,Bangalore
+https://www.visasavenue.com/,Visas Avenue,immigration consultancy,Bangalore
+https://www.nationwidevisas.com/,Nationwide Visas,immigration consultancy,Bangalore
+https://studiooura.in/,Studio Oura,pilates and yoga studio,Indiranagar
+https://aanandakosha.com/,Aanandakosha,ayurveda retreat,Kerala
+https://www.theayurvilla.com/,The Ayur Villa,ayurveda retreat,Kovalam
+https://ayurvedichealingvillage.com/,Kairali Ayurvedic Healing Village,ayurveda retreat,Palakkad
+https://sitaramretreat.com/,Sitaram Ayurvedic Retreat,ayurveda retreat,Kerala
+https://mekosha.com/,Mekosha Ayurveda,ayurveda retreat,Kerala
+https://www.jeevess.in/,Jeevess Ayurveda,ayurveda retreat,Wayanad
+https://www.holisticecoresort.com/,Holistic Eco-Resort,ayurveda retreat,Kerala
+https://ezhimalaayurvedawellness.com/,Ezhimala Ayurveda Wellness,ayurveda retreat,Kannur
+https://krishnendu.org/,Krishnendu Ayurveda,ayurveda retreat,Kerala

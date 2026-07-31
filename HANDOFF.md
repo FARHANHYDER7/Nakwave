@@ -90,8 +90,13 @@ Built to find clients. **Drafts only — Farhan sends, never me.**
 
 - **`prospect-tool.py`** — audits any business site (schema, crawl files, content depth, headings, alt text, load speed, HTTPS, mobile) and drafts a **plain-English** cold email.
   `python3 prospect-tool.py URL "Name" "category" "area"` or `--batch prospects.txt`
-- **`OUTREACH-BRIEF.md`** — 6 real Bangalore dental clinics audited live, ranked by problem count, with emails/phones and draft emails
-- **`tracker.csv`** · **`prospects.txt`** · **`contacts.json`**
+  **Load speed is now the median of 3 fetches** — a single cold request read 3–8× slow and produced numbers that did not reproduce. Never quote a one-shot timing to a prospect.
+- **`hunt.py`** — the batch hunter. Audits *and* crawls contact/about pages for a real email, then scores each prospect (problems + reachability). `python3 hunt.py targets.txt hunt-results.json`
+- **`PROSPECTS.md`** — **the live campaign.** 53 businesses across 12 verticals audited 31 Jul 2026, **44 with real published emails**, tiered A/B/C, with 30 individually-written emails, a 3-touch follow-up sequence and send-rate guidance.
+- **`OUTREACH-BRIEF.md`** — batch 1: 6 Bangalore dental clinics. **Closed out, no replies.** Kept for reference only
+- **`tracker.csv`** — all 56 (44 emailable + 6 WhatsApp-only + batch 1) · **`targets.txt`** · **`hunt-results.json`**
+
+**Batch 1 post-mortem:** 6 emails is below the noise floor (1–5% reply rate ⇒ 0.3 expected replies), the top-scoring target published no email at all, and all six were general dentists — low ticket and saturated. Batch 2 fixes all three.
 
 **Language rule he insisted on:** no jargon. "no schema" → *"your website never tells Google what kind of business you are."* Lead with **Google**, mention AI second.
 

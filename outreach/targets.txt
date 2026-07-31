@@ -1,0 +1,54 @@
+# url,Business Name,category,area
+https://neofollicletransplant.com/,Neo Follicle Transplant Clinic,hair transplant clinic,Bangalore
+https://www.hairtransplantsbangalore.com/,Pioneer Advanced Hair Transplant,hair transplant clinic,Bangalore
+https://misterhair.in/,Mister Hair Clinic,hair transplant clinic,Bangalore
+https://hairfreehairgrow.com/,Hairfree & Hairgrow,hair transplant clinic,Bangalore
+https://drswethacosmodermcentre.com/,Dr Swetha's Cosmoderm Centre,skin clinic,Indiranagar
+https://drindiras.com/,Dr Indira's Derma & Aesthetics,skin clinic,Jayanagar
+https://dermatologyclinic.ministryofskin.in/,Ministry of Skin,skin clinic,Jayanagar
+https://www.garbhagudi.com/,GarbhaGudi IVF,fertility clinic,Bangalore
+https://www.vardhanfertility.com/,Vardhan Fertility,fertility clinic,Bangalore
+https://www.mannatfertility.com/,Mannat Fertility,fertility clinic,Bangalore
+https://www.khushifertility.com/,Khushi Fertility,fertility clinic,Bangalore
+https://www.aspirefertility.in/,Aspire Fertility,fertility clinic,Bangalore
+https://www.nufertility.com/,NU Fertility,fertility clinic,Bangalore
+https://drkaminiraohospitals.com/,Dr Kamini Rao Hospitals,fertility clinic,Bangalore
+https://www.wedezinestudio.com/,WeDezine Studio,interior design studio,Malleshwaram
+https://dsyncultr.com/,DSYNCULTR,interior design studio,HSR Layout
+https://www.kuviostudio.com/,Kuvio Studio,interior design studio,Bangalore
+https://www.zyeta.com/,Zyeta,interior design studio,Bangalore
+https://www.khoslaassociates.com/,Khosla Associates,architecture studio,Indiranagar
+https://hundredhands.com/,Hundredhands,architecture studio,Bangalore
+https://www.panchaminteriors.com/,Pancham Interiors,interior design studio,Bangalore
+https://weadesign.com/,WEA Designs,interior design studio,Bangalore
+https://www.elements4kitchens.com/,Elements Kitchens,modular kitchen company,Jayanagar
+https://www.modularkitchencompany.com/,Modular Kitchen Company,modular kitchen company,Jayanagar
+https://interiosplash.com/,Interio Splash,interior design studio,Bangalore
+https://oesedu.com/,Overseas Educational Services,study abroad consultancy,Bangalore
+https://abroadeducounsel.com/,Abroad Education Counsel,study abroad consultancy,Bangalore
+https://learnoverseas.com/,Learn Overseas,study abroad consultancy,Bangalore
+https://meritedu.co.in/,MERIT Education,study abroad consultancy,Bangalore
+https://www.yos.health/,YOS Health,physiotherapy clinic,Bangalore
+https://sparcphysio.com.in/,SPARC Physio,physiotherapy clinic,Bangalore
+https://www.myphyzio.com/,My Phyzio,physiotherapy clinic,Bangalore
+https://www.bsiphysiotherapy.com/,BSI Physiotherapy,physiotherapy clinic,Jayanagar
+https://flexabilityphysio.com/,Flexability Physiotherapy,physiotherapy clinic,Koramangala
+https://www.physio365.com/,Physio365,physiotherapy clinic,Bangalore
+https://smilestation.in/,Smile Station Dental,cosmetic dental clinic,Domlur
+https://smilearchitect.in/,Smile Architect,cosmetic dental clinic,Bangalore
+https://amayadental.in/,Amaya Dental,cosmetic dental clinic,Bangalore
+https://invisiblebracesbangalore.com/,Invisible Braces Bangalore,cosmetic dental clinic,Bangalore
+https://prashantdentalclinic.com/,Prashanth Dental Clinic,cosmetic dental clinic,Vijayanagar
+https://www.neetashankar.com/,Neeta Shankar Photography,wedding photography studio,Whitefield
+https://www.theweddingfellas.com/,The Wedding Fellas,wedding photography studio,Bangalore
+https://bangalorephotographers.in/,Bangalore Photographers,wedding photography studio,JP Nagar
+https://www.skspethospital.com/,SKS Veterinary Hospital,pet hospital,Indiranagar
+https://www.vcarepetpolyclinic.com/,V-Care Pet Polyclinic,pet hospital,Bangalore
+https://pethospitalbangalore.com/,Pet Hospital Bangalore,pet hospital,Bangalore
+https://www.gravityhomes.in/,Gravity Homes,property developer,Bangalore
+https://www.mimsbuilders.com/,MIMS Builders,villa builder,Bangalore
+https://www.preetidevelopers.com/,Preeti Developers,property developer,Bangalore
+https://www.urbanizegroup.com/,Urbanize Group,property developer,Electronic City
+https://assurancedevelopers.com/,Assurance Developers,villa builder,Bangalore
+https://www.globaldevelopers.co.in/,Global Developers,villa builder,Bangalore
+https://schoolestate.in/,School Estate,boutique resort,Coorg

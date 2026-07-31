@@ -1,0 +1,3527 @@
+[
+ {
+  "name": "Hundredhands",
+  "url": "https://hundredhands.com/",
+  "cat": "architecture studio",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://hundredhands.com/",
+   "status": 200,
+   "secs": 1.3,
+   "kb": 10,
+   "words": 92,
+   "schema": [],
+   "title": "HUNDREDHANDS",
+   "title_len": 12,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 0,
+   "imgs": 2,
+   "imgs_noalt": 2,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": false
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your site isn't built for phones.",
+    "Most people search on their phone. Google pushes non-mobile sites down the results."
+   ],
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a architecture studio in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "Your homepage has only about 92 words on it.",
+    "Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "MEDIUM",
+    "2 of your 2 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "touch@hundredhands.com"
+  ],
+  "phones": [],
+  "pages_crawled": 2,
+  "big": 4,
+  "total": 9,
+  "score": 90
+ },
+ {
+  "name": "Modular Kitchen Company",
+  "url": "https://www.modularkitchencompany.com/",
+  "cat": "modular kitchen company",
+  "area": "Jayanagar",
+  "ok": true,
+  "audit": {
+   "url": "https://www.modularkitchencompany.com/",
+   "status": 200,
+   "secs": 5.9,
+   "kb": 42,
+   "words": 1547,
+   "schema": [],
+   "title": "Best Premium Modular Kitchen Interiors and Wardrobe Designers in Bangalore | Affordable Rental\nInterior Services",
+   "title_len": 112,
+   "desc": "Premium modular kitchen interiors in Bangalore. Luxurious kitchen designs to suit your lifestyle. Price starting from 2 lac only. Rental Interior Services for your property in Bangalore.",
+   "desc_len": 186,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 38,
+   "imgs_noalt": 31,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a modular kitchen company in Jayanagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 186 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 112 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "31 of your 38 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ],
+   [
+    "MEDIUM",
+    "Your homepage took 5.9 seconds to load for me (42KB).",
+    "Speed is a ranking factor, and most people leave before a slow page finishes loading."
+   ]
+  ],
+  "emails": [
+   "info@modularkitchencompany.com"
+  ],
+  "phones": [
+   "9035796876"
+  ],
+  "pages_crawled": 1,
+  "big": 3,
+  "total": 10,
+  "score": 86
+ },
+ {
+  "name": "Overseas Educational Services",
+  "url": "https://oesedu.com/",
+  "cat": "study abroad consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://oesedu.com/",
+   "status": 200,
+   "secs": 3.8,
+   "kb": 60,
+   "words": 1700,
+   "schema": [],
+   "title": "Best Overseas Education & Study Abroad Consultants in Bangalore | Overseas Educational Services | OES Consultants",
+   "title_len": 113,
+   "desc": "Expert overseas education & study abroad consultants in Bangalore providing end-to-end guidance on university selection, admissions, visas & scholarships.",
+   "desc_len": 154,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 56,
+   "imgs_noalt": 55,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a study abroad consultancy in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your page title is 113 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "55 of your 56 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ],
+   [
+    "MEDIUM",
+    "Your homepage took 3.8 seconds to load for me (60KB).",
+    "Speed is a ranking factor, and most people leave before a slow page finishes loading."
+   ]
+  ],
+  "emails": [
+   "admin@oesedu.com"
+  ],
+  "phones": [
+   "9731616027"
+  ],
+  "pages_crawled": 1,
+  "big": 3,
+  "total": 9,
+  "score": 85
+ },
+ {
+  "name": "Ministry of Skin",
+  "url": "https://dermatologyclinic.ministryofskin.in/",
+  "cat": "skin clinic",
+  "area": "Jayanagar",
+  "ok": true,
+  "audit": {
+   "url": "https://dermatologyclinic.ministryofskin.in/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 116,
+   "words": 971,
+   "schema": [],
+   "title": "Ministry of Skin",
+   "title_len": 16,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 0,
+   "imgs": 11,
+   "imgs_noalt": 7,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a skin clinic in Jayanagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "MEDIUM",
+    "7 of your 11 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@ministryofskin.in",
+   "info@dsngrid.com"
+  ],
+  "phones": [
+   "8115764611"
+  ],
+  "pages_crawled": 1,
+  "big": 3,
+  "total": 8,
+  "score": 84
+ },
+ {
+  "name": "Khushi Fertility",
+  "url": "https://www.khushifertility.com/",
+  "cat": "fertility clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.khushifertility.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 86,
+   "words": 3299,
+   "schema": [],
+   "title": "Best Fertility Center Bangalore, Best IVF Clinic in Bangalore, Karnataka",
+   "title_len": 72,
+   "desc": "Khushifertility is one of the Best Fertility centre and Hospital for IVF Treatment in Bangalore, Karnataka, Indai.We have a expert medical team of fertility specialists, surgeons, and full-time embryologists work round the clock, integrating compassionate care with clinical brilliance.",
+   "desc_len": 286,
+   "has_desc": true,
+   "h1_count": 8,
+   "imgs": 47,
+   "imgs_noalt": 0,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a fertility clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 8 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 286 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 72 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "msakhushivf@gmail.com",
+   "infokhushifertility2023@gmail.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 3,
+  "total": 8,
+  "score": 76
+ },
+ {
+  "name": "Global Developers",
+  "url": "https://www.globaldevelopers.co.in/",
+  "cat": "villa builder",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.globaldevelopers.co.in/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 102,
+   "words": 1045,
+   "schema": [],
+   "title": "Home - Global Developers",
+   "title_len": 24,
+   "desc": "Global developers was Established in 2005 as real estate company. With over 2.5 million sft of residential projects developed. 5 million sft of space available for future residential and commercial projects. Over 1000 satisfied customers.",
+   "desc_len": 238,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 34,
+   "imgs_noalt": 0,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a villa builder in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 238 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "sales@globaldevelopers.co.in"
+  ],
+  "phones": [
+   "6450380628",
+   "8880524524",
+   "7204745960"
+  ],
+  "pages_crawled": 1,
+  "big": 3,
+  "total": 7,
+  "score": 75
+ },
+ {
+  "name": "Elements Kitchens",
+  "url": "https://www.elements4kitchens.com/",
+  "cat": "modular kitchen company",
+  "area": "Jayanagar",
+  "ok": true,
+  "audit": {
+   "url": "https://www.elements4kitchens.com/",
+   "status": 200,
+   "secs": 1.6,
+   "kb": 48,
+   "words": 1243,
+   "schema": [
+    "Store"
+   ],
+   "title": "Elements Kitchen design Bangalore | Modular Kitchen Bangalore | Kitchen cabinets Bangalore",
+   "title_len": 90,
+   "desc": "Elements Kitchens offering different type of collections like kitchen design Bangalore, Modular Kitchen Bangalore, modular interior designs, kitchen cabinets in banaswadi\nand modular interiors in banaswadi, Bangalore.",
+   "desc_len": 217,
+   "has_desc": true,
+   "h1_count": 4,
+   "imgs": 31,
+   "imgs_noalt": 10,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": false,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "The file that tells Google how to read your site is missing or broken.",
+    "Google is guessing its way around your site instead of being guided."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 4 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 217 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 90 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "10 of your 31 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@elements4kitchens.com"
+  ],
+  "phones": [
+   "9900269592"
+  ],
+  "pages_crawled": 1,
+  "big": 2,
+  "total": 8,
+  "score": 70
+ },
+ {
+  "name": "Khosla Associates",
+  "url": "https://www.khoslaassociates.com/",
+  "cat": "architecture studio",
+  "area": "Indiranagar",
+  "ok": true,
+  "audit": {
+   "url": "https://www.khoslaassociates.com/",
+   "status": 200,
+   "secs": 2.6,
+   "kb": 40,
+   "words": 52,
+   "schema": [],
+   "title": "Khosla Associates &#8211; architecture + interiors",
+   "title_len": 50,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 0,
+   "imgs": 12,
+   "imgs_noalt": 11,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a architecture studio in Indiranagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "Your homepage has only about 52 words on it.",
+    "Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "MEDIUM",
+    "11 of your 12 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "amaresh@khoslaassociates.com",
+   "sandeep@khoslaassociates.com",
+   "cindy@khoslaassociates.com"
+  ],
+  "phones": [],
+  "pages_crawled": 2,
+  "big": 2,
+  "total": 7,
+  "score": 68
+ },
+ {
+  "name": "Learn Overseas",
+  "url": "https://learnoverseas.com/",
+  "cat": "study abroad consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://learnoverseas.com/",
+   "status": 200,
+   "secs": 2.0,
+   "kb": 296,
+   "words": 1858,
+   "schema": [],
+   "title": "Learn Overseas - Your Study Abroad Consultants in Bangalore",
+   "title_len": 59,
+   "desc": "Learn Overseas is the leading study abroad consultants in Bangalore, helping students with university selection, admission and visa process.",
+   "desc_len": 140,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 75,
+   "imgs_noalt": 20,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a study abroad consultancy in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@learnoverseas.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 2,
+  "total": 5,
+  "score": 63
+ },
+ {
+  "name": "BSI Physiotherapy",
+  "url": "https://www.bsiphysiotherapy.com/",
+  "cat": "physiotherapy clinic",
+  "area": "Jayanagar",
+  "ok": true,
+  "audit": {
+   "url": "https://www.bsiphysiotherapy.com/",
+   "status": 200,
+   "secs": 3.4,
+   "kb": 221,
+   "words": 2096,
+   "schema": [],
+   "title": "BSI Physiotherapy | Best Physiotherapy Clinic Bangalore | Physiotherapists Near Me",
+   "title_len": 82,
+   "desc": "Looking for physiotherapists in Bangalore? Contact our trusted clinic today for appointments withBest Physiotherapy Clinic Bangalore.",
+   "desc_len": 133,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 37,
+   "imgs_noalt": 17,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a physiotherapy clinic in Jayanagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your page title is 82 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "17 of your 37 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ],
+   [
+    "MEDIUM",
+    "Your homepage took 3.4 seconds to load for me (221KB).",
+    "Speed is a ranking factor, and most people leave before a slow page finishes loading."
+   ]
+  ],
+  "emails": [
+   "bsiphysiotherapy@gmail.com"
+  ],
+  "phones": [
+   "6462228430"
+  ],
+  "pages_crawled": 2,
+  "big": 1,
+  "total": 7,
+  "score": 63
+ },
+ {
+  "name": "The Wedding Fellas",
+  "url": "https://www.theweddingfellas.com/",
+  "cat": "wedding photography studio",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.theweddingfellas.com/",
+   "status": 200,
+   "secs": 2.1,
+   "kb": 236,
+   "words": 222,
+   "schema": [
+    "WebSite"
+   ],
+   "title": "The Wedding Fellas | Wedding Photographers in Bangalore",
+   "title_len": 55,
+   "desc": "Candid wedding photography in Bangalore and Hyderabad. One wedding at a time, award-winning team and 500+ weddings documented since 2017.",
+   "desc_len": 137,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 10,
+   "imgs_noalt": 8,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "BIG",
+    "Your homepage has only about 222 words on it.",
+    "Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "MEDIUM",
+    "8 of your 10 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "hello@theweddingfellas.com"
+  ],
+  "phones": [
+   "7394842168",
+   "7411091860"
+  ],
+  "pages_crawled": 2,
+  "big": 2,
+  "total": 6,
+  "score": 63
+ },
+ {
+  "name": "Kuvio Studio",
+  "url": "https://www.kuviostudio.com/",
+  "cat": "interior design studio",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.kuviostudio.com/",
+   "status": 200,
+   "secs": 0.8,
+   "kb": 206,
+   "words": 590,
+   "schema": [],
+   "title": "Interior Design firm | Transform Your Space Today | Kuvio Studio",
+   "title_len": 64,
+   "desc": "Transform your space with our interior design firm. We create intuitive, personal designs that truly belong in your home.",
+   "desc_len": 121,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 9,
+   "imgs_noalt": 2,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a interior design studio in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your page title is 64 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@kuviostudio.com",
+   "contact@eleinterior.com"
+  ],
+  "phones": [
+   "8003925086",
+   "9900810362"
+  ],
+  "pages_crawled": 1,
+  "big": 2,
+  "total": 6,
+  "score": 59
+ },
+ {
+  "name": "Flexability Physiotherapy",
+  "url": "https://flexabilityphysio.com/",
+  "cat": "physiotherapy clinic",
+  "area": "Koramangala",
+  "ok": true,
+  "audit": {
+   "url": "https://flexabilityphysio.com/",
+   "status": 200,
+   "secs": 1.1,
+   "kb": 250,
+   "words": 2026,
+   "schema": [],
+   "title": "Physiotherapy &amp; Sports Rehab Clinic in Bangalore | Flexability",
+   "title_len": 66,
+   "desc": "Flexability Physio is a leading physiotherapy and rehabilitation center in Bangalore with branches in Koramangala and Jayanagar offering sports rehab, pain management, ACL recovery and neuro physiotherapy.",
+   "desc_len": 205,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 14,
+   "imgs_noalt": 5,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a physiotherapy clinic in Koramangala\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 205 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 66 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "5 of your 14 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@flexabilityphysio.com"
+  ],
+  "phones": [
+   "7963415968",
+   "9999999999",
+   "6360206006"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 7,
+  "score": 59
+ },
+ {
+  "name": "Prashanth Dental Clinic",
+  "url": "https://prashantdentalclinic.com/",
+  "cat": "cosmetic dental clinic",
+  "area": "Vijayanagar",
+  "ok": true,
+  "audit": {
+   "url": "https://prashantdentalclinic.com/",
+   "status": 200,
+   "secs": 1.0,
+   "kb": 766,
+   "words": 1412,
+   "schema": [],
+   "title": "Best Dental Clinic in Vijayanagar | Prashanth Dental Clinic",
+   "title_len": 59,
+   "desc": "Top dental clinic in Vijayanagar offering implants, braces, kids dental care &amp; cosmetic treatments. Book your appointment today!",
+   "desc_len": 132,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 26,
+   "imgs_noalt": 17,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a cosmetic dental clinic in Vijayanagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "17 of your 26 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "clinicalteam@prashantdentalclinic.com"
+  ],
+  "phones": [
+   "9999999997",
+   "9999999982",
+   "8917322835"
+  ],
+  "pages_crawled": 2,
+  "big": 1,
+  "total": 5,
+  "score": 57
+ },
+ {
+  "name": "YOS Health",
+  "url": "https://www.yos.health/",
+  "cat": "physiotherapy clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.yos.health/",
+   "status": 200,
+   "secs": 0.9,
+   "kb": 49,
+   "words": 1020,
+   "schema": [
+    "MedicalBusiness"
+   ],
+   "title": "Top Physiotherapy Clinic in Bangalore \u2014 Musculoskeletal (MSK), Sports Physiotherapy, Post-Op Rehab, & Pain Management | YOS Health",
+   "title_len": 130,
+   "desc": "YOS Health \u2014 Expert physiotherapy, post-operative rehabilitation, pain management and regenerative therapy, Bangalore. Personalized care, ultrasound-guided injections, sports rehab & arthritis physiotherapy.",
+   "desc_len": 207,
+   "has_desc": true,
+   "h1_count": 4,
+   "imgs": 24,
+   "imgs_noalt": 2,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 4 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 207 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 130 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@yos.health"
+  ],
+  "phones": [
+   "7717954494",
+   "9606475411",
+   "9467487037"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 6,
+  "score": 54
+ },
+ {
+  "name": "SPARC Physio",
+  "url": "https://sparcphysio.com.in/",
+  "cat": "physiotherapy clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://sparcphysio.com.in/",
+   "status": 200,
+   "secs": 3.9,
+   "kb": 25,
+   "words": 632,
+   "schema": [
+    "MedicalClinic"
+   ],
+   "title": "Best Physiotherapy Clinic in Bangalore | SPARC Physio & Rehabilitation Centre",
+   "title_len": 77,
+   "desc": "SPARC Physio is a leading physiotherapy and rehabilitation centre in Bangalore offering sports physiotherapy, neuro rehabilitation, pediatric therapy, post-operative rehabilitation, women",
+   "desc_len": 187,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 29,
+   "imgs_noalt": 28,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 187 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 77 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "28 of your 29 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ],
+   [
+    "MEDIUM",
+    "Your homepage took 3.9 seconds to load for me (25KB).",
+    "Speed is a ranking factor, and most people leave before a slow page finishes loading."
+   ]
+  ],
+  "emails": [
+   "info@sparcphysio.com",
+   "dr@sparcphysio.com.in"
+  ],
+  "phones": [
+   "7727820230",
+   "7892667990"
+  ],
+  "pages_crawled": 2,
+  "big": 1,
+  "total": 7,
+  "score": 54
+ },
+ {
+  "name": "Mannat Fertility",
+  "url": "https://www.mannatfertility.com/",
+  "cat": "fertility clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.mannatfertility.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 280,
+   "words": 4339,
+   "schema": [
+    "WebSite"
+   ],
+   "title": "Best IVF Centre in Bangalore | Top Fertility Hospital",
+   "title_len": 53,
+   "desc": "Discover the Best IVF Centre in Bangalore - Mannat Fertility Clinic. Experience high success rates, compassionate care, and advanced treatments. Visit us to fulfill your dream of parenthood.",
+   "desc_len": 190,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 252,
+   "imgs_noalt": 77,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 190 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "77 of your 252 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@mannatfertility.com"
+  ],
+  "phones": [
+   "7865386721"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 53
+ },
+ {
+  "name": "NU Fertility",
+  "url": "https://www.nufertility.com/",
+  "cat": "fertility clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.nufertility.com/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 76,
+   "words": 1130,
+   "schema": [],
+   "title": "Best IVF Center in Bangalore | NU Fertility",
+   "title_len": 43,
+   "desc": "NU Fertility is one of the best IVF centers in Bangalore offering advanced fertility treatments, high IVF success rates, expert specialists, &amp; trusted care for couples.",
+   "desc_len": 172,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 52,
+   "imgs_noalt": 10,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a fertility clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 172 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "fertility@nuhospitals.com",
+   "care.west@hospitals.com"
+  ],
+  "phones": [
+   "6363373733"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 53
+ },
+ {
+  "name": "Neeta Shankar Photography",
+  "url": "https://www.neetashankar.com/",
+  "cat": "wedding photography studio",
+  "area": "Whitefield",
+  "ok": true,
+  "audit": {
+   "url": "https://www.neetashankar.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 184,
+   "words": 7671,
+   "schema": [],
+   "title": "Neeta Shankar Photography Private Limited | Candid Wedding and Lifestyle Photographer",
+   "title_len": 85,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 1,
+   "imgs": 160,
+   "imgs_noalt": 36,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a wedding photography studio in Whitefield\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "SMALL",
+    "Your page title is 85 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@neetashankar.com",
+   "careers@neetashankar.com"
+  ],
+  "phones": [
+   "9980923130"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 53
+ },
+ {
+  "name": "Assurance Developers",
+  "url": "https://assurancedevelopers.com/",
+  "cat": "villa builder",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://assurancedevelopers.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 480,
+   "words": 2242,
+   "schema": [],
+   "title": "Home Construction Company in Bangalore | Assurance Developers",
+   "title_len": 61,
+   "desc": "Build your dream home in Bangalore with Assurance Developers. 240+ projectsdelivered. Packages from \u20b91,779/sqft. Transparent pricing. Book a freeconsultation today.",
+   "desc_len": 164,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 66,
+   "imgs_noalt": 48,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a villa builder in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "SMALL",
+    "Your page title is 61 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "48 of your 66 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "contact@assurancedevelopers.com"
+  ],
+  "phones": [
+   "9019528585",
+   "9844668585"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 53
+ },
+ {
+  "name": "My Phyzio",
+  "url": "https://www.myphyzio.com/",
+  "cat": "physiotherapy clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.myphyzio.com/",
+   "status": 200,
+   "secs": 0.8,
+   "kb": 225,
+   "words": 1254,
+   "schema": [
+    "Physiotherapy"
+   ],
+   "title": "Top &amp; Best Physiotherapy Clinic in Bangalore | My Phyzio",
+   "title_len": 60,
+   "desc": "Find the best physiotherapy clinic in Bangalore. Get expert physiotherapy treatments to help you recover and stay healthy. Book an appointment today!",
+   "desc_len": 149,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 117,
+   "imgs_noalt": 113,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "113 of your 117 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@myphyzio.com"
+  ],
+  "phones": [
+   "7659999999"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 52
+ },
+ {
+  "name": "Hairfree & Hairgrow",
+  "url": "https://hairfreehairgrow.com/",
+  "cat": "hair transplant clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://hairfreehairgrow.com/",
+   "status": 200,
+   "secs": 0.8,
+   "kb": 795,
+   "words": 3986,
+   "schema": [
+    "FAQPage",
+    "Organization"
+   ],
+   "title": "Hair Transplant Clinic in India | HairFree HairGrow Experts",
+   "title_len": 59,
+   "desc": "Looking for a hair transplant clinic in India? HairFree HairGrow offers personalized hair restoration and advanced hair loss solutions.",
+   "desc_len": 135,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 93,
+   "imgs_noalt": 4,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "hairfreehairgrow@gmail.com",
+   "info@hairfreehairgrow.com"
+  ],
+  "phones": [
+   "7272832222"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 51
+ },
+ {
+  "name": "Amaya Dental",
+  "url": "https://amayadental.in/",
+  "cat": "cosmetic dental clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://amayadental.in/",
+   "status": 200,
+   "secs": 0.8,
+   "kb": 481,
+   "words": 2389,
+   "schema": [
+    "FAQPage"
+   ],
+   "title": "Best Dental Clinic in Bangalore I Best Dentist in Bangalore",
+   "title_len": 59,
+   "desc": "Amaya Dental Clinic is the Best Dental Clinic in Bangalore, offering advanced dental care, painless treatments, and experienced dentists.",
+   "desc_len": 137,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 23,
+   "imgs_noalt": 3,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "amayadental.ind@gmail.com"
+  ],
+  "phones": [
+   "6582099397",
+   "9591895500"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 51
+ },
+ {
+  "name": "Mister Hair Clinic",
+  "url": "https://misterhair.in/",
+  "cat": "hair transplant clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://misterhair.in/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 79,
+   "words": 1322,
+   "schema": [],
+   "title": "Mister Hair | Surgeon-Led Hair Transplant Clinics Across South India",
+   "title_len": 68,
+   "desc": "Mister Hair runs surgeon-led hair transplant &amp; restoration clinics across Karnataka, Tamil Nadu &amp; Telangana. Transparent per-graft pricing. Book a consultation.",
+   "desc_len": 168,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 17,
+   "imgs_noalt": 1,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a hair transplant clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 168 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 68 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "reachus@misterhair.in"
+  ],
+  "phones": [
+   "7369543638"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 49
+ },
+ {
+  "name": "MERIT Education",
+  "url": "https://meritedu.co.in/",
+  "cat": "study abroad consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://meritedu.co.in/",
+   "status": 200,
+   "secs": 1.5,
+   "kb": 71,
+   "words": 1430,
+   "schema": [],
+   "title": "Higher Educational Consultants in Bangalore | Study Abroad|MERIT",
+   "title_len": 64,
+   "desc": "Expert guidance for Career, Admission and Visa Counselling Services, with up-to-date, accurate & customized information suited toward student\u2019s interests & aligned with their career choices.",
+   "desc_len": 190,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 47,
+   "imgs_noalt": 13,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a study abroad consultancy in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 190 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 64 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "merit.consultantsinfo@meritedu.co.in",
+   "meritblr@gmail.com",
+   "info@merit.co.in"
+  ],
+  "phones": [
+   "9999999999",
+   "9108978005",
+   "9108491034"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 49
+ },
+ {
+  "name": "Invisible Braces Bangalore",
+  "url": "https://invisiblebracesbangalore.com/",
+  "cat": "cosmetic dental clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://invisiblebracesbangalore.com/",
+   "status": 200,
+   "secs": 1.2,
+   "kb": 7,
+   "words": 23,
+   "schema": [],
+   "title": "Site Title",
+   "title_len": 10,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 0,
+   "imgs": 1,
+   "imgs_noalt": 0,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a cosmetic dental clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "BIG",
+    "Your homepage has only about 23 words on it.",
+    "Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [],
+  "phones": [],
+  "pages_crawled": 11,
+  "big": 3,
+  "total": 7,
+  "score": 49
+ },
+ {
+  "name": "Aspire Fertility",
+  "url": "https://www.aspirefertility.in/",
+  "cat": "fertility clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.aspirefertility.in/",
+   "status": 200,
+   "secs": 1.1,
+   "kb": 586,
+   "words": 2754,
+   "schema": [],
+   "title": "Best Fertility Hospital in Bangalore | IVF Clinic | Aspire",
+   "title_len": 58,
+   "desc": "Aspire Fertility Center \u2014 Bangalore&#039;s fertility hospital in HSR Layout &amp; Sarjapur Road. Advanced IVF, ICSI &amp; IUI led by Dr Ashwini. Book a free consultation.",
+   "desc_len": 170,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 21,
+   "imgs_noalt": 0,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a fertility clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 170 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@aspirefertility.in"
+  ],
+  "phones": [
+   "7307692308",
+   "6923076923",
+   "9620004610"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 48
+ },
+ {
+  "name": "Interio Splash",
+  "url": "https://interiosplash.com/",
+  "cat": "interior design studio",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://interiosplash.com/",
+   "status": 200,
+   "secs": 1.8,
+   "kb": 305,
+   "words": 2182,
+   "schema": [
+    "FAQPage"
+   ],
+   "title": "Bangalore\u2019s Best Luxury Home Interior Designers | Interiosplash",
+   "title_len": 63,
+   "desc": "Redefine luxury living in Bangalore with the city\u2019s best interior designers. Interiosplash crafts timeless, bespoke spaces that mirror your lifestyle and sophistication.",
+   "desc_len": 169,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 41,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 169 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 63 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "info@interiosplash.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 48
+ },
+ {
+  "name": "Abroad Education Counsel",
+  "url": "https://abroadeducounsel.com/",
+  "cat": "study abroad consultancy",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://abroadeducounsel.com/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 203,
+   "words": 977,
+   "schema": [
+    "FAQPage"
+   ],
+   "title": "Top Study Abroad Consultants in Bangalore | UK &amp; Europe Experts | AEC",
+   "title_len": 73,
+   "desc": "AEC is Bangalore&#039;s trusted overseas education consultancy. 15+ years of experience helping students secure admissions in the UK, Germany, Europe, &amp; Ivy League.",
+   "desc_len": 168,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 8,
+   "imgs_noalt": 2,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 168 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 73 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "info@abroadeducounsel.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 48
+ },
+ {
+  "name": "Physio365",
+  "url": "https://www.physio365.com/",
+  "cat": "physiotherapy clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.physio365.com/",
+   "status": 200,
+   "secs": 1.4,
+   "kb": 46,
+   "words": 1102,
+   "schema": [],
+   "title": "Ortho and Neuro Rehab Physiotherapy Clinics in Bangalore",
+   "title_len": 56,
+   "desc": "#1 Ortho and Neuro Physiotherapy Treatment center in Bangalore. Get Personalized Treatment with Advanced Techniques for Pain Relief from our Best Neurological Physiotherapist Doctors. Call Us!",
+   "desc_len": 192,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 23,
+   "imgs_noalt": 0,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a physiotherapy clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 192 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@physio365.com"
+  ],
+  "phones": [
+   "9886658365",
+   "9886433365"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 48
+ },
+ {
+  "name": "MIMS Builders",
+  "url": "https://www.mimsbuilders.com/",
+  "cat": "villa builder",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.mimsbuilders.com/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 137,
+   "words": 1996,
+   "schema": [],
+   "title": "MIMS Builders | Top Villa & Luxury HomeBuilders in Bangalore",
+   "title_len": 60,
+   "desc": "MIMS Builders \u2014 trusted villa builders in Bangalore for over 2 decades. 16 completed projects, all sold out. Now presenting MIMS Oakdale: 4 & 5 BHK luxury villas in Yelahanka from Rs.2.95 Cr.",
+   "desc_len": 191,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 44,
+   "imgs_noalt": 3,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a villa builder in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 191 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@mimsbuilders.com"
+  ],
+  "phones": [
+   "8088411411"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 4,
+  "score": 48
+ },
+ {
+  "name": "Neo Follicle Transplant Clinic",
+  "url": "https://neofollicletransplant.com/",
+  "cat": "hair transplant clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://neofollicletransplant.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 426,
+   "words": 3901,
+   "schema": [],
+   "title": "Direct Hair Transplant Clinic in Bangalore | Neo Follicle",
+   "title_len": 57,
+   "desc": "Get direct hair transplant in Bangalore at Neo Follicle Clinic under Dr. Sandeep Mahapatra. Natural hairline, careful graft handling, and personalized planning.",
+   "desc_len": 160,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 56,
+   "imgs_noalt": 2,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a hair transplant clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@neofollicletransplant.com"
+  ],
+  "phones": [
+   "9731207940",
+   "9486014592"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 47
+ },
+ {
+  "name": "Pioneer Advanced Hair Transplant",
+  "url": "https://www.hairtransplantsbangalore.com/",
+  "cat": "hair transplant clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.hairtransplantsbangalore.com/",
+   "status": 200,
+   "secs": 0.7,
+   "kb": 56,
+   "words": 951,
+   "schema": [
+    "Services"
+   ],
+   "title": "Best Hair Transplant in Bangalore | Hair Transplant Clinic",
+   "title_len": 58,
+   "desc": "Best Hair Transplants Clinic in Bangalore, providing advanced treatments like FUE and FUT with the help of experts over the past 17 years",
+   "desc_len": 137,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 54,
+   "imgs_noalt": 2,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@hairtransplantsbangalore.com"
+  ],
+  "phones": [
+   "9972576663",
+   "8048536662"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 47
+ },
+ {
+  "name": "Dr Swetha's Cosmoderm Centre",
+  "url": "https://drswethacosmodermcentre.com/",
+  "cat": "skin clinic",
+  "area": "Indiranagar",
+  "ok": true,
+  "audit": {
+   "url": "https://drswethacosmodermcentre.com/",
+   "status": 200,
+   "secs": 0.7,
+   "kb": 200,
+   "words": 2112,
+   "schema": [],
+   "title": "Skin Clinic in Indiranagar, Bangalore | Cosmoderm Centre",
+   "title_len": 56,
+   "desc": "Achieve flawless skin at Dr Swetha&#039;s Cosmoderm Centre, a reputed skin clinic in Indiranagar, Bangalore. Visit us for advanced, personalized skin care solutions.",
+   "desc_len": 165,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 76,
+   "imgs_noalt": 18,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a skin clinic in Indiranagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@drswethacosmodermcentre.com",
+   "-ingo@drswethacosmodermcentre.com"
+  ],
+  "phones": [
+   "9620304433"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 47
+ },
+ {
+  "name": "Smile Station Dental",
+  "url": "https://smilestation.in/",
+  "cat": "cosmetic dental clinic",
+  "area": "Domlur",
+  "ok": true,
+  "audit": {
+   "url": "https://smilestation.in/",
+   "status": 200,
+   "secs": 2.4,
+   "kb": 183,
+   "words": 795,
+   "schema": [],
+   "title": "Best Dental Clinic in Bangalore - Smile Station | Home",
+   "title_len": 54,
+   "desc": "Smile station dental clinic is one of the best in Bangalore. Book an appointment with us and we will make you smile. Visit us at Indiranagar.",
+   "desc_len": 141,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 40,
+   "imgs_noalt": 5,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a cosmetic dental clinic in Domlur\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "info@smilestation.in",
+   "gurudev@smilestation.in"
+  ],
+  "phones": [
+   "6666666667",
+   "6975308642",
+   "9880157815"
+  ],
+  "pages_crawled": 2,
+  "big": 1,
+  "total": 4,
+  "score": 47
+ },
+ {
+  "name": "Smile Architect",
+  "url": "https://smilearchitect.in/",
+  "cat": "cosmetic dental clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://smilearchitect.in/",
+   "status": 200,
+   "secs": 1.0,
+   "kb": 1039,
+   "words": 1389,
+   "schema": [],
+   "title": "Best Invisalign Treatment in Bangalore | Smile Architect",
+   "title_len": 56,
+   "desc": "Get the best Invisalign treatment in Bangalore at Smile Architect. Experience personalized, comfortable &amp; tech-driven smile correction with expert care.",
+   "desc_len": 156,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 48,
+   "imgs_noalt": 5,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a cosmetic dental clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "drgirishpv@gmail.com"
+  ],
+  "phones": [
+   "8660645010"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 3,
+  "score": 47
+ },
+ {
+  "name": "GarbhaGudi IVF",
+  "url": "https://www.garbhagudi.com/",
+  "cat": "fertility clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.garbhagudi.com/",
+   "status": 200,
+   "secs": 0.4,
+   "kb": 72,
+   "words": 107,
+   "schema": [
+    "BreadcrumbList",
+    "MedicalOrganization",
+    "Product"
+   ],
+   "title": "Best IVF Centre in Bangalore | IVF Hospital in Bangalore - GarbhaGudi",
+   "title_len": 69,
+   "desc": "GarbhaGudi is one of the best IVF Clinic in Bangalore with a high success rate for IVF / infertility treatment. Book a Consultation now with the best IVF hospital in Bangalore.",
+   "desc_len": 176,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 15,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your homepage has only about 107 words on it.",
+    "Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 176 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 69 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "dreams@garbhagudi.com"
+  ],
+  "phones": [
+   "8884183338"
+  ],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 5,
+  "score": 44
+ },
+ {
+  "name": "Preeti Developers",
+  "url": "https://www.preetidevelopers.com/",
+  "cat": "property developer",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.preetidevelopers.com/",
+   "status": 200,
+   "secs": 1.0,
+   "kb": 111,
+   "words": 3494,
+   "schema": [
+    "HomeAndConstructionBusiness",
+    "Organization",
+    "Product"
+   ],
+   "title": "Top Real Estate Builders & Developers in Bangalore | Preeti Developers",
+   "title_len": 70,
+   "desc": "The Best Real Estate Builders & Developers in Bangalore is Preeti Developers. Experience excellence in every project. Choose your home now with top builders in Bangalore.",
+   "desc_len": 170,
+   "has_desc": true,
+   "h1_count": 2,
+   "imgs": 23,
+   "imgs_noalt": 3,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "MEDIUM",
+    "Your page has 2 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 170 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 70 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "enquiry@preetidevelopers.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 5,
+  "score": 43
+ },
+ {
+  "name": "SKS Veterinary Hospital",
+  "url": "https://www.skspethospital.com/",
+  "cat": "pet hospital",
+  "area": "Indiranagar",
+  "ok": true,
+  "audit": {
+   "url": "https://www.skspethospital.com/",
+   "status": 200,
+   "secs": 2.0,
+   "kb": 247,
+   "words": 1325,
+   "schema": [
+    "MedicalOrganization",
+    "WebSite"
+   ],
+   "title": "SKS Veterinary Hospital | Best Veterinary Hospital in India",
+   "title_len": 59,
+   "desc": "Discover unparalleled pet care at the best veterinary hospital in Chennai, Bengaluru, Hyderabad, Vizag, Trivandrum, Hosur, Coimbatore, Tiruppur and 10+ branches in India. Our team of dedicated veterinarians is committed to providing compassionate and comprehensive healthcare services for your beloved dogs &amp; cats. From routine check-ups to specialized treatments, trust us for excellence in veterinary care. Visit our facility for top-notch services that prioritize your pet&#039;s health and happiness.",
+   "desc_len": 508,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 31,
+   "imgs_noalt": 17,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "SMALL",
+    "Your Google summary is 508 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "17 of your 31 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "admin@skspethospital.com"
+  ],
+  "phones": [
+   "7615934293",
+   "7449100028"
+  ],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 4,
+  "score": 42
+ },
+ {
+  "name": "Vardhan Fertility",
+  "url": "https://www.vardhanfertility.com/",
+  "cat": "fertility clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.vardhanfertility.com/",
+   "status": 200,
+   "secs": 0.7,
+   "kb": 141,
+   "words": 1901,
+   "schema": [
+    "LocalBusiness"
+   ],
+   "title": "Best IVF Centre in Bangalore | Vardhan Fertility",
+   "title_len": 48,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 1,
+   "imgs": 37,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "vardhanfertility@gmail.com"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 3,
+  "score": 41
+ },
+ {
+  "name": "WeDezine Studio",
+  "url": "https://www.wedezinestudio.com/",
+  "cat": "interior design studio",
+  "area": "Malleshwaram",
+  "ok": true,
+  "audit": {
+   "url": "https://www.wedezinestudio.com/",
+   "status": 200,
+   "secs": 1.1,
+   "kb": 272,
+   "words": 3443,
+   "schema": [
+    "BreadcrumbList",
+    "FAQPage",
+    "LocalBusiness",
+    "ProfessionalService"
+   ],
+   "title": "Best Interior Designers in Bangalore | WeDezine Studio",
+   "title_len": 54,
+   "desc": "Looking for best interior designers in Bangalore? WeDezine Studio delivers stunning residential & commercial interiors. 12+ years experience. Book a free site visit today.",
+   "desc_len": 171,
+   "has_desc": true,
+   "h1_count": 4,
+   "imgs": 109,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "MEDIUM",
+    "Your page has 4 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 171 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "info@wedezinestudio.com"
+  ],
+  "phones": [
+   "9111959595",
+   "9844408406"
+  ],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 3,
+  "score": 41
+ },
+ {
+  "name": "Bangalore Photographers",
+  "url": "https://bangalorephotographers.in/",
+  "cat": "wedding photography studio",
+  "area": "JP Nagar",
+  "ok": true,
+  "audit": {
+   "url": "https://bangalorephotographers.in/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 114,
+   "words": 2181,
+   "schema": [
+    "Organization"
+   ],
+   "title": "Best Photographers in Bangalore - Bangalore Photographers",
+   "title_len": 57,
+   "desc": "Bangalore Photographers - Hire best photographers in Bangalore for weddings, prewedding, Maternity, Baby shoots and more | Photographers Near Me",
+   "desc_len": 144,
+   "has_desc": true,
+   "h1_count": 5,
+   "imgs": 86,
+   "imgs_noalt": 6,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "MEDIUM",
+    "Your page has 5 competing main headlines.",
+    "Google can't tell which one matters, so the page gets a muddled topic."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "example@gmaile.com",
+   "bangalorephotgraphers.co@gmail.com",
+   "bangalorephotographers.co@gmail.com"
+  ],
+  "phones": [
+   "8073739948",
+   "9077755599"
+  ],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 3,
+  "score": 41
+ },
+ {
+  "name": "Dr Indira's Derma & Aesthetics",
+  "url": "https://drindiras.com/",
+  "cat": "skin clinic",
+  "area": "Jayanagar",
+  "ok": true,
+  "audit": {
+   "url": "https://drindiras.com/",
+   "status": 200,
+   "secs": 0.7,
+   "kb": 280,
+   "words": 658,
+   "schema": [],
+   "title": "Dr. Indira's Derma &amp; Aesthetics Clinic",
+   "title_len": 42,
+   "desc": "",
+   "desc_len": 0,
+   "has_desc": false,
+   "h1_count": 1,
+   "imgs": 16,
+   "imgs_noalt": 6,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": false,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a skin clinic in Jayanagar\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "BIG",
+    "There's no list of your pages for Google to follow.",
+    "When you add a new page or service, it can take weeks to appear in search \u2014 or never."
+   ],
+   [
+    "MEDIUM",
+    "You haven't written the summary that appears under your name in Google.",
+    "So Google writes its own \u2014 usually a random sentence pulled off the page."
+   ],
+   [
+    "MEDIUM",
+    "6 of your 16 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [],
+  "phones": [
+   "8733549311",
+   "8733549312",
+   "8733549313"
+  ],
+  "pages_crawled": 13,
+  "big": 2,
+  "total": 6,
+  "score": 38
+ },
+ {
+  "name": "WEA Designs",
+  "url": "https://weadesign.com/",
+  "cat": "interior design studio",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://weadesign.com/",
+   "status": 200,
+   "secs": 0.8,
+   "kb": 443,
+   "words": 6454,
+   "schema": [
+    "LocalBusiness",
+    "WebPage",
+    "WebSite"
+   ],
+   "title": "#1 Luxury Interior designers in Bangalore | WEA Designs | Residential",
+   "title_len": 69,
+   "desc": "Award winning luxury Interior Designers in Bangalore with 10 years of expertise, 1000+ designed Residential and other interior work. WEA Interior Designers firm in Bangalore offers a 30% Discount in 2026 on unique interior designing services with 10 year warranty.",
+   "desc_len": 264,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 128,
+   "imgs_noalt": 3,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "SMALL",
+    "Your Google summary is 264 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 69 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "sales@weadesign.com"
+  ],
+  "phones": [
+   "7996060000",
+   "9999999999"
+  ],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 4,
+  "score": 38
+ },
+ {
+  "name": "Gravity Homes",
+  "url": "https://www.gravityhomes.in/",
+  "cat": "property developer",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.gravityhomes.in/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 61,
+   "words": 1347,
+   "schema": [
+    "LocalBusiness",
+    "Organization",
+    "SiteNavigationElement"
+   ],
+   "title": "Gravity Homes | Top Builder &amp; Real Estate Developer in Bangalore",
+   "title_len": 68,
+   "desc": "Gravity Homes, a Top Builder &amp; Real Estate Developer in Bangalore offers villas, villament &amp; apartment built using eco-sustainable methods to let you live amidst nature.",
+   "desc_len": 177,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 19,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "SMALL",
+    "Your Google summary is 177 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 68 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [
+   "hr@gravityhomes.in",
+   "marketing@gravityhomes.in"
+  ],
+  "phones": [
+   "9739011616",
+   "7222910214",
+   "9513145554"
+  ],
+  "pages_crawled": 2,
+  "big": 0,
+  "total": 4,
+  "score": 38
+ },
+ {
+  "name": "Pancham Interiors",
+  "url": "https://www.panchaminteriors.com/",
+  "cat": "interior design studio",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://www.panchaminteriors.com/",
+   "status": 200,
+   "secs": 0.6,
+   "kb": 118,
+   "words": 4589,
+   "schema": [
+    "FAQPage",
+    "LocalBusiness",
+    "Place",
+    "Product",
+    "WebSite",
+    "https://schema.org/ProfessionalService"
+   ],
+   "title": "Best Interior Designers in Bangalore for home | Pancham Interiors",
+   "title_len": 65,
+   "desc": "Pancham Interiors is the Best Interior designers in Bangalore. We create top quality design for home, villa, and apartment. luxury interior, affordable budget",
+   "desc_len": 158,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 77,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "SMALL",
+    "Your page title is 65 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "info@panchaminteriors.com"
+  ],
+  "phones": [
+   "9449799491",
+   "9663133591"
+  ],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 2,
+  "score": 36
+ },
+ {
+  "name": "Pet Hospital Bangalore",
+  "url": "https://pethospitalbangalore.com/",
+  "cat": "pet hospital",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://pethospitalbangalore.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 6,
+   "words": 13,
+   "schema": [
+    "VeterinaryCare"
+   ],
+   "title": "Pet Hospital Bangalore - 24/7 Emergency Veterinary Care | Best Vet Clinic",
+   "title_len": 73,
+   "desc": "Pet Hospital Bangalore offers 24/7 emergency veterinary care, expert veterinarians, free consultations, vaccinations, surgery & more. Call +91 99023 56133. Trusted by 20,000+ pet parents.",
+   "desc_len": 187,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 0,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Google can see your pages but can't confirm you're a specific real business.",
+    "It won't confidently recommend a business it can't identify."
+   ],
+   [
+    "BIG",
+    "Your homepage has only about 13 words on it.",
+    "Google ranks pages that answer questions. There isn't enough here to answer anything, so there's very little for it to rank you for."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 187 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "SMALL",
+    "Your page title is 73 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [],
+  "phones": [
+   "9902356133"
+  ],
+  "pages_crawled": 10,
+  "big": 2,
+  "total": 7,
+  "score": 35
+ },
+ {
+  "name": "School Estate",
+  "url": "https://schoolestate.in/",
+  "cat": "boutique resort",
+  "area": "Coorg",
+  "ok": true,
+  "audit": {
+   "url": "https://schoolestate.in/",
+   "status": 200,
+   "secs": 1.1,
+   "kb": 201,
+   "words": 2258,
+   "schema": [
+    "FAQPage",
+    "LocalBusiness"
+   ],
+   "title": "Best Luxury Heritage Homestay &amp; Boutique Hotel in coorg",
+   "title_len": 59,
+   "desc": "The School Estate is a luxury resort in Coorg, Karnataka. Here you&#039;ll enjoy nature and make memories that last a lifetime.",
+   "desc_len": 127,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 19,
+   "imgs_noalt": 0,
+   "has_schema": true,
+   "has_entity": true,
+   "has_faq": true,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ]
+  ],
+  "emails": [
+   "bookings@schoolestate.in"
+  ],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 0,
+  "total": 1,
+  "score": 35
+ },
+ {
+  "name": "Urbanize Group",
+  "url": "https://www.urbanizegroup.com/",
+  "cat": "property developer",
+  "area": "Electronic City",
+  "ok": true,
+  "audit": {
+   "url": "https://www.urbanizegroup.com/",
+   "status": 200,
+   "secs": 0.7,
+   "kb": 26,
+   "words": 717,
+   "schema": [],
+   "title": "Real Estate Developer Bangalore| Builder in Bangalore| Urbanize Group",
+   "title_len": 69,
+   "desc": "Urbanize Group is a reputed real estate developer and builder in Bangalore, offering premium plots & villas designed for modern living.",
+   "desc_len": 135,
+   "has_desc": true,
+   "h1_count": 0,
+   "imgs": 27,
+   "imgs_noalt": 21,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a property developer in Electronic City\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "MEDIUM",
+    "Your page has no main headline.",
+    "The headline is the strongest clue about what a page is for. Yours is missing, so Google has to guess."
+   ],
+   [
+    "SMALL",
+    "Your page title is 69 characters \u2014 too long for Google to show fully.",
+    "The end gets chopped off in the results."
+   ],
+   [
+    "MEDIUM",
+    "21 of your 27 photos have no description attached.",
+    "Google can't actually see pictures \u2014 it reads the description. Yours are invisible to it, and to Google Images."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [],
+  "phones": [],
+  "pages_crawled": 1,
+  "big": 1,
+  "total": 6,
+  "score": 28
+ },
+ {
+  "name": "Dr Kamini Rao Hospitals",
+  "url": "https://drkaminiraohospitals.com/",
+  "cat": "fertility clinic",
+  "area": "Bangalore",
+  "ok": true,
+  "audit": {
+   "url": "https://drkaminiraohospitals.com/",
+   "status": 200,
+   "secs": 0.5,
+   "kb": 79,
+   "words": 1503,
+   "schema": [],
+   "title": "Best IVF Center in Bangalore | IVF Hospital in Bangalore",
+   "title_len": 56,
+   "desc": "The Best IVF Center in Bangalore - Dr Kamini Rao Hospitals, offering comprehensive infertility treatment with a high success rate. Book your consultation today at one of the top IVF hospital and Fertility Clinic in Bangalore.",
+   "desc_len": 225,
+   "has_desc": true,
+   "h1_count": 1,
+   "imgs": 28,
+   "imgs_noalt": 5,
+   "has_schema": false,
+   "has_entity": false,
+   "has_faq": false,
+   "has_reviews": false,
+   "robots_ok": true,
+   "sitemap_ok": true,
+   "https": true,
+   "viewport": true
+  },
+  "findings": [
+   [
+    "BIG",
+    "Your website never actually tells Google what kind of business you are.",
+    "To Google it's just a page of words \u2014 not \"a fertility clinic in Bangalore\". That's why competitors show up with star ratings and opening hours in search and you don't."
+   ],
+   [
+    "SMALL",
+    "Your Google summary is 225 characters, so it gets cut off mid-sentence.",
+    "People decide whether to click from that line. Yours ends in \"...\"."
+   ],
+   [
+    "MEDIUM",
+    "Your reviews aren't set up to show as stars in Google results.",
+    "Star ratings in search are one of the biggest things that make people click you over the next listing."
+   ],
+   [
+    "SMALL",
+    "Common customer questions aren't marked up as questions and answers.",
+    "Those are exactly what Google and ChatGPT pull answers from."
+   ]
+  ],
+  "emails": [],
+  "phones": [
+   "9035199244",
+   "6835335169"
+  ],
+  "pages_crawled": 2,
+  "big": 1,
+  "total": 4,
+  "score": 23
+ },
+ {
+  "name": "DSYNCULTR",
+  "url": "https://dsyncultr.com/",
+  "cat": "interior design studio",
+  "area": "HSR Layout",
+  "ok": false
+ },
+ {
+  "name": "Zyeta",
+  "url": "https://www.zyeta.com/",
+  "cat": "interior design studio",
+  "area": "Bangalore",
+  "ok": false
+ },
+ {
+  "name": "V-Care Pet Polyclinic",
+  "url": "https://www.vcarepetpolyclinic.com/",
+  "cat": "pet hospital",
+  "area": "Bangalore",
+  "ok": false
+ }
+]
