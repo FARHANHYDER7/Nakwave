@@ -23,9 +23,22 @@ def get(url, t=12):
     except Exception:
         return 0, "", 0, 0
 
+def median_load(url, n=3):
+    """One request is not a measurement. First hit is often a cold cache or a
+    cold server and reads 3-8x slower than reality — quoting that number in an
+    email to a prospect gets you caught. Take the median of n fetches."""
+    t = []
+    for _ in range(n):
+        _, h, secs, _ = get(url, 40)
+        if h: t.append(secs)
+    if not t: return 0.0
+    t.sort()
+    return t[len(t)//2]
+
 def audit(url):
     st, h, secs, size = get(url)
     if not h: return None
+    secs = median_load(url) or secs
     root = "/".join(url.split("/")[:3])
     body = re.sub(r'<(script|style|noscript|svg)[^>]*>.*?</\1>','',h,flags=re.S|re.I)
     words = len(re.sub(r'<[^>]+>',' ',body).split())
