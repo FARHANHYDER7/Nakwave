@@ -1,81 +1,130 @@
 # NAKWAVE — PROJECT HANDOFF
-*Continuation document for a new AI session. Read fully before acting. Last updated: 19 July 2026.*
+*Upload this file at the start of a new session. Read it fully before acting.*
+*Last updated: 30 July 2026 · latest commit `f25634d`*
 
 ---
 
 ## 1. WHO I'M WORKING WITH
 
-**Farhan Hyder** — hyderfarhan96@gmail.com — founder of **Nakwave**, an SEO & AI-automation studio. GitHub: FARHANHYDER7. Beginner-to-intermediate technically (guide him through terminal/account steps click-by-click; he once saved a file by typing a path into a save dialog — macOS turned slashes into colons). Fast-moving, ambitious, gives layered multi-part requests, often interrupts and pivots. Appreciates being pushed back on when an idea is risky.
+**Farhan Hyder** — hyderfarhan96@gmail.com — +91 63615 06839 — founder of **Nakwave**, an SEO & AI-automation studio.
+GitHub: `FARHANHYDER7`. Based in Karnataka, India; targets Bangalore for clients.
 
-**Positioning (corrected twice — get this right):** TWO EQUAL CRAFTS.
+Beginner-to-intermediate technically — walk him through terminal/account steps click-by-click. Fast-moving, gives layered multi-part requests, interrupts and pivots often, switches models mid-session. **Appreciates being pushed back on when an idea is risky.** Keep state in files and commits so nothing is lost.
+
+**Positioning — TWO EQUAL CRAFTS (corrected twice; get this right):**
 1. **Search** — SEO + AEO/AI visibility (rank on Google, get cited by ChatGPT/Gemini/Perplexity/Claude)
 2. **AI Automation** — chatbots, WhatsApp bots, agentic multi-agent workflows, analytics
 
-Neither pillar may dominate any copy. First site draft was all-AI (he said "I'm an SEO expert, add that"); the fix over-rotated to SEO-first; he corrected again ("both should get the same attention"). Slogan: **"Get found everywhere. Automate everything."** Frame everything as "two crafts under one roof."
+Neither may dominate any copy. Slogan: **"Get found everywhere. Automate everything."**
 
-**Ethics guardrail (tested repeatedly):** He has asked to present fabricated client work as real (once: "find random websites and take their work as our work" — refused). The standing compromise he accepts: **"Showcase build" / "Interactive concept" labels** — full cinematic client-style presentation, honestly tagged, nothing a due-diligence check can catch. Keep resisting fake-client framing; steer to real products, teardowns of real sites (with analysis framing), and founding-client deals. The Mosaic House (hotel) and Meridian Motors (dealership) are FICTIONAL demo brands, labeled as such. Saim Surfaces (saimsurfaces.com) is a REAL business — the sample audit of it is a real analysis of public data.
-
----
-
-## 2. THE WEBSITE (all in `nakwave/` folder, static, no build step)
-
-**Design language (verteal.com-inspired, user-chosen):** white/#f4f4f2 sections alternating pure black #060606 · single vermilion accent #ff2d00 · Archivo (500 display, −0.03em) · hairlines #e4e4e0 · pill buttons + arrow chips with text-roll hover · ASCII-grid preloader (mark: NAKWAVE) · split-text word reveals · scroll word-scrub statement · double counter-marquee · custom cursor ("Drag"/"Read" states) · glyph-scramble stats · horizontal drag-rails for Work + Insights (arrows, snap, drag; NO vertical scroll-jacking — was removed for page length).
-
-**Pages/experiences:**
-- `index.html` — homepage: WebGL hero (`assets/hero-field.js`: Three.js r128 CDN, transparent GLSL flow field, film grain, cursor-bent filaments, ≤40 orange #FF5A1F particles, heat-haze; idle looks plain white; degrades gracefully), rotating headline word (Google→ChatGPT→…→everywhere), ghost NAKWAVE wordmark scroll-fill, 7 services (featured dark "Agentic Workflows" card w/ agent-flow diagram), work rail (all presented as delivered/in-house, no Concept badges), featured case-study section (live InsightAI iframe), interactive process accordion, before/after AEO drag slider, founder strip (orange pulse dot, "SEO expert & AI engineer" scribble quote), FAQ (mirrored in JSON-LD), contact section
-- `audit.html` — free AI Visibility Audit funnel; form → FormSubmit; links sample report
-- `audit-sample.html` — REAL audit of saimsurfaces.com, scored 38/100 (real findings: no schema, no sitemap, broken robots.txt, no llms.txt, thin content)
-- `insightai/` — **working BI product** (own identity: cream/deep-green, Manrope, Donezo-style). "The Mosaic House" hotel workspace: seeded 364-day dataset, canvas charts, z-score anomalies, trend×seasonality forecast, RFM guest segments, elasticity what-if, computed-answer copilot, ⌘K palette, NLG executive report, CSV import with cleaning log. Hash deep-links: `#forecast` `#customers` `#alerts`
-- `work/insightai.html` — case study (brief → delivered → AI tools grid → LIVE scaled iframes of the product, not screenshots → "Test the working product" CTA). Tagged "Showcase build"
-- `meridian/` — **the flagship**: quiet-luxury cinematic AI-dealership experience (v2 after full redesign brief). #080808, ONE accent #5b4dff indigo, Space Grotesk display + IBM Plex Mono timecodes, grain, mix-blend nav, NO cards/gradients/glow. Poster hero ("The AI Employee. / Built for luxury dealerships."), typographic live conversation + auto-filling ledger + 1px score line (engine: 18-unit inventory NLU, tradeValue() depreciation model, finMax() payment math, slot booking, lead scoring, Sofia briefing), 700vh pinned scroll-story of one night (23:47→08:56, typewriter, trade counter **computed by the same functions as the chat** — provably consistent), metro-line flow, editorial results, magnetic CTA. Full reduced-motion fallbacks
-- `blog/` — 3 AEO articles + listing (CSS-drawn thumbs, no emojis)
-- `llms.txt`, `robots.txt`, `sitemap.xml` — maintained; keep in sync when adding pages
-
-**Conventions:** cache-bust with `?v=N` bumps on css/js when editing (browsers cache aggressively via python http.server); site tokens in `nakwave/assets/style.css` :root; interactions in `assets/main.js`; InsightAI and Meridian are self-contained (own css/js); commit style: descriptive body + `Co-Authored-By: Claude`; verify everything in the browser preview before claiming done; dev server via `.claude/launch.json` name "hyder-site" (python http.server, autoPort).
-
-**Forms:** POST to `https://formsubmit.co/hyderfarhan96@gmail.com` (contact + audit; AJAX with plain-button fallback). ⚠️ NEEDS ONE-TIME ACTIVATION: first live submission emails a confirmation link — must be clicked or leads vanish.
+**⚠️ ETHICS GUARDRAIL (tested repeatedly — hold this line):**
+He has asked to present fabricated client work as real. He accepts this compromise: **honest labels** ("Showcase build", "Interactive concept") with full cinematic presentation. Never invent client names, testimonials, or ranking results. When he asked for a "#100 → top" story, the honest version shipped: a *measured* 16→91 visibility score plus a clearly-labelled "illustrative trajectory" chart. That framing works and he accepted it. **Fictional demo brands (all labelled):** Aarohi Silks (silk store), The Mosaic House (hotel), Meridian Motors (dealership). Saim Surfaces is a REAL business; the audit of it is real analysis of public data.
 
 ---
 
-## 3. DEPLOYMENT STATE (unfinished!)
+## 2. LIVE STATE — IT'S ALL SHIPPED
 
-- **Git:** local repo at `seo work/` root, clean, ~8 commits, no remote attached. `.gitignore`: .DS_Store, .claude/settings.local.json
-- **GitHub:** repo `FARHANHYDER7/Nakwave` exists but is BROKEN — web-upload flattened folders (no assets/, no blog/). `gh` CLI installed but auth never completed (device-code flow kept failing; ~/.config ownership was fixed; token method suggested, never finished). Fix path: complete `gh auth login`, then force-push the correct local repo
-- **Chosen plan:** Netlify drag-and-drop of `nakwave/` folder (he chose this over GitHub flow). May already be live on some netlify.app URL — ask him
-- **Domain:** nakwave.com verified AVAILABLE (whois, July 2026), not yet purchased. Canonicals/schema already use https://nakwave.com/. Plan: buy after hosting works, then attach
-- **other-projects/ayeshu-netlify/** — personal page, NOT part of the site, don't deploy
+| Thing | Status |
+|---|---|
+| **Domain** | **nakwave.services** — live, HTTPS (Let's Encrypt, expires Oct 2026) |
+| **Host** | Netlify. GoDaddy DNS → A record `75.2.60.5`, CNAME www → `willowy-eclair-4e952b.netlify.app` |
+| **GitHub** | `FARHANHYDER7/Nakwave` — fixed (was flattened by web-upload), force-pushed, in sync |
+| **Auto-deploy** | Root `netlify.toml` ready with `publish = "nakwave"`. **User may still need to link the repo in the Netlify UI** — confirm this first |
+| **Google Search Console** | Verified (Domain property). Sitemap **Success, 15 pages**. Homepage indexed + ranking |
+| **FormSubmit** | ✅ **ACTIVATED** — leads reach his inbox |
+| **Analytics** | ❌ Still none. No GA4. Biggest remaining infra gap |
 
-## 4. PENDING ROADMAP (agreed, not done)
+**Already ranking** for "nakwave services": homepage, `/audit.html`, `/work/silk-rebuild.html`.
 
-1. **Critical infra:** GA4 + Search Console + form events (zero analytics now) · create `assets/og-cover.png` (referenced everywhere, 404s!) · privacy policy page · 404 page · FormSubmit activation test · sitemap lastmod refresh
-2. **Conversion:** proof element above homepage fold · value-labeled CTAs · scarcity-line consistency
-3. **Offers:** name deliverables, risk-reversal lines, timeframes; decide pricing signals; **add "AI Workflow Audit"** as automation-side mirror of the free search audit; rename toward "AI Employees" language
-4. **Content:** one topic cluster per craft ("AEO for [industry]" ×5, "AI employee for [industry]" ×5); Article schema + author entity on blog posts
-5. **Images:** delete unused `assets/img/wave.jpg` · founder photo (duotone) when he sends one · per-post OG images
-6. **Trust:** founding-client deals (2–3 free/discounted for named case studies); real screenshots of Nakwa app (his real shipped app) when he provides
-7. **Meridian:** being pitched to a REAL dealership client (no name/numbers yet — everything framed as projected/industry-cited until real data exists)
+---
 
-## 5. REAL INDUSTRY STATS IN USE (dealership pitch)
-- Only 13.2% of dealerships respond to internet leads within 5 min; >75% take an hour+
-- ~1 in 3 dealer leads never get any reply (2026 mystery-shop studies)
-- 391% higher close rate when contact happens within 60s (Velocify, 3.5M-lead study)
-- Response averages range 47 min (business hours) to 9 hrs (incl. after-hours)
-*Primary sources not yet verified page-by-page — do that before client-facing citation by name.*
+## 3. THE WEBSITE — `nakwave/` (static, no build step)
 
-## 6. INSTALLED SKILLS (`.claude/skills/` — auto-load in new sessions in this folder)
+**25 pages, ~16,600 words.** Design: verteal-inspired — white/#f4f4f2 alternating pure black #060606 · vermilion #ff2d00 · Archivo · hairlines #e4e4e0 · pill buttons · custom cursor · horizontal drag-rails.
 
-- **marketingskills (Corey Haines):** copywriting, copy-editing, cro, ab-testing, offers, pricing, paywalls, popups, lead-magnets, free-tools, emails, cold-email, sms, prospecting, launch, ads, ad-creative, social, video, image, analytics, ai-seo, programmatic-seo, site-architecture, seo (comprehensive), content-strategy, customer-research, competitor-profiling, competitors, co-marketing, community-marketing, churn-prevention, onboarding, signup, referrals, revops, sales-enablement, public-relations, directory-submissions, marketing-plan, marketing-ideas, marketing-loops, marketing-psychology, marketing-council, product-marketing, schema
-- **claude-seo (Agrici Daniel):** seo-audit, seo-technical, seo-plan, seo-page, seo-content, seo-content-brief, seo-cluster, seo-local, seo-geo, seo-schema, seo-sitemap, seo-backlinks, seo-hreflang, seo-competitor-pages, seo-programmatic, seo-drift, seo-google, seo-maps, seo-images, seo-image-gen, seo-sxo, seo-flow, seo-ecommerce + tool extensions (seo-ahrefs, seo-dataforseo, seo-firecrawl, seo-bing, seo-unlighthouse, seo-seranking, seo-profound — need API keys)
-- **genjutsu (AThevon):** paint, cast + _jutsu library (threejs-r3f, canvas-generative, design-audit, ui-ux-pro-max, mobile/desktop principles)
-- **geo-* suite:** geo, geo-audit, geo-citability, geo-crawlers, geo-llmstxt, geo-brand-mentions, geo-content, geo-technical, geo-schema, geo-platform-optimizer, geo-report, geo-report-pdf, geo-proposal, geo-prospect, geo-compare, geo-update (+ geo subagents)
-- **flat .md (early installs):** frontend-design (Anthropic), ui-ux-pro-max, design, brand, ui-styling, design-system, banner-design, slides
+**Brand mark:** the **naked wave** (his pick). `assets/logo-wave.svg` in nav; same wave on an ink square for favicon/profile contexts (`favicon.svg`, `icon-192/512`, `apple-touch-icon`). `Organization.logo` → `icon-512.png`.
 
-## 7. HOW TO WORK WITH FARHAN (style notes)
-- Build fast, verify in the live browser preview, show screenshots/results — he trusts demonstrated proof
-- Push back plainly when an idea risks his credibility (fake clients, invented numbers) — offer the honest version that gets 95% of the effect
-- He switches models mid-session and interrupts often; keep state in files/commits so nothing is lost
-- Explain non-code steps (accounts, terminals, DNS) in numbered click-by-click form
-- When he says "make it wow / max out," go genuinely maximal on craft but keep every displayed number computed or cited — no theater math
-- Commit at milestones with real messages; bump `?v=` on asset edits
+### Pages
+- `index.html` — hero: **"While you're sleeping, [ChatGPT/Perplexity/Claude/Gemini/Google AI] is recommending someone. We make sure it's you."** (word rotates continuously, `main.js`). WebGL hero field, featured-builds rail **before** the work rail, 7 services, process accordion, FAQ, contact with WhatsApp link
+- `services/` — **hub + 6 pages** (AEO is the flagship; 780–1,100 words each; Service + FAQPage + Breadcrumb schema)
+- `about.html` · `contact.html` · `terms.html` · `privacy.html` · `404.html`
+- `audit.html` (FormSubmit funnel) · `audit-sample.html` (real Saim Surfaces audit, 38/100)
+- `work/silk-rebuild.html` — **Aarohi Silks case study.** Cinematic canvas silk hero (`assets/silk-hero.js` — flowing burgundy silk, gold threads, cursor-reactive), measured **16→91**, illustrative ranking-climb chart, 20 bugs→fixes table
+- `work/insightai.html` · `work/meridian.html` — case studies
+- `blog/` — 6 articles (3 older + 3 research-backed: zero-click data, local AI search, agentic search) with generated header images in `assets/blog/`
+- `demos/silk-before/` — the deliberately-broken "before" store (the "after" was deleted; the case study is self-contained now)
+- `insightai/` · `meridian/` — self-contained working products, own CSS/JS
 
-*Companion memory files (auto-loaded): `~/.claude/projects/-Users-farhanhyder-seo-work/memory/` — agency-service-pillars, hyder-site-design-language, farhan-seo-expert-positioning.*
+### Conventions
+- **Asset versions unified at `?v=15`** — bump ALL together when editing css/js (they once drifted across v=1–13 and served stale CSS to returning visitors)
+- Titles ≤60 chars, meta descriptions 130–165. **All 25 currently pass**
+- Zero heading-level skips, zero broken links, 40 JSON-LD blocks all valid — *re-verify after edits*
+- Dev server: `.claude/launch.json` name `hyder-site` (python http.server, serves `nakwave/`)
+- Commit style: descriptive body + `Co-Authored-By: Claude`
+
+---
+
+## 4. DEPLOY
+
+**Two configs, keep in sync:**
+- `netlify.toml` (repo root) — for **Git deploys**, sets `publish = "nakwave"`
+- `nakwave/netlify.toml` — for **manual zip drops**, where the zip root is the site root
+
+Both carry the same headers (HSTS, nosniff, frame options, cache rules, `llms.txt` as text/plain) and redirects (www→apex, `/scan.html`→`/audit.html`). `pretty_urls` deliberately **off** — it would 301 `/audit.html`→`/audit` while every canonical uses `.html`.
+
+**Manual deploy:** rebuild the zip, drag onto Netlify → Deploys.
+```bash
+cd "nakwave" && find . -name '.DS_Store' -delete && rm -f ../nakwave-netlify.zip && zip -rq ../nakwave-netlify.zip . -x '*.DS_Store'
+```
+
+---
+
+## 5. OUTREACH KIT — `outreach/`
+
+Built to find clients. **Drafts only — Farhan sends, never me.**
+
+- **`prospect-tool.py`** — audits any business site (schema, crawl files, content depth, headings, alt text, load speed, HTTPS, mobile) and drafts a **plain-English** cold email.
+  `python3 prospect-tool.py URL "Name" "category" "area"` or `--batch prospects.txt`
+- **`OUTREACH-BRIEF.md`** — 6 real Bangalore dental clinics audited live, ranked by problem count, with emails/phones and draft emails
+- **`tracker.csv`** · **`prospects.txt`** · **`contacts.json`**
+
+**Language rule he insisted on:** no jargon. "no schema" → *"your website never tells Google what kind of business you are."* Lead with **Google**, mention AI second.
+
+**Top targets:** Reginolds Dental (20 problems, no email published — WhatsApp +919886067262), Chisel Dental (16, chiseldentalclinics@gmail.com). Skip The Dental Venue — they've already done it right.
+
+**The pitch loop:** audit a prospect → screenshot ChatGPT naming a competitor instead → email the 3 findings in plain English → deliver the free audit when they reply → *then* ask "want me to fix these, or your developer?"
+
+---
+
+## 6. WHAT'S STILL MISSING (ranked)
+
+1. **Zero social proof** — no testimonials, no client logos, no founder photo. Biggest credibility gap. Fix via **founding-client deals**: 2–3 free/discounted engagements for a named testimonial + permission to publish a real before/after.
+2. **No pricing page** — he explicitly deferred this. Blocks Clutch/GoodFirms listings.
+3. **No LocalBusiness schema / address** — needs his real business address; **do not invent one.** Highest-leverage remaining SEO item for local ranking.
+4. **No backlinks** — Google Business Profile is the fastest win (not done yet). Then directories (Clutch, DesignRush, GoodFirms, JustDial, IndiaMART, Sulekha), then guest posts.
+5. **No GA4/analytics.**
+6. **The 12 work cards on the homepage** still read as unnamed client engagements ("delivered for a property agency"). Flagged to him as his biggest credibility risk; he hasn't acted. Relabel as capability builds, or name them.
+7. Minor: unused `assets/logo-square.svg`; blog posts are 550–780 words (thin for competitive terms).
+
+---
+
+## 7. HOW TO WORK WITH HIM
+
+- **Verify in the browser before claiming done.** He trusts demonstrated proof — screenshots, real numbers.
+- **Push back plainly** when something risks his credibility. Offer the honest version that gets 95% of the effect.
+- **Do the work rather than instruct him** when you have the tools — he explicitly said *"go through my chrome and do it for me"* and was right to.
+- **Never send emails/messages on his behalf.** Draft, hand over, let him send.
+- **Numbers must be computed or cited** — no theatre math. He'll ask for "wow"; give real craft.
+- Explain non-code steps (accounts, DNS, dashboards) in numbered click-by-click form.
+- Git identity is configured (`Farhan Hyder <hyderfarhan96@gmail.com>`).
+
+---
+
+## 8. INSTALLED SKILLS (`.claude/skills/`, 82 total, auto-load)
+
+- **marketingskills (Corey Haines):** copywriting, cro, offers, pricing, cold-email, prospecting, directory-submissions, ads, analytics, ai-seo, programmatic-seo, competitors, content-strategy, marketing-council, schema, **+ attribution and influencer-marketing (added this session)** …
+- **claude-seo (Agrici Daniel):** seo-audit, seo-technical, seo-plan, seo-page, seo-content, seo-cluster, seo-local, seo-geo, seo-schema, seo-backlinks, seo-programmatic …
+- **geo-\* suite:** geo, geo-audit, geo-citability, geo-crawlers, geo-llmstxt, geo-report, geo-proposal, geo-prospect …
+- **genjutsu:** paint, cast · **flat .md:** frontend-design, ui-ux-pro-max, brand, design-system
+
+*Companion memory: `~/.claude/projects/-Users-farhanhyder-seo-work/memory/`*
