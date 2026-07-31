@@ -2,6 +2,11 @@
 *Upload this file at the start of a new session. Read it fully before acting.*
 *Last updated: 30 July 2026 · latest commit `f25634d`*
 
+> **How to resume:** run the new session **inside the `seo work` folder** — the site,
+> the outreach kit and all 82 skills are already there and load automatically. This
+> document is the missing context on top. Uploading it into a chat with no folder
+> access gives you the background but none of the files or skills.
+
 ---
 
 ## 1. WHO I'M WORKING WITH
@@ -120,7 +125,11 @@ Built to find clients. **Drafts only — Farhan sends, never me.**
 
 ---
 
-## 8. INSTALLED SKILLS (`.claude/skills/`, 82 total, auto-load)
+## 8. INSTALLED SKILLS (`.claude/skills/`, 82 total)
+
+**These are committed to git** (506 files) and **auto-load** when a session runs in this
+folder — no setup needed. On a new machine: `git clone https://github.com/FARHANHYDER7/Nakwave.git`
+and they come with it. Invoke by name with the Skill tool (e.g. `cold-email`, `seo-audit`).
 
 - **marketingskills (Corey Haines):** copywriting, cro, offers, pricing, cold-email, prospecting, directory-submissions, ads, analytics, ai-seo, programmatic-seo, competitors, content-strategy, marketing-council, schema, **+ attribution and influencer-marketing (added this session)** …
 - **claude-seo (Agrici Daniel):** seo-audit, seo-technical, seo-plan, seo-page, seo-content, seo-cluster, seo-local, seo-geo, seo-schema, seo-backlinks, seo-programmatic …
